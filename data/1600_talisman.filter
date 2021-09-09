@@ -1,0 +1,18 @@
+#===============================================================================================================
+# [[1600]] Talisman
+#===============================================================================================================
+
+Show # %H4 $x->talismans
+	Rarity Rare
+	BaseType "Fangjaw Talisman" "Spinefuse Talisman" "Three Rat Talisman" "Undying Flesh Talisman"
+	SetFontSize 45
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %H3 $x->talismans
+	Rarity < Unique
+	Class "Amulets"
+	BaseType "Talisman"
+	SetFontSize 36
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2

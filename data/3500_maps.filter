@@ -1,0 +1,429 @@
+#===============================================================================================================
+# [[3500]] Maps, fragments and labyrinth items
+#===============================================================================================================
+
+#------------------------------------
+#   [3501] Unique Maps
+#------------------------------------
+
+Show # $tier->t1 $type->unique->maps
+	Rarity Unique
+	Class Maps
+	BaseType "Basilica Map" "Chateau Map" "Courthouse Map" "Maze Map" "Park Map" "Relic Chambers Map" "Siege Map"
+	SetFontSize 45
+	SetTextColor 175 96 37 255           # TEXTCOLOR:	 Unique
+	SetBorderColor 175 96 37 255         # BORDERCOLOR:	 Aspect Unique
+	SetBackgroundColor 255 255 255 255   # BACKGROUND:	 T0 Drop
+	PlayAlertSound 6 300                 # DROPSOUND:	 T0 Drop
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+
+Show # $tier->t2 $type->unique->maps
+	Rarity Unique
+	Class Maps
+	BaseType "Courtyard Map" "Cursed Crypt Map" "Harbinger Map" "Moon Temple Map" "Museum Map" "Reef Map"
+	SetFontSize 45
+	SetTextColor 0 0 0 255               # TEXTCOLOR:	 High Special Base
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 175 37 37 255     # BACKGROUND:	 Unique T2
+	PlayAlertSound 6 300                 # DROPSOUND:	 T0 Drop
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Star
+
+Show # $tier->t3 $type->unique->maps
+	Rarity Unique
+	Class Maps
+	BaseType "Cemetery Map" "Necropolis Map" "Promenade Map" "Shore Map" "Temple Map" "Underground River Map" "Vaal Pyramid Map"
+	SetFontSize 45
+	SetBorderColor 175 96 37 255         # BORDERCOLOR:	 Aspect Unique
+	SetBackgroundColor 53 13 13 255      # BACKGROUND:	 Unique T3
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Brown
+	MinimapIcon 2 Brown Star
+
+Show # %HS4 $tier->t4 $type->unique->maps
+	Rarity Unique
+	Class Maps
+	BaseType "Atoll Map" "Bone Crypt Map" "Dunes Map" "Overgrown Shrine Map" "Primordial Blocks Map" "Strand Map" "Underground Sea Map"
+	SetFontSize 45
+	SetTextColor 175 96 37 255           # TEXTCOLOR:	 Unique
+	SetBorderColor 175 96 37 255         # BORDERCOLOR:	 Aspect Unique
+	SetBackgroundColor 0 0 0 255
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Brown
+	MinimapIcon 2 Brown Star
+
+Show # $tier->restex $type->unique->maps $safe
+	Rarity Unique
+	Class Maps
+	SetFontSize 45
+	SetTextColor 255 0 255 255              # TEXTCOLOR:	 Update your filter
+	SetBorderColor 255 0 255 255            # BORDERCOLOR:	 Update your filter
+	SetBackgroundColor 100 0 100 255        # BACKGROUND:    Update your filter
+	PlayAlertSound 2 300                 # DROPSOUND:	 Currency Sound
+	PlayEffect Pink
+	MinimapIcon 1 Pink Circle
+
+#------------------------------------
+#   [3502] Labyrinth items, Offerings
+#------------------------------------
+
+Show # %HS4
+	BaseType "Offering to the Goddess"
+	SetFontSize 45
+	SetTextColor 0 0 0 255               # TEXTCOLOR:	 High Special Base
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 159 15 213 255    # BACKGROUND:	 Special
+	PlayAlertSound 4 300                 # DROPSOUND:	 Map Sound
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Hexagon
+
+Show
+	Class "Labyrinth"
+	SetFontSize 45
+	SetTextColor 74 230 58 255           # TEXTCOLOR:	 Quest
+	SetBorderColor 74 230 58             # BORDERCOLOR:	 Quest Item
+	PlayEffect Green
+	MinimapIcon 1 Green Hexagon
+
+#------------------------------------
+#   [3503] Blighted maps
+#------------------------------------
+
+Show
+	BlightedMap True
+	MapTier >= 15
+	Class Maps
+	SetFontSize 45
+	SetTextColor 20 50 20 255
+	SetBorderColor 20 50 20 255
+	SetBackgroundColor 255 255 255 255
+	PlayAlertSound 1 300                    # DROPSOUND:	 T1 Dropsound
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Star
+
+Show
+	BlightedMap True
+	Class Maps
+	SetFontSize 45
+	SetTextColor 20 50 20 255
+	SetBorderColor 20 50 20 255
+	SetBackgroundColor 170 220 170
+	PlayAlertSound 1 300                    # DROPSOUND:	 T1 Dropsound
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Star
+
+#------------------------------------
+#   [3504] Top tier maps (T16)
+#------------------------------------
+
+Show # $lvl->11
+	MapTier >= 16
+	Class Maps
+	SetFontSize 45
+	SetTextColor 0 0 0 255               # TEXTCOLOR:	 High Special Base
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 255 255 255 255   # BACKGROUND:	 T0 Drop
+	PlayAlertSound 5 300                 # DROPSOUND:	 High Map Sound
+	PlayEffect Yellow
+	MinimapIcon 1 Red Square
+
+#------------------------------------
+#   [3505] High tier maps(T11-15)
+#------------------------------------
+
+Show # $lvl->15
+	MapTier >= 15
+	Class Maps
+	SetFontSize 45
+	SetTextColor 0 0 0 255               # TEXTCOLOR:	 High Special Base
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 200 200 200 255   # BACKGROUND:	 High Maps
+	PlayAlertSound 5 300                 # DROPSOUND:	 High Map Sound
+	PlayEffect Yellow
+	MinimapIcon 1 Red Square
+
+Show # $lvl->14
+	MapTier >= 14
+	Class Maps
+	SetFontSize 45
+	SetTextColor 0 0 0 255               # TEXTCOLOR:	 High Special Base
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 200 200 200 255   # BACKGROUND:	 High Maps
+	PlayAlertSound 5 300                 # DROPSOUND:	 High Map Sound
+	PlayEffect Yellow
+	MinimapIcon 1 Red Square
+
+Show # %H5 $lvl->13
+	MapTier >= 13
+	Class Maps
+	SetFontSize 45
+	SetTextColor 0 0 0 255               # TEXTCOLOR:	 High Special Base
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 200 200 200 255   # BACKGROUND:	 High Maps
+	PlayAlertSound 5 300                 # DROPSOUND:	 High Map Sound
+	PlayEffect Yellow
+	MinimapIcon 1 Red Square
+
+Show # %H5 $lvl->12
+	MapTier >= 12
+	Class Maps
+	SetFontSize 45
+	SetTextColor 0 0 0 255               # TEXTCOLOR:	 High Special Base
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 200 200 200 255   # BACKGROUND:	 High Maps
+	PlayAlertSound 5 300                 # DROPSOUND:	 High Map Sound
+	PlayEffect Yellow
+	MinimapIcon 1 Red Square
+
+Show # %H5 $lvl->11
+	MapTier >= 11
+	Class Maps
+	SetFontSize 45
+	SetTextColor 0 0 0 255               # TEXTCOLOR:	 High Special Base
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 200 200 200 255   # BACKGROUND:	 High Maps
+	PlayAlertSound 5 300                 # DROPSOUND:	 High Map Sound
+	PlayEffect Yellow
+	MinimapIcon 1 Red Square
+
+#------------------------------------
+#   [3506] Mid tier maps (T6-10)
+#------------------------------------
+
+Show # %H4 $lvl->10
+	Identified True
+	Class Maps
+	HasExplicitMod "Vaal"
+	SetFontSize 45
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+	PlayAlertSound 4 300                 # DROPSOUND:	 Map Sound
+	PlayEffect White
+	MinimapIcon 2 Yellow Square
+
+Show # %H4 $lvl->10
+	MapTier >= 10
+	Class Maps
+	SetFontSize 45
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+	PlayAlertSound 4 300                 # DROPSOUND:	 Map Sound
+	PlayEffect White
+	MinimapIcon 2 Yellow Square
+
+#------------------------------------
+# T9 - Maps
+#------------------------------------
+
+Show # %H4 $lvl->9
+	MapTier >= 9
+	ItemLevel < 88
+	Class Maps
+	SetFontSize 45
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+	DisableDropSound True
+	PlayAlertSound 4 300                 # DROPSOUND:	 Map Sound
+	PlayEffect White
+	MinimapIcon 2 Yellow Square
+
+Show # %H3 %C4
+	MapTier >= 9
+	Class Maps
+	SetTextColor 150 150 150             # TEXTCOLOR:	 outleveled
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 0 0 0 185         # BACKGROUND:	 Neutral T3
+	DisableDropSound True
+
+#------------------------------------
+# T8 - Maps
+#------------------------------------
+
+Show # %H4 $lvl->8
+	MapTier >= 8
+	ItemLevel < 87
+	Class Maps
+	SetFontSize 45
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+	DisableDropSound True
+	PlayAlertSound 4 300                 # DROPSOUND:	 Map Sound
+	PlayEffect White
+	MinimapIcon 2 Yellow Square
+
+Show # %H3 %C4
+	MapTier >= 8
+	Class Maps
+	SetTextColor 150 150 150             # TEXTCOLOR:	 outleveled
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 0 0 0 185         # BACKGROUND:	 Neutral T3
+	DisableDropSound True
+
+#------------------------------------
+# T7 - Maps
+#------------------------------------
+
+Show # %H4 $lvl->7
+	MapTier >= 7
+	ItemLevel < 86
+	Class Maps
+	SetFontSize 45
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+	DisableDropSound True
+	PlayAlertSound 4 300                 # DROPSOUND:	 Map Sound
+	PlayEffect White
+	MinimapIcon 2 Yellow Square
+
+Show # %H3 %C4
+	MapTier >= 7
+	Class Maps
+	SetTextColor 150 150 150             # TEXTCOLOR:	 outleveled
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 0 0 0 185         # BACKGROUND:	 Neutral T3
+	DisableDropSound True
+
+#------------------------------------
+# T6 - Maps
+#------------------------------------
+
+Show # %H4 $lvl->6
+	MapTier >= 6
+	ItemLevel < 85
+	Class Maps
+	SetFontSize 45
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+	DisableDropSound True
+	PlayAlertSound 4 300                 # DROPSOUND:	 Map Sound
+	PlayEffect White
+	MinimapIcon 2 Yellow Square
+
+Show # %H3 %C4
+	MapTier >= 6
+	Class Maps
+	SetTextColor 150 150 150             # TEXTCOLOR:	 outleveled
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 0 0 0 185         # BACKGROUND:	 Neutral T3
+	DisableDropSound True
+
+#------------------------------------
+#   [3507] Low tier maps (T1-T5)
+#------------------------------------
+
+Show # %H4 $lvl->5
+	MapTier >= 5
+	ItemLevel < 84
+	Class Maps
+	SetFontSize 45
+	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Neutral T4
+	DisableDropSound True
+	PlayAlertSound 4 300                 # DROPSOUND:	 Map Sound
+	PlayEffect White Temp
+	MinimapIcon 2 White Square
+
+Show # %H3 %C4
+	MapTier >= 5
+	Class Maps
+	SetTextColor 150 150 150             # TEXTCOLOR:	 outleveled
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 0 0 0 185         # BACKGROUND:	 Neutral T3
+	DisableDropSound True
+
+#------------------------------------
+# T4 - Maps
+#------------------------------------
+
+Show # %H4 $lvl->4
+	MapTier >= 4
+	ItemLevel < 83
+	Class Maps
+	SetFontSize 45
+	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Neutral T4
+	DisableDropSound True
+	PlayAlertSound 4 150                 # DROPSOUND:	 Low Map Sound
+	PlayEffect White Temp
+	MinimapIcon 2 White Square
+
+Show # %H3 %C4
+	MapTier >= 4
+	Class Maps
+	SetTextColor 150 150 150             # TEXTCOLOR:	 outleveled
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 0 0 0 185         # BACKGROUND:	 Neutral T3
+	DisableDropSound True
+
+#------------------------------------
+# T3 - Maps
+#------------------------------------
+
+Show # %H4 $lvl->3
+	MapTier >= 3
+	ItemLevel < 82
+	Class Maps
+	SetFontSize 45
+	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Neutral T4
+	DisableDropSound True
+	PlayAlertSound 4 150                 # DROPSOUND:	 Low Map Sound
+	PlayEffect White Temp
+	MinimapIcon 2 White Square
+
+Show # %H3 %C4
+	MapTier >= 3
+	Class Maps
+	SetTextColor 150 150 150             # TEXTCOLOR:	 outleveled
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 0 0 0 185         # BACKGROUND:	 Neutral T3
+	DisableDropSound True
+
+#------------------------------------
+# T2 - Maps
+#------------------------------------
+
+Show # %H4 $lvl->2
+	MapTier >= 2
+	ItemLevel < 81
+	Class Maps
+	SetFontSize 45
+	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Neutral T4
+	DisableDropSound True
+	PlayAlertSound 4 150                 # DROPSOUND:	 Low Map Sound
+	PlayEffect White Temp
+	MinimapIcon 2 White Square
+
+Show # %H3 %C4
+	MapTier >= 2
+	Class Maps
+	SetTextColor 150 150 150             # TEXTCOLOR:	 outleveled
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 0 0 0 185         # BACKGROUND:	 Neutral T3
+	DisableDropSound True
+
+#------------------------------------
+# T1 - Maps
+#------------------------------------
+
+Show # %H4 $lvl->1
+	MapTier <= 1
+	ItemLevel < 80
+	Class Maps
+	SetFontSize 45
+	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Neutral T4
+	DisableDropSound True
+	PlayAlertSound 4 150                 # DROPSOUND:	 Low Map Sound
+	PlayEffect White Temp
+	MinimapIcon 2 White Square
+
+Show # %H3 %C4
+	MapTier <= 1
+	Class Maps
+	SetTextColor 150 150 150             # TEXTCOLOR:	 outleveled
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 0 0 0 185         # BACKGROUND:	 Neutral T3
+	DisableDropSound True
+
+# This should never happen. If you find pink maps, you probably deleted/commented sections above
+# or should update the filter. Alternatively use www.filterblade.xyz
+
+Show # safetyline / missing map
+	Class Maps
+	SetFontSize 45
+	SetTextColor 255 0 255 255           # TEXTCOLOR:	 Error
+	SetBorderColor 255 0 255 255         # BORDERCOLOR:	 Error
+	PlayAlertSound 4 300                 # DROPSOUND:	 Map Sound

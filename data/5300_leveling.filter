@@ -1,0 +1,18 @@
+#===============================================================================================================
+# [[5300]] Leveling - Useful items
+#===============================================================================================================
+
+Show # %D2
+	ItemLevel <= 36
+	Rarity <= Magic
+	BaseType "Agate Amulet" "Amber Amulet" "Citrine Amulet" "Heavy Belt" "Jade Amulet" "Lapis Amulet" "Leather Belt" "Onyx Amulet" "Rustic Sash" "Topaz Ring" "Turquoise Amulet" "Two-Stone Ring"
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5
+	SetBackgroundColor 0 0 0 185         # BACKGROUND:	 Neutral T3
+
+Show # %D1
+	ItemLevel <= 50
+	ItemLevel >= 36
+	Rarity <= Magic
+	BaseType "Onyx Amulet" "Ruby Ring" "Two-Stone Ring"
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5
+	SetBackgroundColor 0 0 0 185         # BACKGROUND:	 Neutral T3

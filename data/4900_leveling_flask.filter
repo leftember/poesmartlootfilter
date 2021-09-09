@@ -1,0 +1,276 @@
+#===============================================================================================================
+# [[4900]] Leveling - Flasks
+#===============================================================================================================
+
+#------------------------------------
+#   [4901] Hide outdated flasks
+#------------------------------------
+
+Hide # lvl
+	Quality 0
+	AreaLevel >= 35
+	Class "Life Flask" "Mana Flask"
+	BaseType Grand Greater Large Medium Small
+	SetFontSize 20
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5
+
+Hide # lvl
+	Quality 0
+	AreaLevel >= 53
+	Class "Life Flask" "Mana Flask"
+	BaseType Colossal Giant Sacred
+	SetFontSize 20
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5
+
+Hide # lvl
+	Quality 0
+	AreaLevel >= 67
+	Class "Life Flask" "Mana Flask"
+	BaseType Divine Eternal Hallowed Sanctified
+	SetFontSize 20
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5
+
+#------------------------------------
+#   [4903] Life Flasks - Normal (Kudos to Antnee)
+#------------------------------------
+
+Show # %D5
+	AreaLevel <= 5
+	Class "Life Flasks"
+	BaseType "Small"
+	SetFontSize 45
+	SetBorderColor 120 0 0               # BORDERCOLOR:	 Aspect Life Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 9
+	Class "Life Flasks"
+	BaseType "Medium"
+	SetFontSize 45
+	SetBorderColor 120 0 0               # BORDERCOLOR:	 Aspect Life Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 14
+	Class "Life Flasks"
+	BaseType "Large"
+	SetFontSize 45
+	SetBorderColor 120 0 0               # BORDERCOLOR:	 Aspect Life Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 19
+	Class "Life Flasks"
+	BaseType "Greater"
+	SetFontSize 45
+	SetBorderColor 120 0 0               # BORDERCOLOR:	 Aspect Life Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 25
+	Class "Life Flasks"
+	BaseType "Grand"
+	SetFontSize 45
+	SetBorderColor 120 0 0               # BORDERCOLOR:	 Aspect Life Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 31
+	Class "Life Flasks"
+	BaseType "Giant"
+	SetFontSize 45
+	SetBorderColor 120 0 0               # BORDERCOLOR:	 Aspect Life Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 37
+	Class "Life Flasks"
+	BaseType "Colossal"
+	SetFontSize 45
+	SetBorderColor 120 0 0               # BORDERCOLOR:	 Aspect Life Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 43
+	Class "Life Flasks"
+	BaseType "Sacred"
+	SetFontSize 45
+	SetBorderColor 120 0 0               # BORDERCOLOR:	 Aspect Life Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 51
+	Class "Life Flasks"
+	BaseType "Hallowed"
+	SetFontSize 45
+	SetBorderColor 120 0 0               # BORDERCOLOR:	 Aspect Life Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 60
+	Class "Life Flasks"
+	BaseType "Sanctified"
+	SetFontSize 45
+	SetBorderColor 120 0 0               # BORDERCOLOR:	 Aspect Life Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 67
+	Class "Life Flasks"
+	BaseType "Divine"
+	SetFontSize 45
+	SetBorderColor 120 0 0               # BORDERCOLOR:	 Aspect Life Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 70
+	Class "Life Flasks"
+	BaseType "Eternal"
+	SetFontSize 45
+	SetBorderColor 120 0 0               # BORDERCOLOR:	 Aspect Life Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+#------------------------------------
+#   [4904] Mana Flasks - Magic (Kudos to Antnee)
+#------------------------------------
+
+Show # %D5
+	AreaLevel <= 5
+	Class "Mana Flasks"
+	BaseType "Small"
+	SetFontSize 45
+	SetBorderColor 0 0 120               # BORDERCOLOR:	 Aspect: Mana Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 9
+	Class "Mana Flasks"
+	BaseType "Medium"
+	SetFontSize 45
+	SetBorderColor 0 0 120               # BORDERCOLOR:	 Aspect: Mana Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 13
+	Class "Mana Flasks"
+	BaseType "Large"
+	SetFontSize 45
+	SetBorderColor 0 0 120               # BORDERCOLOR:	 Aspect: Mana Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 19
+	Class "Mana Flasks"
+	BaseType "Greater"
+	SetFontSize 45
+	SetBorderColor 0 0 120               # BORDERCOLOR:	 Aspect: Mana Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 25
+	Class "Mana Flasks"
+	BaseType "Grand"
+	SetFontSize 45
+	SetBorderColor 0 0 120               # BORDERCOLOR:	 Aspect: Mana Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 31
+	Class "Mana Flasks"
+	BaseType "Giant"
+	SetFontSize 45
+	SetBorderColor 0 0 120               # BORDERCOLOR:	 Aspect: Mana Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 37
+	Class "Mana Flasks"
+	BaseType "Colossal"
+	SetFontSize 45
+	SetBorderColor 0 0 120               # BORDERCOLOR:	 Aspect: Mana Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 43
+	Class "Mana Flasks"
+	BaseType "Sacred"
+	SetFontSize 45
+	SetBorderColor 0 0 120               # BORDERCOLOR:	 Aspect: Mana Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 51
+	Class "Mana Flasks"
+	BaseType "Hallowed"
+	SetFontSize 45
+	SetBorderColor 0 0 120               # BORDERCOLOR:	 Aspect: Mana Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 60
+	Class "Mana Flasks"
+	BaseType "Sanctified"
+	SetFontSize 45
+	SetBorderColor 0 0 120               # BORDERCOLOR:	 Aspect: Mana Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 67
+	Class "Mana Flasks"
+	BaseType "Divine"
+	SetFontSize 45
+	SetBorderColor 0 0 120               # BORDERCOLOR:	 Aspect: Mana Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show # %D5
+	AreaLevel <= 70
+	Class "Mana Flasks"
+	BaseType "Eternal"
+	SetFontSize 45
+	SetBorderColor 0 0 120               # BORDERCOLOR:	 Aspect: Mana Flask
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+#------------------------------------
+#   [4905] Show remaining flasks
+#------------------------------------
+
+Show # %D4
+	Quality 20
+	AreaLevel <= 65
+	Rarity <= Magic
+	BaseType "Flask"
+	SetFontSize 40
+	SetBorderColor 255 255 255 255       # BORDERCOLOR:	 T1 highlight
+	SetBackgroundColor 73 92 91 255     # BACKGROUND:	 Recipe T2
+
+Show # %D3
+	Quality >= 15
+	AreaLevel <= 65
+	Rarity <= Magic
+	BaseType "Flask"
+	SetFontSize 40
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 73 92 91 255     # BACKGROUND:	 Recipe T2
+
+Show # %D2
+	Quality > 1
+	AreaLevel <= 65
+	Rarity <= Magic
+	BaseType "Flask"
+	SetFontSize 36
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5
+	SetBackgroundColor 73 92 91 255     # BACKGROUND:	 Recipe T2
+
+Show # %D3
+	AreaLevel <= 65
+	Rarity <= Magic
+	Class "Utility Flasks"
+	SetFontSize 36
+	SetBorderColor 50 200 125            # BORDERCOLOR:	 Flask
+	SetBackgroundColor 25 100 75         # BACKGROUND:	 Flasks
+
+Show # %D1
+	Rarity <= Magic
+	BaseType Flask
+	SetFontSize 36
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5

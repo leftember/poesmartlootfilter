@@ -1,0 +1,180 @@
+#===============================================================================================================
+# [[2900]] RARE ITEMS - WEAPONS AND ARMORS (ENDGAME)
+#===============================================================================================================
+
+#------------------------------------
+#   [2901] T1 rare items
+#------------------------------------
+
+Show # %D4 %UP $type->rr $tier->t1ws
+	ItemLevel >= 65
+	Rarity Rare
+	BaseType "Imbued Wand" "Opal Wand"
+	SetFontSize 40
+	SetTextColor 106 175 255 255     # TEXTCOLOR:	 T2 Rare
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 31 0 75 255     # BACKGROUND:	 Rare T1
+
+Show # %D4 %UP $type->rr $tier->t1as
+	ItemLevel >= 65
+	Rarity Rare
+	BaseType "Arcanist Gloves" "Arcanist Slippers" "Assassin's Boots" "Conjurer Boots" "Crusader Gloves" "Dragonscale Boots" "Eternal Burgonet" "Fossilised Spirit Shield" "Goliath Greaves" "Harmonic Spirit Shield" "Hubris Circlet" "Imperial Buckler" "Lion Pelt" "Mind Cage" "Murder Boots" "Murder Mitts" "Royal Burgonet" "Sinner Tricorne" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Stealth Boots" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Vaal Greaves"
+	SetFontSize 40
+	SetTextColor 106 175 255 255     # TEXTCOLOR:	 T2 Rare
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 31 0 75 255     # BACKGROUND:	 Rare T1
+
+Show # %D4 %UP $type->rr $tier->t1al
+	ItemLevel >= 65
+	Rarity Rare
+	BaseType "Astral Plate" "Vaal Regalia"
+	SetFontSize 40
+	SetTextColor 106 175 255 255     # TEXTCOLOR:	 T2 Rare
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 31 0 75 255     # BACKGROUND:	 Rare T1
+
+#------------------------------------
+#   [2902] T2 rare items
+#------------------------------------
+
+Show # %D3 %UP $type->rr $tier->t2ws
+	ItemLevel >= 65
+	Rarity Rare
+	BaseType "Ambusher" "Corsair Sword" "Demon Dagger" "Fancy Foil" "Gemini Claw" "Platinum Kris" "Profane Wand" "Prophecy Wand" "Tornado Wand"
+	SetFontSize 40
+	SetTextColor 106 175 255 255     # TEXTCOLOR:	 T2 Rare
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 0 0 0 255     # BACKGROUND:	 Rare T2
+
+Show # %D3 %UP $type->rr $tier->t2wl
+	ItemLevel >= 65
+	Rarity Rare
+	BaseType "Eclipse Staff" "Exquisite Blade" "Fleshripper" "Harbinger Bow" "Opal Sceptre" "Penetrating Arrow Quiver" "Runic Hatchet" "Sambar Sceptre" "Siege Axe" "Spike-Point Arrow Quiver" "Thicket Bow" "Vaal Axe" "Void Sceptre"
+	SetFontSize 40
+	SetTextColor 106 175 255 255     # TEXTCOLOR:	 T2 Rare
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 0 0 0 255     # BACKGROUND:	 Rare T2
+
+Show # %D3 %UP $type->rr $tier->t2as
+	ItemLevel >= 65
+	Rarity Rare
+	BaseType "Ancient Greaves" "Assassin's Mitts" "Carnal Boots" "Conjurer Boots" "Conjurer Gloves" "Crusader Boots" "Crusader Buckler" "Deicide Mask" "Dragonscale Gauntlets" "Ezomyte Burgonet" "Goliath Gauntlets" "Hydrascale Boots" "Legion Gloves" "Nightmare Bascinet" "Praetor Crown" "Samite Gloves" "Shagreen Boots" "Solaris Circlet" "Stealth Gloves" "Supreme Spiked Shield" "Vaal Gauntlets" "Vaal Mask" "Vaal Spirit Shield"
+	SetFontSize 40
+	SetTextColor 106 175 255 255     # TEXTCOLOR:	 T2 Rare
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 0 0 0 255     # BACKGROUND:	 Rare T2
+
+Show # %D3 %UP $type->rr $tier->t2al
+	ItemLevel >= 65
+	Rarity Rare
+	BaseType "Archon Kite Shield" "Assassin's Garb" "Colossal Tower Shield" "Glorious Plate" "Mosaic Kite Shield" "Pinnacle Tower Shield" "Widowsilk Robe"
+	SetFontSize 40
+	SetTextColor 106 175 255 255     # TEXTCOLOR:	 T2 Rare
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 0 0 0 255     # BACKGROUND:	 Rare T2
+
+#------------------------------------
+#   [2907] 1H Wands
+#------------------------------------
+
+Show # %D2 %UP $size->small
+	ItemLevel >= 65
+	DropLevel >= 50
+	Rarity Rare
+	Class "Wands"
+	SetTextColor 138 59 206 220     # TEXTCOLOR:	 T3 Rare
+	SetBorderColor 120 120 120           # BORDERCOLOR:	 Rares: small
+	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Neutral T4
+
+Show # %D1 %UP $size->small
+	ItemLevel >= 65
+	Rarity Rare
+	Class "Wands"
+	SetTextColor 138 59 206 220     # TEXTCOLOR:	 T3 Rare
+	SetBorderColor 120 120 120           # BORDERCOLOR:	 Rares: small
+	SetBackgroundColor 0 0 0 150         # BACKGROUND:	 Neutral T6
+
+#------------------------------------
+#   [2917] AR: Gloves, Boots, Helmets
+#------------------------------------
+
+Show # %D2 %UP $size->small
+	ItemLevel >= 65
+	DropLevel >= 35
+	Rarity Rare
+	Class "Boots" "Gloves" "Helmets"
+	SetTextColor 138 59 206 220     # TEXTCOLOR:	 T3 Rare
+	SetBorderColor 120 120 120           # BORDERCOLOR:	 Rares: small
+	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Neutral T4
+
+Show # %D1 %UP $size->small
+	ItemLevel >= 65
+	Rarity Rare
+	Class "Boots" "Gloves" "Helmets"
+	SetTextColor 138 59 206 220     # TEXTCOLOR:	 T3 Rare
+	SetBorderColor 120 120 120           # BORDERCOLOR:	 Rares: small
+	SetBackgroundColor 0 0 0 150         # BACKGROUND:	 Neutral T6
+
+#------------------------------------
+#   [2918] AR: Body Armors
+#------------------------------------
+
+Show # %D2 %UP
+	ItemLevel >= 65
+	DropLevel >= 55
+	Rarity Rare
+	Class "Body Armour"
+	SetTextColor 138 59 206 220     # TEXTCOLOR:	 T3 Rare
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5
+	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Neutral T4
+
+Show # %D1 %UP
+	ItemLevel >= 65
+	Rarity Rare
+	Class "Body Armour"
+	SetTextColor 138 59 206 220     # TEXTCOLOR:	 T3 Rare
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5
+	SetBackgroundColor 0 0 0 150         # BACKGROUND:	 Neutral T6
+
+#------------------------------------
+#   [2919] OH: Shields
+#------------------------------------
+
+Show # %D2 %UP $size->small
+	Height <= 2
+	ItemLevel >= 65
+	DropLevel >= 55
+	Rarity Rare
+	Class "Shields"
+	SetTextColor 138 59 206 220     # TEXTCOLOR:	 T3 Rare
+	SetBorderColor 120 120 120           # BORDERCOLOR:	 Rares: small
+	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Neutral T4
+
+Show # %D1 %UP $size->small
+	Height <= 2
+	ItemLevel >= 65
+	Rarity Rare
+	Class "Shields"
+	SetTextColor 138 59 206 220     # TEXTCOLOR:	 T3 Rare
+	SetBorderColor 120 120 120           # BORDERCOLOR:	 Rares: small
+	SetBackgroundColor 0 0 0 150         # BACKGROUND:	 Neutral T6
+
+Show # %D2 %UP
+	Height >= 3
+	ItemLevel >= 65
+	DropLevel > 60
+	Rarity Rare
+	Class "Shields"
+	SetTextColor 138 59 206 220     # TEXTCOLOR:	 T3 Rare
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5
+	SetBackgroundColor 0 0 0 219         # BACKGROUND:	 Neutral T4
+
+Show # %D1 %UP
+	Height >= 3
+	ItemLevel >= 65
+	Rarity Rare
+	Class "Shields"
+	SetTextColor 138 59 206 220     # TEXTCOLOR:	 T3 Rare
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5
+	SetBackgroundColor 0 0 0 150         # BACKGROUND:	 Neutral T6
+

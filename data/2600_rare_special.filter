@@ -1,0 +1,25 @@
+#===============================================================================================================
+# [[2600]] RARE ITEMS - SPECIAL BASES
+#===============================================================================================================
+
+Show # %RECEIVER->CRAFTING->T1 $type->rarecraft->i86 $tier->t1
+	ItemLevel >= 86
+	Rarity Rare
+	BaseType "Stygian Vise"
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 255 125 0 255        # BACKGROUND:	Crafting-base-86
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Diamond
+
+Show # %D4 %RECEIVER->CRAFTING->T1 $type->rarecraft->rest $tier->t1
+	ItemLevel <= 83
+	ItemLevel >= 65
+	Rarity Rare
+	BaseType "Stygian Vise"
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 240 190 240
+	SetBackgroundColor 121 70 225 255     # BACKGROUND:	 Trinket T1

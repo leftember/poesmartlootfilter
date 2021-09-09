@@ -1,0 +1,9 @@
+#===============================================================================================================
+# [[5700]] HIDE LAYER 5 - Remaining Items
+#===============================================================================================================
+
+Hide # minimize junk instead of hiding (if "show")
+	Class "Amulets" "Belts" "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Flask" "Gloves" "Helmets" "Jewel" "One Hand" "Quivers" "Rings" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wand" "Warstaves"
+	SetFontSize 18
+	SetBorderColor 0 0 0 150             # BORDERCOLOR:	 Neutral T3
+	SetBackgroundColor 0 0 0 75          # BACKGROUND:	 Hidden

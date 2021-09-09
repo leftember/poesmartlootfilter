@@ -1,0 +1,24 @@
+#===============================================================================================================
+# [[3600]] Misc Map Items (relic keys)
+#===============================================================================================================
+
+Show
+	Class "Misc Map Items"
+	BaseType "Ancient Reliquary Key" "Timeworn Reliquary Key"
+	SetFontSize 45
+	SetTextColor 255 0 0 255             # TEXTCOLOR:	 T0 Item
+	SetBorderColor 0 255 242 255     # BORDERCOLOR:	 T0 Item
+	SetBackgroundColor 255 255 255 255   # BACKGROUND:	 T0 Drop
+	PlayAlertSound 6 300                 # DROPSOUND:	 T0 Drop
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+
+Show
+	Class "Misc Map Items"
+	SetFontSize 45
+	SetTextColor 0 0 0 255               # TEXTCOLOR:	 High Special Base
+	SetBorderColor 0 0 0 255             # BORDERCOLOR:	 Neutral T1
+	SetBackgroundColor 159 15 213 255    # BACKGROUND:	 Special
+	PlayAlertSound 2 300                 # DROPSOUND:	 Currency Sound
+	PlayEffect Blue
+	MinimapIcon 0 Blue Hexagon

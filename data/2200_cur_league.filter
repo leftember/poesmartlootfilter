@@ -1,0 +1,38 @@
+#===============================================================================================================
+# [[2200]] Current League items
+#===============================================================================================================
+
+Show # $tier->t3 $type->currency->oil
+	Class Currency
+	BaseType "Infused Engineer's Orb" "Time-light Scroll" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Facetor's Lens"
+	SetFontSize 45
+	SetTextColor 0 0 0 255               # TEXTCOLOR:	 High Special Base
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5
+	SetBackgroundColor 130 214 255 255     # BACKGROUND:	 Currency T4
+	DisableDropSound True
+	PlayAlertSound 2 300                 # DROPSOUND:	 Currency Sound
+	PlayEffect White
+	MinimapIcon 2 White Circle
+
+Show # $tier->t3 $type->currency->oil
+	Class Currency
+	BaseType "Infused Engineer's Orb" "Time-light Scroll" "Fragmentation Scroll" "Deregulation Scroll" "Electroshock Scroll" "Haemocombustion Scroll" "Specularity Scroll" "Facetor's Lens"
+	SetFontSize 45
+	SetTextColor 0 0 0 255               # TEXTCOLOR:	 High Special Base
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5
+	SetBackgroundColor 130 214 255 255     # BACKGROUND:	 Currency T4
+	DisableDropSound True
+	PlayAlertSound 2 300                 # DROPSOUND:	 Currency Sound
+	PlayEffect White
+	MinimapIcon 2 White Circle
+
+Show # $tier->t1 $type->divination
+	Class "Harvest"
+	SetFontSize 45
+	SetTextColor 0 0 0 255               # TEXTCOLOR:	 High Special Base
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5
+	SetBackgroundColor 130 214 255 255     # BACKGROUND:	 Currency T4
+	DisableDropSound True
+	PlayAlertSound 2 300                 # DROPSOUND:	 Currency Sound
+	PlayEffect White
+	MinimapIcon 2 White Circle

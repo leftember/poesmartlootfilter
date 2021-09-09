@@ -1,0 +1,76 @@
+#===============================================================================================================
+# [[0500]] Influenced Item Tiering: Crusader
+#===============================================================================================================
+
+#------------------------------------
+#   [0501] Layer - T1 - ECONOMY
+#------------------------------------
+
+Show # $tier->t1-1 $type->rare->crusader
+	HasInfluence Crusader
+	ItemLevel >= 82
+	Rarity <= Rare
+	BaseType "Cerulean Ring" "Crystal Belt" "Opal Ring" "Stygian Vise"
+	SetFontSize 45
+	SetTextColor 50 130 165 255          # TEXTCOLOR:	 ShaperElder
+	SetBorderColor 50 130 165 255        # BORDERCOLOR:	 Shaper T1
+	SetBackgroundColor 255 255 255 255   # BACKGROUND:	 T0 Drop
+	PlayAlertSound 6 300                 # DROPSOUND:	 T0 Drop
+	PlayEffect Red
+	MinimapIcon 0 Red Cross
+
+Show # $tier->t1-2 $type->rare->crusader
+	HasInfluence Crusader
+	ItemLevel >= 84
+	Rarity <= Rare
+	BaseType "Opal Wand" "Titanium Spirit Shield" "Unset Ring"
+	SetFontSize 45
+	SetTextColor 50 130 165 255          # TEXTCOLOR:	 ShaperElder
+	SetBorderColor 50 130 165 255        # BORDERCOLOR:	 Shaper T1
+	SetBackgroundColor 255 255 255 255   # BACKGROUND:	 T0 Drop
+	PlayAlertSound 6 300                 # DROPSOUND:	 T0 Drop
+	PlayEffect Red
+	MinimapIcon 0 Red Cross
+
+Show # $tier->t1-3 $type->rare->crusader
+	HasInfluence Crusader
+	ItemLevel >= 85
+	Rarity <= Rare
+	BaseType "Astral Plate" "Buckskin Tower Shield" "Enameled Buckler" "Harmonic Spirit Shield" "Horned Sceptre" "Imbued Wand" "Iron Hat" "Meatgrinder" "Prismatic Ring" "Profane Wand" "Quartz Wand" "Sorcerer Boots" "Two-Toned Boots" "Vaal Regalia" "Vaal Spirit Shield"
+	SetFontSize 45
+	SetTextColor 50 130 165 255          # TEXTCOLOR:	 ShaperElder
+	SetBorderColor 50 130 165 255        # BORDERCOLOR:	 Shaper T1
+	SetBackgroundColor 255 255 255 255   # BACKGROUND:	 T0 Drop
+	PlayAlertSound 6 300                 # DROPSOUND:	 T0 Drop
+	PlayEffect Red
+	MinimapIcon 0 Red Cross
+
+#------------------------------------
+#   [0502] Layer - T2 - ECONOMY
+#------------------------------------
+
+Show # %D5 $tier->t2-1 $type->rare->crusader
+	HasInfluence Crusader
+	ItemLevel >= 80
+	Rarity <= Rare
+	BaseType "Cerulean Ring" "Crystal Belt" "Fingerless Silk Gloves" "Gripped Gloves" "Imbued Wand" "Iron Sceptre" "Marble Amulet" "Mirrored Spiked Shield" "Moonstone Ring" "Opal Ring" "Opal Wand" "Prismatic Ring" "Profane Wand" "Reaver Axe" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Sundering Axe" "Two-Toned Boots" "Unset Ring" "Vermillion Ring"
+	SetFontSize 45
+	SetTextColor 255 255 255 255         # TEXTCOLOR:	 Cosmetic White
+	SetBorderColor 255 255 255 255       # BORDERCOLOR:	 T1 highlight
+	SetBackgroundColor 20 110 220        # BACKGROUND:	 ShaperElder T2
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Cross
+
+Show # %D5 $tier->t2-2 $type->rare->crusader
+	HasInfluence Crusader
+	ItemLevel >= 85
+	Rarity <= Rare
+	BaseType "Agate Amulet" "Assassin's Garb" "Astral Plate" "Aventail Helmet" "Barbed Club" "Battle Sword" "Blue Pearl Amulet" "Bone Helmet" "Bronze Plate" "Bronze Tower Shield" "Buckskin Tower Shield" "Cardinal Round Shield" "Ceremonial Kite Shield" "Citrine Amulet" "Compound Spiked Shield" "Conjurer's Vestment" "Conquest Chainmail" "Coronal Leather" "Crusader Buckler" "Crusader Plate" "Crystal Wand" "Cutlass" "Cutthroat's Garb" "Deerskin Boots" "Destiny Leather" "Ebony Tower Shield" "Eclipse Staff" "Eelskin Gloves" "Enameled Buckler" "Engraved Hatchet" "Engraved Wand" "Eternal Burgonet" "Exquisite Leather" "Ezomyte Tower Shield" "Field Lamellar" "Fleshripper" "Frontier Leather" "Full Chainmail" "Full Dragonscale" "Girded Tower Shield" "Gladiator Plate" "Glorious Leather" "Glorious Plate" "Golden Plate" "Graceful Sword" "Grinning Fetish" "Grove Bow" "Harmonic Spirit Shield" "Heathen Wand" "Horned Sceptre" "Hubris Circlet" "Imperial Claw" "Iron Hat" "Jewelled Foil" "Jingling Spirit Shield" "Karui Sceptre" "Lapis Amulet" "Mahogany Tower Shield" "Majestic Plate" "Maple Round Shield" "Maraketh Bow" "Meatgrinder" "Moon Staff" "Nubuck Boots" "Occultist's Vestment" "Onyx Amulet" "Opal Sceptre" "Petrified Club" "Prophecy Wand" "Quartz Wand" "Redwood Spiked Shield" "Royal Burgonet" "Sadist Garb" "Saint's Hauberk" "Sambar Sceptre" "Sekhem" "Sharkskin Tunic" "Silk Robe" "Silken Hood" "Soldier's Brigandine" "Sorcerer Boots" "Spiraled Wand" "Steel Kite Shield" "Steelscale Boots" "Sun Leather" "Supreme Spiked Shield" "Thief's Garb" "Titanium Spirit Shield" "Tomahawk" "Tornado Wand" "Trisula" "Triumphant Lamellar" "Twin Claw" "Vaal Regalia" "Vaal Spirit Shield" "Vanguard Belt" "Varnished Coat" "Waxed Garb" "Zodiac Leather"
+	SetFontSize 45
+	SetTextColor 255 255 255 255         # TEXTCOLOR:	 Cosmetic White
+	SetBorderColor 255 255 255 255       # BORDERCOLOR:	 T1 highlight
+	SetBackgroundColor 20 110 220        # BACKGROUND:	 ShaperElder T2
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Cross

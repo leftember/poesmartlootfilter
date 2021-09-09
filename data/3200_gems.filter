@@ -1,0 +1,226 @@
+#===============================================================================================================
+# [[3200]] Gems
+#===============================================================================================================
+
+#------------------------------------
+#   [3201] Awakened Gems
+#------------------------------------
+
+Show
+	Class Gems
+	BaseType "Awakened"
+	SetFontSize 45
+	SetTextColor 30 200 200 255          # TEXTCOLOR:	 Gem High
+	SetBorderColor 30 150 180 255        # BORDERCOLOR:	 Gem T1
+	SetBackgroundColor 255 255 255 255   # BACKGROUND:	 T0 Drop
+	PlayAlertSound 6 300                 # DROPSOUND:	 T0 Drop
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+
+Show
+	GemLevel >= 4
+	Class Gems
+	BaseType "Empower" "Enlighten"
+	SetFontSize 45
+	SetTextColor 255 0 0 255             # TEXTCOLOR:	 T0 Item
+	SetBorderColor 0 255 242 255     # BORDERCOLOR:	 T0 Item
+	SetBackgroundColor 255 255 255 255   # BACKGROUND:	 T0 Drop
+	PlayAlertSound 6 300                 # DROPSOUND:	 T0 Drop
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+
+#------------------------------------
+#   [3202] Exceptional Gems
+#------------------------------------
+
+Show
+	GemLevel > 20
+	Class Gems
+	BaseType "Vaal"
+	SetFontSize 45
+	SetTextColor 30 200 200 255          # TEXTCOLOR:	 Gem High
+	SetBorderColor 30 150 180 255        # BORDERCOLOR:	 Gem T1
+	SetBackgroundColor 255 255 255 255   # BACKGROUND:	 T0 Drop
+	PlayAlertSound 6 300                 # DROPSOUND:	 T0 Drop
+	PlayEffect Red
+	MinimapIcon 0 Red Triangle
+
+Show
+	Quality > 20
+	GemLevel > 20
+	Class Gems
+	SetFontSize 45
+	SetTextColor 30 200 200 255          # TEXTCOLOR:	 Gem High
+	SetBorderColor 30 150 180 255        # BORDERCOLOR:	 Gem T1
+	SetBackgroundColor 255 255 255 255   # BACKGROUND:	 T0 Drop
+	PlayAlertSound 6 300                 # DROPSOUND:	 T0 Drop
+	PlayEffect Red
+	MinimapIcon 0 Red Triangle
+
+Show
+	GemLevel >= 2
+	Class Gems
+	BaseType "Empower" "Enhance" "Enlighten"
+	SetFontSize 45
+	SetTextColor 30 200 200 255          # TEXTCOLOR:	 Gem High
+	SetBorderColor 30 150 180 255        # BORDERCOLOR:	 Gem T1
+	SetBackgroundColor 255 255 255 255   # BACKGROUND:	 T0 Drop
+	PlayAlertSound 6 300                 # DROPSOUND:	 T0 Drop
+	PlayEffect Red
+	MinimapIcon 0 Red Triangle
+
+Show
+	Corrupted False
+	Quality >= 15
+	Class Gems
+	BaseType "Empower" "Enlighten"
+	SetFontSize 45
+	SetTextColor 30 200 200 255          # TEXTCOLOR:	 Gem High
+	SetBorderColor 30 150 180 255        # BORDERCOLOR:	 Gem T1
+	SetBackgroundColor 255 255 255 255   # BACKGROUND:	 T0 Drop
+	PlayAlertSound 6 300                 # DROPSOUND:	 T0 Drop
+	PlayEffect Red
+	MinimapIcon 0 Red Triangle
+
+#------------------------------------
+#   [3203] Special Gems
+#------------------------------------
+
+Show
+	Class Gems
+	BaseType "Empower" "Enlighten" "Item Quantity" "Portal" "Vaal Breach" "Vaal Grace" "Vaal Haste"
+	SetFontSize 45
+	SetTextColor 30 200 200 255          # TEXTCOLOR:	 Gem High
+	SetBorderColor 30 150 180 255        # BORDERCOLOR:	 Gem T1
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect White
+	MinimapIcon 2 Yellow Triangle
+
+#------------------------------------
+#   [3204] High Tier Gems
+#------------------------------------
+
+Show
+	GemLevel >= 20
+	Class Gems
+	SetFontSize 45
+	SetTextColor 30 200 200 255          # TEXTCOLOR:	 Gem High
+	SetBorderColor 30 150 180 255        # BORDERCOLOR:	 Gem T1
+	SetBackgroundColor 6 0 60               # BACKGROUND:	 20QualGem
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Triangle
+
+Show
+	Quality >= 20
+	Class Gems
+	SetFontSize 45
+	SetTextColor 30 200 200 255          # TEXTCOLOR:	 Gem High
+	SetBorderColor 30 150 180 255        # BORDERCOLOR:	 Gem T1
+	SetBackgroundColor 6 0 60               # BACKGROUND:	 20QualGem
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Triangle
+
+Show
+	GemLevel >= 6
+	Class Gems
+	BaseType "Blood and Sand" "Brand Recall"
+	SetFontSize 45
+	SetTextColor 30 200 200 255          # TEXTCOLOR:	 Gem High
+	SetBorderColor 30 150 180 255        # BORDERCOLOR:	 Gem T1
+	SetBackgroundColor 6 0 60               # BACKGROUND:	 20QualGem
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Triangle
+
+Show # %H5
+	Quality >= 14
+	Class Gems
+	SetFontSize 45
+	SetTextColor 30 200 200 255          # TEXTCOLOR:	 Gem High
+	SetBorderColor 30 200 200 255        # BORDERCOLOR:	 Gem T2
+	PlayAlertSound 2 300                 # DROPSOUND:	 Currency Sound
+	PlayEffect White Temp
+	MinimapIcon 2 White Triangle
+
+#------------------------------------
+#   [3205] Leveling Rules
+#------------------------------------
+
+Show # %H4
+	AreaLevel < 65
+	Class Gems
+	BaseType "Vaal"
+	SetFontSize 45
+	SetBorderColor 30 150 180 200           # BORDERCOLOR:	 Gems Leveling
+
+Show # first areas
+	AreaLevel 1
+	Class Gems
+	SetFontSize 45
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5
+
+Show # %D5
+	Quality >= 1
+	AreaLevel < 65
+	Class Gems
+	SetFontSize 40
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5
+
+Show # %H3
+	AreaLevel < 65
+	Class Gems
+	SetFontSize 40
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5
+
+#------------------------------------
+#   [3206] Low Quality Gems
+#------------------------------------
+
+Show # %D3 %C3
+	Quality >= 1
+	Class Gems
+	SetFontSize 40
+	SetBorderColor 30 150 180 150        # BORDERCOLOR:	 Gem T3
+
+#------------------------------------
+#   [3207] Leveled Gems
+#------------------------------------
+
+Show # %D4
+	GemLevel >= 5
+	Class Gems
+	BaseType "Blood and Sand" "Brand Recall"
+	SetFontSize 40
+	SetTextColor 30 200 200 255          # TEXTCOLOR:	 Gem High
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5
+
+Show # %D4
+	GemLevel >= 18
+	Class Gems
+	SetFontSize 40
+	SetTextColor 30 200 200 255          # TEXTCOLOR:	 Gem High
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5
+
+Show # %D3
+	GemLevel >= 10
+	Class Gems
+	SetFontSize 40
+	SetTextColor 30 200 200 255          # TEXTCOLOR:	 Gem High
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5
+
+#------------------------------------
+#   [3208] Other gems
+#------------------------------------
+
+Show # %D4
+	Class Gems
+	BaseType "Enhance" "Vaal"
+	SetFontSize 40
+	SetBorderColor 30 150 180 150        # BORDERCOLOR:	 Gem T3
+
+Hide # %H2
+	Class Gems
+	SetFontSize 36
+	SetBorderColor 0 0 0 255     # BORDERCOLOR:	 Neutral T1.5

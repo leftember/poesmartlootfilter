@@ -1,0 +1,76 @@
+#===============================================================================================================
+# [[0700]] Influenced Item Tiering: Warlord
+#===============================================================================================================
+
+#------------------------------------
+#   [0701] Layer - T1 - ECONOMY
+#------------------------------------
+
+Show # $tier->t1-1 $type->rare->warlord
+	HasInfluence Warlord
+	ItemLevel >= 82
+	Rarity <= Rare
+	BaseType "Fingerless Silk Gloves" "Gripped Gloves" "Prismatic Ring" "Spiked Gloves" "Steel Ring"
+	SetFontSize 45
+	SetTextColor 50 130 165 255          # TEXTCOLOR:	 ShaperElder
+	SetBorderColor 50 130 165 255        # BORDERCOLOR:	 Shaper T1
+	SetBackgroundColor 255 255 255 255   # BACKGROUND:	 T0 Drop
+	PlayAlertSound 6 300                 # DROPSOUND:	 T0 Drop
+	PlayEffect Red
+	MinimapIcon 0 Red Cross
+
+Show # $tier->t1-2 $type->rare->warlord
+	HasInfluence Warlord
+	ItemLevel >= 84
+	Rarity <= Rare
+	BaseType "Iron Gauntlets" "Ritual Sceptre"
+	SetFontSize 45
+	SetTextColor 50 130 165 255          # TEXTCOLOR:	 ShaperElder
+	SetBorderColor 50 130 165 255        # BORDERCOLOR:	 Shaper T1
+	SetBackgroundColor 255 255 255 255   # BACKGROUND:	 T0 Drop
+	PlayAlertSound 6 300                 # DROPSOUND:	 T0 Drop
+	PlayEffect Red
+	MinimapIcon 0 Red Cross
+
+Show # $tier->t1-3 $type->rare->warlord
+	HasInfluence Warlord
+	ItemLevel >= 85
+	Rarity <= Rare
+	BaseType "Astral Plate" "Crystal Belt" "Ezomyte Tower Shield" "Jewelled Foil" "Ochre Sceptre" "Opal Ring" "Vermillion Ring"
+	SetFontSize 45
+	SetTextColor 50 130 165 255          # TEXTCOLOR:	 ShaperElder
+	SetBorderColor 50 130 165 255        # BORDERCOLOR:	 Shaper T1
+	SetBackgroundColor 255 255 255 255   # BACKGROUND:	 T0 Drop
+	PlayAlertSound 6 300                 # DROPSOUND:	 T0 Drop
+	PlayEffect Red
+	MinimapIcon 0 Red Cross
+
+#------------------------------------
+#   [0702] Layer - T2 - ECONOMY
+#------------------------------------
+
+Show # %D5 $tier->t2-1 $type->rare->warlord
+	HasInfluence Warlord
+	ItemLevel >= 80
+	Rarity <= Rare
+	BaseType "Blue Pearl Amulet" "Cerulean Ring" "Fingerless Silk Gloves" "Gripped Gloves" "Iron Gauntlets" "Marble Amulet" "Opal Ring" "Prismatic Ring" "Sage Wand" "Spiked Gloves" "Spiraled Wand" "Steel Ring" "Stygian Vise" "Titan Gauntlets" "Vaal Gauntlets" "Vermillion Ring"
+	SetFontSize 45
+	SetTextColor 255 255 255 255         # TEXTCOLOR:	 Cosmetic White
+	SetBorderColor 255 255 255 255       # BORDERCOLOR:	 T1 highlight
+	SetBackgroundColor 20 110 220        # BACKGROUND:	 ShaperElder T2
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Cross
+
+Show # %D5 $tier->t2-2 $type->rare->warlord
+	HasInfluence Warlord
+	ItemLevel >= 85
+	Rarity <= Rare
+	BaseType "Agate Amulet" "Amber Amulet" "Archon Kite Shield" "Assassin's Garb" "Astral Plate" "Bone Helmet" "Buckskin Tower Shield" "Cabalist Regalia" "Cardinal Round Shield" "Ceremonial Kite Shield" "Champion Kite Shield" "Citrine Amulet" "Colossal Tower Shield" "Crystal Belt" "Dragon Mace" "Eelskin Tunic" "Elegant Foil" "Engraved Wand" "Etched Kite Shield" "Eternal Burgonet" "Exquisite Blade" "Ezomyte Burgonet" "Ezomyte Tower Shield" "Festival Mask" "Field Lamellar" "Footman Sword" "Gavel" "Gladiator Plate" "Glorious Plate" "Grinning Fetish" "Harmonic Spirit Shield" "Highland Blade" "Hubris Circlet" "Imbued Wand" "Imperial Claw" "Ivory Spirit Shield" "Jade Amulet" "Jewelled Foil" "Lacquered Buckler" "Legion Sword" "Lion Pelt" "Mirrored Spiked Shield" "Moon Staff" "Mosaic Kite Shield" "Ochre Sceptre" "Onyx Amulet" "Opal Wand" "Painted Tower Shield" "Piledriver" "Pinnacle Tower Shield" "Polished Spiked Shield" "Redwood Spiked Shield" "Ritual Sceptre" "Royal Burgonet" "Sekhem" "Shadow Sceptre" "Silk Robe" "Slink Gloves" "Solar Maul" "Sorcerer Boots" "Sorcerer Gloves" "Stag Sceptre" "Sun Plate" "Tempered Foil" "Thief's Garb" "Titan Greaves" "Titanium Spirit Shield" "Turquoise Amulet" "Two-Stone Ring" "Two-Toned Boots" "Unset Ring" "Vaal Buckler" "Vaal Greatsword" "Void Sceptre"
+	SetFontSize 45
+	SetTextColor 255 255 255 255         # TEXTCOLOR:	 Cosmetic White
+	SetBorderColor 255 255 255 255       # BORDERCOLOR:	 T1 highlight
+	SetBackgroundColor 20 110 220        # BACKGROUND:	 ShaperElder T2
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Cross

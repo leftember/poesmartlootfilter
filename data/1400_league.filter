@@ -1,0 +1,347 @@
+#===============================================================================================================
+# [[1400]] Explicit Mod Highlight - League Drops
+#===============================================================================================================
+
+#------------------------------------
+#   [1401] Synthesis (removed)
+#------------------------------------
+
+Show # $type->expl->league
+	FracturedItem True
+	Rarity <= Rare
+	SetFontSize 45
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 0 0 0 255
+	PlayEffect White Temp
+	MinimapIcon 2 White Diamond
+
+Show # $type->expl->league
+	SynthesisedItem True
+	Rarity <= Rare
+	SetFontSize 45
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 0 0 0 255
+	PlayEffect White Temp
+	MinimapIcon 2 White Diamond
+
+#------------------------------------
+#   [1402] Betrayal
+#------------------------------------
+
+Show # %HS5 $type->expl->league
+	Identified True
+	HasExplicitMod "Catarina's Veiled" "Elreon's Veiled" "Leo's Veiled" "Rin's Veiled" "Vagan's Veiled" "Vorici's Veiled"
+	SetFontSize 45
+	SetTextColor 0 240 190 240
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 31 0 75 255     # BACKGROUND:	 Rare T1
+	PlayAlertSound 2 300                 # DROPSOUND:	 Currency Sound
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Diamond
+
+Show # %HS5 $type->expl->league
+	Identified True
+	HasExplicitMod "Gravicius' Veiled" "Guff's Veiled" "Haku's" "It That Fled's Veiled" "Korell's Veiled" "of Aisling's Veil" "of Cameria's Veil" "of Hillock's Veil" "of Janus' Veil" "of Jorgin's Veil" "Riker" "Tora's Veiled"
+	SetFontSize 45
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 31 0 75 255     # BACKGROUND:	 Rare T1
+	PlayAlertSound 2 300                 # DROPSOUND:	 Currency Sound
+	PlayEffect White
+	MinimapIcon 2 Yellow Diamond
+
+Show # %D5 $type->expl->league
+	Identified True
+	HasExplicitMod "Veiled"
+	HasExplicitMod "of the Veil"
+	SetFontSize 45
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 31 0 75 255     # BACKGROUND:	 Rare T1
+	PlayAlertSound 2 300                 # DROPSOUND:	 Currency Sound
+	PlayEffect White
+	MinimapIcon 2 Yellow Diamond
+
+Show # %D4 $type->expl->league
+	Identified True
+	Width <= 2
+	Height <= 2
+	HasExplicitMod "Veil"
+	SetFontSize 45
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	PlayEffect White Temp
+	MinimapIcon 2 White Diamond
+
+Show # %D4 $type->expl->league
+	Identified True
+	Width 1
+	Height <= 4
+	HasExplicitMod "Veil"
+	SetFontSize 45
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	PlayEffect White Temp
+	MinimapIcon 2 White Diamond
+
+Show # %D4 $type->expl->league
+	Identified True
+	HasExplicitMod "Veil"
+	SetFontSize 40
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	PlayEffect White Temp
+	MinimapIcon 2 White Diamond
+
+#------------------------------------
+#   [1403] Crafting mods
+#------------------------------------
+
+Show # %D3 $type->expl->league
+	Identified True
+	HasExplicitMod "of Crafting" "of Spellcraft" "of Weaponcraft"
+	SetFontSize 40
+	SetTextColor 106 175 255 255     # TEXTCOLOR:	 Rare 75+
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+
+#------------------------------------
+#   [1404] Delve
+#------------------------------------
+
+Show # $type->expl->league
+	Identified True
+	HasExplicitMod "of the Underground" "Subterranean"
+	SetFontSize 45
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 31 0 75 255     # BACKGROUND:	 Rare T1
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Blue
+	MinimapIcon 2 Blue Diamond
+
+#------------------------------------
+#   [1405] Bestiary
+#------------------------------------
+
+Show # %D4 $type->expl->league
+	Identified True
+	Class "Amulets" "Belts" "Rings"
+	HasExplicitMod "of Craiceann" "of Farrul" "of Fenumus" "of Saqawal"
+	SetFontSize 45
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 31 0 75 255     # BACKGROUND:	 Rare T1
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect White Temp
+	MinimapIcon 2 White Diamond
+
+Show # %D2 $type->expl->league
+	Identified True
+	HasExplicitMod "of Craiceann" "of Farrul" "of Fenumus" "of Saqawal"
+	SetFontSize 40
+	SetTextColor 106 175 255 255     # TEXTCOLOR:	 Rare 75+
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+
+#------------------------------------
+#   [1406] Incursion - Matatl - traps and movementspeed
+#------------------------------------
+
+Show # $type->expl->league
+	Identified True
+	Rarity Rare
+	Class "Boots"
+	HasExplicitMod "Matatl's"
+	SetFontSize 45
+	SetTextColor 106 175 255 255     # TEXTCOLOR:	 Rare 75+
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 31 0 75 255     # BACKGROUND:	 Rare T1
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Blue
+	MinimapIcon 2 Blue Diamond
+
+#------------------------------------
+#   [1407] Incursion - Body Armours - Guatelitzi
+#------------------------------------
+
+Show # %H5 $type->expl->league
+	Identified True
+	Rarity Rare
+	Class "Body Armour"
+	HasExplicitMod "Guatelitzi's"
+	SetFontSize 45
+	SetTextColor 106 175 255 255     # TEXTCOLOR:	 Rare 75+
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 31 0 75 255     # BACKGROUND:	 Rare T1
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Blue
+	MinimapIcon 2 Blue Diamond
+
+#------------------------------------
+#   [1408] Incursion - Sumonner Weapons
+#------------------------------------
+
+Show # %H5 $type->expl->league
+	Identified True
+	Rarity Rare
+	Class "Claws" "Daggers" "One Hand" "Sceptre" "Staves" "Wand"
+	HasExplicitMod "Citaqualotl's"
+	SetFontSize 45
+	SetTextColor 106 175 255 255     # TEXTCOLOR:	 Rare 75+
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 31 0 75 255     # BACKGROUND:	 Rare T1
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Blue
+	MinimapIcon 2 Blue Diamond
+
+#------------------------------------
+#   [1409] Incursion - Caster Weapons
+#------------------------------------
+
+Show # $type->expl->league
+	Identified True
+	Rarity Rare
+	Class "Rune Dagger" "Sceptre" "Staves" "Wand"
+	HasExplicitMod "Matatl's" "Tacati" "Topotante's"
+	SetFontSize 45
+	SetTextColor 106 175 255 255     # TEXTCOLOR:	 Rare 75+
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 31 0 75 255     # BACKGROUND:	 Rare T1
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Blue
+	MinimapIcon 2 Blue Diamond
+
+#------------------------------------
+#   [1410] Incursion - Normal Weapons
+#------------------------------------
+
+Show # $type->expl->league
+	Identified True
+	DropLevel >= 50
+	Rarity Rare
+	Class "Bows" "Claws" "Daggers" "Thrusting"
+	HasExplicitMod "Topotante's"
+	SetFontSize 45
+	SetTextColor 106 175 255 255     # TEXTCOLOR:	 Rare 75+
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 31 0 75 255     # BACKGROUND:	 Rare T1
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Blue
+	MinimapIcon 2 Blue Diamond
+
+Show # $type->expl->league
+	Identified True
+	DropLevel >= 50
+	Rarity Rare
+	Class "Bows" "Claws" "Daggers" "One Hand" "Two Hand" "Warstaves"
+	HasExplicitMod "of Tacati" "Tacati's"
+	SetFontSize 45
+	SetTextColor 106 175 255 255     # TEXTCOLOR:	 Rare 75+
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 31 0 75 255     # BACKGROUND:	 Rare T1
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Blue
+	MinimapIcon 2 Blue Diamond
+
+#------------------------------------
+#   [1411] Incursion - Rings, Amulets
+#------------------------------------
+
+Show # $type->expl->league
+	Identified True
+	Rarity Rare
+	Class "Amulets" "Belts" "Rings"
+	HasExplicitMod "Citaqualotl" "Guatelitzi" "Matatl" "Puhuarte" "Tacati" "Topotante" "Xopec"
+	SetFontSize 45
+	SetTextColor 106 175 255 255     # TEXTCOLOR:	 Rare 75+
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 31 0 75 255     # BACKGROUND:	 Rare T1
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Blue
+	MinimapIcon 2 Blue Diamond
+
+#------------------------------------
+#   [1412] Incursion - Gloves, Helmets
+#------------------------------------
+
+Show # $type->expl->league
+	Identified True
+	Rarity Rare
+	Class "Gloves" "Helmets"
+	HasExplicitMod "Puhuarte" "Topotante"
+	SetFontSize 45
+	SetTextColor 106 175 255 255     # TEXTCOLOR:	 Rare 75+
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 31 0 75 255     # BACKGROUND:	 Rare T1
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Blue
+	MinimapIcon 2 Blue Diamond
+
+#------------------------------------
+#   [1413] Incursion General
+#------------------------------------
+
+Show # %D3 $type->expl->league
+	Identified True
+	Rarity Rare
+	HasExplicitMod "Citaqualotl" "Guatelitzi" "Matatl" "Puhuarte" "Tacati" "Topotante" "Xopec"
+	SetFontSize 40
+	SetTextColor 106 175 255 255     # TEXTCOLOR:	 Rare 75+
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Blue Temp
+	MinimapIcon 2 Blue Diamond
+
+Show # %D3 $type->expl->league
+	Identified True
+	Rarity Magic
+	HasExplicitMod "Citaqualotl" "Guatelitzi" "Matatl" "Puhuarte" "Tacati" "Topotante" "Xopec"
+	SetFontSize 40
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Blue Temp
+	MinimapIcon 2 Blue Diamond
+
+#------------------------------------
+#   [1414] Warbands
+#------------------------------------
+
+Show # %D2 $type->expl->league
+	Identified True
+	HasExplicitMod "Betrayer's" "Brinerot" "Deceiver's" "Mutewind" "Redblade" "Turncoat's"
+	SetFontSize 40
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+#------------------------------------
+#   [1415] Enchanted Items
+#------------------------------------
+
+Show
+	AnyEnchantment True
+	Class Helmets
+	SetFontSize 45
+	SetTextColor 0 240 190 240
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Blue
+	MinimapIcon 2 Blue Diamond
+
+Show # %D3
+	AnyEnchantment True
+	Class Boots Gloves
+	SetFontSize 40
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+
+Show
+	ItemLevel >= 80
+	Class "Metamorph"
+	SetFontSize 45
+	SetTextColor 74 230 58 255           # TEXTCOLOR:	 Quest
+	SetBorderColor 74 230 58             # BORDERCOLOR:	 Quest Item
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+	PlayAlertSound 2 300                 # DROPSOUND:	 Currency Sound
+	PlayEffect Green
+	MinimapIcon 1 Green Hexagon
+
+Show # %H5
+	Class "Metamorph"
+	SetFontSize 45
+	SetTextColor 74 230 58 255           # TEXTCOLOR:	 Quest
+	SetBorderColor 0 0 0 255
+	PlayAlertSound 2 300                 # DROPSOUND:	 Currency Sound
+	PlayEffect Green Temp
+	MinimapIcon 1 Green Hexagon

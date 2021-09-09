@@ -1,0 +1,83 @@
+#===============================================================================================================
+# [[1300]] 6Socketed and 5Linked Drops
+#===============================================================================================================
+
+Show # %D4
+	LinkedSockets 5
+	Sockets 6
+	Rarity <= Rare
+	SetFontSize 45
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 0 112 106 255     # BACKGROUND:	 Recipe T1
+	PlayAlertSound 2 300                 # DROPSOUND:	 Currency Sound
+	PlayEffect Grey
+	MinimapIcon 2 White Pentagon
+
+Show # %D4 %REMS3
+	LinkedSockets 5
+	ItemLevel >= 65
+	Rarity < Unique
+	Class "Body Armours"
+	SetFontSize 45
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	PlayAlertSound 2 300                 # DROPSOUND:	 Currency Sound
+	PlayEffect Grey
+	MinimapIcon 2 Blue Pentagon
+
+Show # %D2
+	LinkedSockets 5
+	ItemLevel >= 65
+	Rarity < Unique
+	SetFontSize 45
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	PlayAlertSound 2 300                 # DROPSOUND:	 Currency Sound
+	PlayEffect Grey
+	MinimapIcon 2 Blue Pentagon
+
+Show # %D5 $lvl
+	LinkedSockets 5
+	ItemLevel < 65
+	Rarity < Unique
+	SetFontSize 45
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
+	PlayAlertSound 2 300                 # DROPSOUND:	 Currency Sound
+	PlayEffect Blue
+	MinimapIcon 1 Blue Pentagon
+
+Show # %D4
+	Sockets 6
+	ItemLevel >= 86
+	Rarity <= Rare
+	BaseType "Assassin's Garb" "Astral Plate" "Glorious Plate" "Vaal Regalia" "Zodiac Leather"
+	SetFontSize 45
+	SetTextColor 255 255 255 255         # TEXTCOLOR:	 Cosmetic White
+	SetBorderColor 10 200 0 255     # BORDERCOLOR:	 Aspect: 83plus
+	SetBackgroundColor 0 112 106 255     # BACKGROUND:	 Recipe T1
+	PlayAlertSound 2 300                 # DROPSOUND:	 Currency Sound
+	PlayEffect Grey
+	MinimapIcon 2 White Pentagon
+
+Show # %D4
+	Sockets 6
+	ItemLevel >= 85
+	Rarity <= Rare
+	BaseType "Coronal Maul" "Exquisite Blade" "Harbinger Bow" "Vaal Axe"
+	SetFontSize 45
+	SetTextColor 255 255 255 255         # TEXTCOLOR:	 Cosmetic White
+	SetBorderColor 10 200 0 255     # BORDERCOLOR:	 Aspect: 83plus
+	SetBackgroundColor 0 112 106 255     # BACKGROUND:	 Recipe T1
+	PlayAlertSound 2 300                 # DROPSOUND:	 Currency Sound
+	PlayEffect Grey
+	MinimapIcon 2 White Pentagon
+
+Show # %D4
+	Sockets 6
+	Rarity <= Rare
+	SetFontSize 45
+	SetTextColor 255 255 255 255         # TEXTCOLOR:	 Cosmetic White
+	SetBorderColor 255 255 255 255       # BORDERCOLOR:	 T1 highlight
+	SetBackgroundColor 0 112 106 255     # BACKGROUND:	 Recipe T1
+	PlayAlertSound 2 300                 # DROPSOUND:	 Currency Sound
+	PlayEffect Grey
+	MinimapIcon 2 White Pentagon

@@ -1,0 +1,46 @@
+#===============================================================================================================
+# [[1700]] Exotic Item Types
+#===============================================================================================================
+
+# Give a man a fish and he won't be hungry for a day, teach a man to fish and GGG will ban you for disclosing fishing secrets.
+
+Show
+	Class "Fishing Rod"
+	SetFontSize 45
+	SetTextColor 255 0 0 255             # TEXTCOLOR:	 T0 Item
+	SetBorderColor 0 255 242 255     # BORDERCOLOR:	 T0 Item
+	SetBackgroundColor 255 255 255 255   # BACKGROUND:	 T0 Drop
+	PlayAlertSound 6 300                 # DROPSOUND:	 T0 Drop
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+
+Show # %H3 $x->overquality
+	Corrupted False
+	Quality >= 29
+	ItemLevel >= 75
+	DropLevel >= 50
+	Rarity <= Rare
+	SetFontSize 40
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	PlayEffect Blue
+	MinimapIcon 2 Blue Diamond
+
+# Crude bows are sometimes used by summonners as easy-to-color-bows for crafting
+
+Show # %D1
+	ItemLevel >= 50
+	Rarity <= Rare
+	BaseType "Crude Bow"
+	SetFontSize 40
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 0 0 0 185         # BACKGROUND:	 Neutral T3
+
+# Double corrupted items can sometimes be interesting.
+
+Show # %H4
+	Corrupted True
+	CorruptedMods >= 2
+	Rarity Rare
+	SetFontSize 40
+	SetBorderColor 0 240 190 240         # BORDERCOLOR:	 Special Base
+	SetBackgroundColor 0 0 0 185         # BACKGROUND:	 Neutral T3

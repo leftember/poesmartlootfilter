@@ -1,0 +1,76 @@
+#===============================================================================================================
+# [[0900]] Influenced Item Tiering: Shaper
+#===============================================================================================================
+
+#------------------------------------
+#   [0901] Layer - T1 - ECONOMY
+#------------------------------------
+
+Show # $tier->t1-1 $type->rare->shaper
+	HasInfluence Shaper
+	ItemLevel >= 82
+	Rarity <= Rare
+	BaseType "Citrine Amulet" "Crystal Belt" "Opal Ring" "Prismatic Ring" "Steel Ring" "Stygian Vise" "Titanium Spirit Shield" "Vermillion Ring"
+	SetFontSize 45
+	SetTextColor 50 130 165 255          # TEXTCOLOR:	 ShaperElder
+	SetBorderColor 50 130 165 255        # BORDERCOLOR:	 Shaper T1
+	SetBackgroundColor 255 255 255 255   # BACKGROUND:	 T0 Drop
+	PlayAlertSound 6 300                 # DROPSOUND:	 T0 Drop
+	PlayEffect Red
+	MinimapIcon 0 Red Cross
+
+Show # $tier->t1-2 $type->rare->shaper
+	HasInfluence Shaper
+	ItemLevel >= 84
+	Rarity <= Rare
+	BaseType "Agate Amulet" "Cerulean Ring" "Fingerless Silk Gloves"
+	SetFontSize 45
+	SetTextColor 50 130 165 255          # TEXTCOLOR:	 ShaperElder
+	SetBorderColor 50 130 165 255        # BORDERCOLOR:	 Shaper T1
+	SetBackgroundColor 255 255 255 255   # BACKGROUND:	 T0 Drop
+	PlayAlertSound 6 300                 # DROPSOUND:	 T0 Drop
+	PlayEffect Red
+	MinimapIcon 0 Red Cross
+
+Show # $tier->t1-3 $type->rare->shaper
+	HasInfluence Shaper
+	ItemLevel >= 86
+	Rarity <= Rare
+	BaseType "Amber Amulet" "Blue Pearl Amulet" "Bone Helmet" "Coral Amulet" "Coronal Maul" "Exquisite Blade" "Ezomyte Tower Shield" "Gold Amulet" "Gripped Gloves" "Harmonic Spirit Shield" "Hubris Circlet" "Jade Amulet" "Lapis Amulet" "Marble Amulet" "Onyx Amulet" "Opal Wand" "Paua Amulet" "Solar Maul" "Sorcerer Boots" "Spiked Gloves" "Spiraled Wand" "Turquoise Amulet" "Two-Toned Boots" "Unset Ring"
+	SetFontSize 45
+	SetTextColor 50 130 165 255          # TEXTCOLOR:	 ShaperElder
+	SetBorderColor 50 130 165 255        # BORDERCOLOR:	 Shaper T1
+	SetBackgroundColor 255 255 255 255   # BACKGROUND:	 T0 Drop
+	PlayAlertSound 6 300                 # DROPSOUND:	 T0 Drop
+	PlayEffect Red
+	MinimapIcon 0 Red Cross
+
+#------------------------------------
+#   [0902] Layer - T2 - ECONOMY
+#------------------------------------
+
+Show # %D5 $tier->t2-1 $type->rare->shaper
+	HasInfluence Shaper
+	ItemLevel >= 80
+	Rarity <= Rare
+	BaseType "Agate Amulet" "Amber Amulet" "Archon Kite Shield" "Blue Pearl Amulet" "Cerulean Ring" "Citrine Amulet" "Crystal Belt" "Exquisite Blade" "Ezomyte Spiked Shield" "Fingerless Silk Gloves" "Harmonic Spirit Shield" "Imperial Bow" "Jade Amulet" "Marble Amulet" "Onyx Amulet" "Opal Ring" "Prismatic Ring" "Royal Bow" "Shadow Sceptre" "Solar Maul" "Steel Ring" "Stygian Vise" "Titanium Spirit Shield" "Two-Toned Boots" "Unset Ring" "Vermillion Ring"
+	SetFontSize 45
+	SetTextColor 255 255 255 255         # TEXTCOLOR:	 Cosmetic White
+	SetBorderColor 255 255 255 255       # BORDERCOLOR:	 T1 highlight
+	SetBackgroundColor 20 110 220        # BACKGROUND:	 ShaperElder T2
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Cross
+
+Show # %D5 $tier->t2-2 $type->rare->shaper
+	HasInfluence Shaper
+	ItemLevel >= 85
+	Rarity <= Rare
+	BaseType "Assassin's Garb" "Barbed Club" "Barbute Helmet" "Bone Helmet" "Brass Spirit Shield" "Broadhead Arrow Quiver" "Burnished Spiked Shield" "Champion Kite Shield" "Colossal Tower Shield" "Coral Amulet" "Coral Ring" "Coronal Maul" "Decurve Bow" "Deerskin Boots" "Diamond Ring" "Eclipse Staff" "Ezomyte Tower Shield" "Fleshripper" "Fossilised Spirit Shield" "Gilded Buckler" "Gold Amulet" "Golden Kris" "Gripped Gloves" "Grove Bow" "Harbinger Bow" "Horned Sceptre" "Hubris Circlet" "Imbued Wand" "Imperial Buckler" "Imperial Claw" "Imperial Maul" "Infernal Sword" "Jewelled Foil" "Jingling Spirit Shield" "Laminated Kite Shield" "Lapis Amulet" "Latticed Ringmail" "Layered Kite Shield" "Leather Belt" "Lion Pelt" "Maraketh Bow" "Ochre Sceptre" "Opal Sceptre" "Opal Wand" "Pagan Wand" "Paua Amulet" "Pinnacle Tower Shield" "Plated Greaves" "Profane Wand" "Prophecy Wand" "Quartz Sceptre" "Quartz Wand" "Reflex Bow" "Reinforced Tower Shield" "Sage's Robe" "Sambar Sceptre" "Sapphire Ring" "Satin Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Spike-Point Arrow Quiver" "Spiraled Wand" "Splendid Round Shield" "Sundering Axe" "Supreme Spiked Shield" "Thicket Bow" "Thorium Spirit Shield" "Thresher Claw" "Turquoise Amulet" "Two-Stone Ring" "Vaal Regalia" "Vaal Spirit Shield" "Vanguard Belt" "Walnut Spirit Shield"
+	SetFontSize 45
+	SetTextColor 255 255 255 255         # TEXTCOLOR:	 Cosmetic White
+	SetBorderColor 255 255 255 255       # BORDERCOLOR:	 T1 highlight
+	SetBackgroundColor 20 110 220        # BACKGROUND:	 ShaperElder T2
+	PlayAlertSound 3 300                 # DROPSOUND:	 Unique
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Cross
