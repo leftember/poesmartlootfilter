@@ -1,0 +1,15 @@
+https://poe.ninja/api/data/ItemOverview?league=Expedition&type=DivinationCard&language=en
+https://poe.ninja/api/data/ItemOverview?league=Expedition&type=Prophecy&language=en
+https://poe.ninja/api/data/ItemOverview?league=Expedition&type=Oil&language=en
+https://poe.ninja/api/data/ItemOverview?league=Expedition&type=Incubator&language=en
+https://poe.ninja/api/data/ItemOverview?league=Expedition&type=UniqueWeapon&language=en
+https://poe.ninja/api/data/ItemOverview?league=Expedition&type=UniqueArmour&language=en
+https://poe.ninja/api/data/ItemOverview?league=Expedition&type=UniqueAccessory&language=en
+https://poe.ninja/api/data/ItemOverview?league=Expedition&type=UniqueFlask&language=en
+https://poe.ninja/api/data/ItemOverview?league=Expedition&type=UniqueJewel&language=en
+https://poe.ninja/api/data/ItemOverview?league=Expedition&type=ClusterJewel&language=en
+https://poe.ninja/api/data/ItemOverview?league=Expedition&type=Fossil&language=en
+https://poe.ninja/api/data/ItemOverview?league=Expedition&type=Essence&language=en
+
+https://poe.ninja/api/data/CurrencyOverview?league=Expedition&type=Fragment&language=en
+https://poe.ninja/api/data/CurrencyOverview?league=Expedition&type=Currency&language=en
