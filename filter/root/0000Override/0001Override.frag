@@ -1,45 +1,15 @@
 #===============================================================================================================
-# NeverSink's Indepth Loot Filter - for Path of Exile
+# Leftember's lootfilter based NeverSink's Indepth Loot Filter
 #===============================================================================================================
 # VERSION:  8.2.1.2021.263.13
 # TYPE:     4-VERY STRICT
 # STYLE:    AZURITE
 # AUTHOR:   NeverSink
 # BUILDNOTES: Filter generated with NeverSink's FilterpolishZ and the domainlanguage Exo.
-#
-#------------------------------------
-# LINKS TO LATEST VERSION AND FILTER EDITOR
-#------------------------------------
-#
-# EDIT/CUSTOMIZE FILTER ON: 	https://www.FilterBlade.xyz
-# GET THE LATEST VERSION ON: 	https://www.FilterBlade.xyz or https://github.com/NeverSinkDev/NeverSink-Filter
-# POE FORUM THREAD: 			https://goo.gl/oQn4EN
-#
-#------------------------------------
-# SUPPORT THE DEVELOPMENT:
-#------------------------------------
-#
-# SUPPORT ME ON PATREON: 		https://www.patreon.com/Neversink
-# SUPPORT THE FILTERBLADE TEAM: https://www.filterblade.xyz/About
-#
-#------------------------------------
-# INSTALLATION / UPDATE :
-#------------------------------------
-#
-# 0) It's recommended to check for updates once a month or at least before new leagues, to receive economy finetuning and new features!
-# 1) Paste this file into the following folder: %userprofile%/Documents/My Games/Path of Exile
-# 2) INGAME: Escape -> Options -> UI -> Scroll down -> Select the filter from the Dropdown box
-#
-#------------------------------------
-# CONTACT - if you want to get notifications about updates or just get in touch:
-#------------------------------------
-# PLEASE READ THE FAQ ON https://goo.gl/oQn4EN BEFORE ASKING QUESTIONS
-#
-# TWITTER: @NeverSinkDev
-# TWITCH:  https://www.twitch.tv/neversink
-# DISCORD: https://discord.gg/mye6xhF
-# GITHUB:  NeverSinkDev
-
+# 
+#===============================================================================================================
+# With personal heavy modifications. - leftember
+#===============================================================================================================
 #===============================================================================================================
 # [WELCOME] TABLE OF CONTENTS + QUICKJUMP TABLE
 #===============================================================================================================
@@ -189,28 +159,3 @@
 #===============================================================================================================
 # !! Chapter "High Priority Rules"
 # !! Override 010 : "ALL Rules"
-
-Show # $type->6l $tier->arm
-	Corrupted False
-	LinkedSockets 6
-	Rarity <= Rare
-	Class "Body Armours"
-	SetFontSize 45
-	SetTextColor 200 0 0 255
-	SetBorderColor 200 0 0 255
-	SetBackgroundColor 255 255 255 255
-	PlayAlertSound 6 300
-	PlayEffect Red
-	MinimapIcon 0 Red Star
-
-Show # $type->6l $tier->wep
-	LinkedSockets 6
-	Rarity <= Rare
-	SetFontSize 45
-	SetTextColor 255 255 255 255
-	SetBorderColor 255 255 255 255
-	SetBackgroundColor 200 0 0 255
-	PlayAlertSound 1 300
-	PlayEffect Red
-	MinimapIcon 0 Red Diamond
-

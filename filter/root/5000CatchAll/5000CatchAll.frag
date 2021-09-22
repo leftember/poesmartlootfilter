@@ -1,9 +1,25 @@
 Hide # $type->hidelayer $tier->final
-	Class "Amulets" "Belts" "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Flask" "Gloves" "Heist Brooch" "Heist Cloak" "Heist Gear" "Heist Tool" "Helmets" "Jewel" "One Hand" "Quivers" "Rings" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wand" "Warstaves"
+	Class "Body Armour" "Boots" "Bows" "Claws" "Daggers" "Gloves" "Helmets" "One Hand" "Quivers" "Rune Dagger" "Sceptre" "Shields" "Staves" "Two Hand" "Wand" "Warstaves"
 	SetFontSize 18
 	SetBorderColor 0 0 0 0
 	SetBackgroundColor 0 0 0 0
 	DisableDropSound True
+
+Hide # $type->hidelayer $tier->final
+	Class "Amulets" "Belts" "Jewel" "Rings" 
+	SetFontSize 18
+	SetBorderColor 0 0 0 0
+	SetBackgroundColor 0 0 0 0
+	DisableDropSound True
+
+
+Hide # $type->hidelayer $tier->final
+	Class "Flask" "Heist Brooch" "Heist Cloak" "Heist Gear" "Heist Tool" 
+	SetFontSize 18
+	SetBorderColor 0 0 0 0
+	SetBackgroundColor 0 0 0 0
+	DisableDropSound True
+
 
 #------------------------------------
 #   [4804] Show All unknown Section

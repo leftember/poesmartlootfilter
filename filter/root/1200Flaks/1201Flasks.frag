@@ -2,7 +2,6 @@
 #===============================================================================================================
 # [[1200]] Endgame Flasks
 #===============================================================================================================
-# !! Override 160 : "Endgame Flasks"
 
 #------------------------------------
 #   [1201] High quality assorted flasks
@@ -21,28 +20,6 @@ Show # %D3 $type->endgameflasks $tier->highqualutility
 	PlayAlertSound 3 300
 	PlayEffect Grey
 	MinimapIcon 2 Grey Circle
-
-#Show # %D2 $type->endgameflasks $tier->highquallifemana
-#	Quality >= 15
-#	AreaLevel >= 68
-#	AreaLevel <= 72
-#	Rarity <= Magic
-#	BaseType "Divine Life Flask" "Divine Mana Flask" "Eternal Life Flask" "Eternal Mana Flask" "Hallowed Hybrid Flask"
-#	SetFontSize 40
-#	SetTextColor 0 0 0 255
-#	SetBorderColor 200 200 200 255
-#	SetBackgroundColor 73 92 91 255
-
-#Show # %D3 $type->endgameflasks $tier->any20qualflask
-#	Quality >= 20
-#	AreaLevel >= 68
-#	Rarity <= Magic
-#	BaseType "Flask"
-#	SetFontSize 45
-#	SetTextColor 255 255 255 255
-#	SetBorderColor 255 255 255 255
-#	SetBackgroundColor 0 112 106 255
-#	PlayEffect Grey Temp
 
 #------------------------------------
 #   [1202] Utility OR quality flasks

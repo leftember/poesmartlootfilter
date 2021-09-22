@@ -1,15 +1,10 @@
 # !! Override 740 : "Remaining Currency" -- catch miss segment
 
-#Hide  # $type->currency $tier->untiereditems
-#	Class "Currency"
-#	SetFontSize 35
-#	SetBorderColor 0 0 0
-
 Hide # $type->currency $tier->scrollfragments
-Class "Currency"
-BaseType "Scroll Fragment"
-SetFontSize 35
-SetBorderColor 0 0 0
+    Class "Currency"
+    BaseType "Scroll Fragment"
+    SetFontSize 35
+    SetBorderColor 0 0 0
 
 Show # $type->currency $tier->restex
 	Class "Currency"

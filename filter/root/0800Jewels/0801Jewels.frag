@@ -10,19 +10,19 @@
 #------------------------------------
 
 Show # $type->jewels->special $tier->1modcorrupted
-Corrupted True
-Identified True
-CorruptedMods >= 1
-Rarity Rare
-BaseType "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel"
-HasExplicitMod "of Combat" "of Archery" "of Mysticism" "of Blasting" "of Wounding" "Surging" "Arctic" "Infernal" "Puncturing" "Rupturing" "Piercing" "Vivid" "Shimmering" "of Potency" "of Demolishing" "of Unmaking" "of the Elements" "of Exsanguinating" "of Atrophy" "of Order" "Leadership"
-SetFontSize 45
-SetTextColor 220 220 0 255
-SetBorderColor 0 240 190 255
-SetBackgroundColor 120 120 0 225
-PlayAlertSound 3 300
-PlayEffect Blue
-MinimapIcon 2 Blue Diamond
+    Corrupted True
+    Identified True
+    CorruptedMods >= 1
+    Rarity Rare
+    BaseType "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel"
+    HasExplicitMod "of Combat" "of Archery" "of Mysticism" "of Blasting" "of Wounding" "Surging" "Arctic" "Infernal" "Puncturing" "Rupturing" "Piercing" "Vivid" "Shimmering" "of Potency" "of Demolishing" "of Unmaking" "of the Elements" "of Exsanguinating" "of Atrophy" "of Order" "Leadership"
+    SetFontSize 45
+    SetTextColor 220 220 0 255
+    SetBorderColor 0 240 190 255
+    SetBackgroundColor 120 120 0 225
+    PlayAlertSound 3 300
+    PlayEffect Blue
+    MinimapIcon 2 Blue Diamond
 
 Show # %H4 $type->jewels->special $tier->1moduncorrupted
 	Corrupted False
@@ -41,99 +41,99 @@ Show # %H4 $type->jewels->special $tier->1moduncorrupted
 #------------------------------------
 
 Show # $type->jewels->cluster $tier->optimalhighlarge
-ItemLevel >= 84
-Rarity <= Rare
-EnchantmentPassiveNum <= 8
-BaseType "Large Cluster Jewel"
-SetFontSize 45
-SetTextColor 150 0 255 255
-SetBorderColor 240 100 0 255
-SetBackgroundColor 34 0 67 255
-PlayAlertSound 2 300
-PlayEffect Yellow
-MinimapIcon 1 Yellow Pentagon
+    ItemLevel >= 84
+    Rarity <= Rare
+    EnchantmentPassiveNum <= 8
+    BaseType "Large Cluster Jewel"
+    SetFontSize 45
+    SetTextColor 150 0 255 255
+    SetBorderColor 240 100 0 255
+    SetBackgroundColor 34 0 67 255
+    PlayAlertSound 2 300
+    PlayEffect Yellow
+    MinimapIcon 1 Yellow Pentagon
 
 Show # %D6 $type->jewels->cluster $tier->highlarge
-Rarity <= Rare
-EnchantmentPassiveNum <= 8
-BaseType "Large Cluster Jewel"
-SetFontSize 45
-SetTextColor 150 0 255 255
-SetBorderColor 240 100 0 255
-SetBackgroundColor 34 0 67 255
-PlayAlertSound 2 300
-PlayEffect White
-MinimapIcon 2 White Pentagon
+    Rarity <= Rare
+    EnchantmentPassiveNum <= 8
+    BaseType "Large Cluster Jewel"
+    SetFontSize 45
+    SetTextColor 150 0 255 255
+    SetBorderColor 240 100 0 255
+    SetBackgroundColor 34 0 67 255
+    PlayAlertSound 2 300
+    PlayEffect White
+    MinimapIcon 2 White Pentagon
 
 Show # %D4 $type->jewels->cluster $tier->large
-Rarity <= Rare
-BaseType "Large Cluster Jewel"
-SetFontSize 45
-SetTextColor 150 0 255 255
-SetBorderColor 100 255 0 255
-SetBackgroundColor 34 0 67 255
-PlayAlertSound 2 300
-PlayEffect Grey Temp
-MinimapIcon 2 Grey Pentagon
+    Rarity <= Rare
+    BaseType "Large Cluster Jewel"
+    SetFontSize 45
+    SetTextColor 150 0 255 255
+    SetBorderColor 100 255 0 255
+    SetBackgroundColor 34 0 67 255
+    PlayAlertSound 2 300
+    PlayEffect Grey Temp
+    MinimapIcon 2 Grey Pentagon
 
 Show # $type->jewels->cluster $tier->optimalhighmedium
-ItemLevel >= 84
-Rarity <= Rare
-EnchantmentPassiveNum <= 5
-BaseType "Medium Cluster Jewel"
-SetFontSize 45
-SetTextColor 150 0 255 255
-SetBorderColor 240 100 0 255
-SetBackgroundColor 34 0 67 255
-PlayAlertSound 2 300
-PlayEffect Yellow
-MinimapIcon 1 Yellow Pentagon
+    ItemLevel >= 84
+    Rarity <= Rare
+    EnchantmentPassiveNum <= 5
+    BaseType "Medium Cluster Jewel"
+    SetFontSize 45
+    SetTextColor 150 0 255 255
+    SetBorderColor 240 100 0 255
+    SetBackgroundColor 34 0 67 255
+    PlayAlertSound 2 300
+    PlayEffect Yellow
+    MinimapIcon 1 Yellow Pentagon
 
 Show # %D5 $type->jewels->cluster $tier->highmedium
-Rarity <= Rare
-EnchantmentPassiveNum <= 5
-BaseType "Medium Cluster Jewel"
-SetFontSize 45
-SetTextColor 150 0 255 255
-SetBorderColor 240 100 0 255
-SetBackgroundColor 34 0 67 255
-PlayAlertSound 2 300
-PlayEffect White
-MinimapIcon 2 White Pentagon
+    Rarity <= Rare
+    EnchantmentPassiveNum <= 5
+    BaseType "Medium Cluster Jewel"
+    SetFontSize 45
+    SetTextColor 150 0 255 255
+    SetBorderColor 240 100 0 255
+    SetBackgroundColor 34 0 67 255
+    PlayAlertSound 2 300
+    PlayEffect White
+    MinimapIcon 2 White Pentagon
 
 Show # %D4 $type->jewels->cluster $tier->medium
-Rarity <= Rare
-BaseType "Medium Cluster Jewel"
-SetFontSize 45
-SetTextColor 150 0 255 255
-SetBorderColor 100 255 0 255
-SetBackgroundColor 34 0 67 255
-PlayAlertSound 2 300
-PlayEffect Grey Temp
-MinimapIcon 2 Grey Pentagon
+    Rarity <= Rare
+    BaseType "Medium Cluster Jewel"
+    SetFontSize 45
+    SetTextColor 150 0 255 255
+    SetBorderColor 100 255 0 255
+    SetBackgroundColor 34 0 67 255
+    PlayAlertSound 2 300
+    PlayEffect Grey Temp
+    MinimapIcon 2 Grey Pentagon
 
 Show # %D5 $type->jewels->cluster $tier->highsmall
-ItemLevel >= 84
-Rarity <= Rare
-BaseType "Small Cluster Jewel"
-SetFontSize 45
-SetTextColor 150 0 255 255
-SetBorderColor 240 100 0 255
-SetBackgroundColor 34 0 67 255
-PlayAlertSound 2 300
-PlayEffect White
-MinimapIcon 2 White Pentagon
+    ItemLevel >= 84
+    Rarity <= Rare
+    BaseType "Small Cluster Jewel"
+    SetFontSize 45
+    SetTextColor 150 0 255 255
+    SetBorderColor 240 100 0 255
+    SetBackgroundColor 34 0 67 255
+    PlayAlertSound 2 300
+    PlayEffect White
+    MinimapIcon 2 White Pentagon
 
 Show # %D4 $type->jewels->cluster $tier->small
-Rarity <= Rare
-BaseType "Small Cluster Jewel"
-SetFontSize 45
-SetTextColor 150 0 255 255
-SetBorderColor 100 255 0 255
-SetBackgroundColor 34 0 67 255
-PlayAlertSound 2 300
-PlayEffect Grey Temp
-MinimapIcon 2 Grey Pentagon
+    Rarity <= Rare
+    BaseType "Small Cluster Jewel"
+    SetFontSize 45
+    SetTextColor 150 0 255 255
+    SetBorderColor 100 255 0 255
+    SetBackgroundColor 34 0 67 255
+    PlayAlertSound 2 300
+    PlayEffect Grey Temp
+    MinimapIcon 2 Grey Pentagon
 
 #------------------------------------
 #   [0803] Abyss Jewels
@@ -180,13 +180,13 @@ Hide # %HS2 $type->jewels->abyss $tier->anymagic
 #------------------------------------
 
 Show # %HS3 $type->jewels->generic $tier->anyrare
-Rarity Rare
-Class "Jewel"
-BaseType "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel"
-SetFontSize 45
-SetTextColor 220 220 0 255
-SetBorderColor 220 220 0 255
-SetBackgroundColor 120 120 0 225
+    Rarity Rare
+    Class "Jewel"
+    BaseType "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel"
+    SetFontSize 45
+    SetTextColor 220 220 0 255
+    SetBorderColor 220 220 0 255
+    SetBackgroundColor 120 120 0 225
 
 Hide # %H3 $type->jewels->generic $tier->anymagic
 	Rarity <= Magic

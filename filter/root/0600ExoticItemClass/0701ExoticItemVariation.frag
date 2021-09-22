@@ -1,8 +1,6 @@
 #===============================================================================================================
 # [[0700]] Exotic Item Variations
 #===============================================================================================================
-# !! Override 070 : "exotic gear: synthesised, fractured, enchanted gear"
-
 #------------------------------------
 #   [0701] Double Corruptions
 #------------------------------------
@@ -53,16 +51,16 @@ Show # $type->exotic->sockets $tier->anynonbelt
 #------------------------------------
 
 Show # %D6 $type->exotic->synthesised $tier->synthselected
-SynthesisedItem True
-Rarity <= Rare
-BaseType "Ambusher" "Archon Kite Shield" "Assassin's Garb" "Bone Helmet" "Carnal Armour" "Colossal Tower Shield" "Corsair Sword" "Crusader Boots" "Crusader Gloves" "Deicide Mask" "Dragonscale Boots" "Dragonscale Gauntlets" "Elegant Round Shield" "Eternal Burgonet" "Eternal Sword" "Exquisite Blade" "Ezomyte Tower Shield" "Fancy Foil" "Gemini Claw" "Glorious Plate" "Hubris Circlet" "Imperial Buckler" "Imperial Claw" "Imperial Staff" "Jewelled Foil" "Judgement Staff" "Karui Maul" "Lathi" "Lion Pelt" "Lion Sword" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Nightmare Mace" "Pinnacle Tower Shield" "Royal Burgonet" "Runic Hatchet" "Sadist Garb" "Saint's Hauberk" "Saintly Chainmail" "Siege Axe" "Sinner Tricorne" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiraled Foil" "Stealth Boots" "Supreme Spiked Shield" "Tempered Foil" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Triumphant Lamellar" "Vaal Greaves" "Vaal Regalia" "Zodiac Leather"
-SetFontSize 45
-SetTextColor 0 240 190 255
-SetBorderColor 0 240 190 255
-SetBackgroundColor 0 75 30 255
-PlayAlertSound 3 300
-PlayEffect Blue
-MinimapIcon 0 Blue Diamond
+    SynthesisedItem True
+    Rarity <= Rare
+    BaseType "Ambusher" "Archon Kite Shield" "Assassin's Garb" "Bone Helmet" "Carnal Armour" "Colossal Tower Shield" "Corsair Sword" "Crusader Boots" "Crusader Gloves" "Deicide Mask" "Dragonscale Boots" "Dragonscale Gauntlets" "Elegant Round Shield" "Eternal Burgonet" "Eternal Sword" "Exquisite Blade" "Ezomyte Tower Shield" "Fancy Foil" "Gemini Claw" "Glorious Plate" "Hubris Circlet" "Imperial Buckler" "Imperial Claw" "Imperial Staff" "Jewelled Foil" "Judgement Staff" "Karui Maul" "Lathi" "Lion Pelt" "Lion Sword" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Nightmare Mace" "Pinnacle Tower Shield" "Royal Burgonet" "Runic Hatchet" "Sadist Garb" "Saint's Hauberk" "Saintly Chainmail" "Siege Axe" "Sinner Tricorne" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiraled Foil" "Stealth Boots" "Supreme Spiked Shield" "Tempered Foil" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Triumphant Lamellar" "Vaal Greaves" "Vaal Regalia" "Zodiac Leather"
+    SetFontSize 45
+    SetTextColor 0 240 190 255
+    SetBorderColor 0 240 190 255
+    SetBackgroundColor 0 75 30 255
+    PlayAlertSound 3 300
+    PlayEffect Blue
+    MinimapIcon 0 Blue Diamond
 
 Show # %D6 $type->exotic->synthesised $tier->synthclasses
 	SynthesisedItem True
@@ -92,16 +90,16 @@ Show # %D5 $type->exotic->synthesised $tier->synthrandom
 #------------------------------------ 	
 
 Show # %D5 $type->exotic->fractured $tier->fractselected
-FracturedItem True
-Rarity <= Rare
-BaseType "Ambusher" "Archon Kite Shield" "Assassin's Garb" "Astral Plate" "Behemoth Mace" "Bone Helmet" "Carnal Armour" "Citadel Bow" "Colossal Tower Shield" "Convoking Wand" "Copper Kris" "Corsair Sword" "Crusader Boots" "Crusader Gloves" "Deicide Mask" "Demon Dagger" "Dragonscale Boots" "Dragonscale Gauntlets" "Eclipse Staff" "Elegant Round Shield" "Eternal Burgonet" "Eternal Sword" "Exquisite Blade" "Fiend Dagger" "Fingerless Silk Gloves" "Fossilised Spirit Shield" "Gemini Claw" "Glorious Plate" "Golden Kris" "Gripped Gloves" "Harbinger Bow" "Harmonic Spirit Shield" "Hubris Circlet" "Imbued Wand" "Imperial Bow" "Imperial Buckler" "Imperial Claw" "Jewelled Foil" "Judgement Staff" "Karui Chopper" "Karui Maul" "Lion Pelt" "Lion Sword" "Maraketh Bow" "Mosaic Kite Shield" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Opal Sceptre" "Opal Wand" "Pinnacle Tower Shield" "Platinum Kris" "Profane Wand" "Prophecy Wand" "Royal Burgonet" "Runic Hatchet" "Sai" "Saint's Hauberk" "Saintly Chainmail" "Sambar Sceptre" "Siege Axe" "Skean" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Spiraled Foil" "Supreme Spiked Shield" "Thicket Bow" "Tiger Hook" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Tornado Wand" "Triumphant Lamellar" "Two-Toned Boots" "Vaal Regalia" "Vaal Spirit Shield" "Void Sceptre" "Zodiac Leather"
-SetFontSize 45
-SetTextColor 0 240 190 255
-SetBorderColor 0 240 190 255
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 3 300
-PlayEffect Blue
-MinimapIcon 1 Blue Diamond
+    FracturedItem True
+    Rarity <= Rare
+    BaseType "Ambusher" "Archon Kite Shield" "Assassin's Garb" "Astral Plate" "Behemoth Mace" "Bone Helmet" "Carnal Armour" "Citadel Bow" "Colossal Tower Shield" "Convoking Wand" "Copper Kris" "Corsair Sword" "Crusader Boots" "Crusader Gloves" "Deicide Mask" "Demon Dagger" "Dragonscale Boots" "Dragonscale Gauntlets" "Eclipse Staff" "Elegant Round Shield" "Eternal Burgonet" "Eternal Sword" "Exquisite Blade" "Fiend Dagger" "Fingerless Silk Gloves" "Fossilised Spirit Shield" "Gemini Claw" "Glorious Plate" "Golden Kris" "Gripped Gloves" "Harbinger Bow" "Harmonic Spirit Shield" "Hubris Circlet" "Imbued Wand" "Imperial Bow" "Imperial Buckler" "Imperial Claw" "Jewelled Foil" "Judgement Staff" "Karui Chopper" "Karui Maul" "Lion Pelt" "Lion Sword" "Maraketh Bow" "Mosaic Kite Shield" "Murder Boots" "Murder Mitts" "Nightmare Bascinet" "Opal Sceptre" "Opal Wand" "Pinnacle Tower Shield" "Platinum Kris" "Profane Wand" "Prophecy Wand" "Royal Burgonet" "Runic Hatchet" "Sai" "Saint's Hauberk" "Saintly Chainmail" "Sambar Sceptre" "Siege Axe" "Skean" "Slink Boots" "Slink Gloves" "Sorcerer Boots" "Sorcerer Gloves" "Spiked Gloves" "Spiraled Foil" "Supreme Spiked Shield" "Thicket Bow" "Tiger Hook" "Titan Gauntlets" "Titan Greaves" "Titanium Spirit Shield" "Tornado Wand" "Triumphant Lamellar" "Two-Toned Boots" "Vaal Regalia" "Vaal Spirit Shield" "Void Sceptre" "Zodiac Leather"
+    SetFontSize 45
+    SetTextColor 0 240 190 255
+    SetBorderColor 0 240 190 255
+    SetBackgroundColor 0 0 0 255
+    PlayAlertSound 3 300
+    PlayEffect Blue
+    MinimapIcon 1 Blue Diamond
 
 Show # %D5 $type->exotic->fractured $tier->fractclasses
 	FracturedItem True
@@ -151,11 +149,4 @@ Show # $type->exotic->enchanted $tier->helmets
 	PlayAlertSound 3 300
 	PlayEffect Blue
 	MinimapIcon 1 Blue Diamond
-
-#Show # %D2 $type->exotic->enchanted $tier->glovesboots
-#	AnyEnchantment True
-#	Rarity <= Rare
-#	Class "Boots" "Gloves"
-#	SetFontSize 40
-#	SetBorderColor 0 240 190 180
-#	PlayEffect Blue Temp
+	PlayEffect Blue Temp

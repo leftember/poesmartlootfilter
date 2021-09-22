@@ -11,6 +11,7 @@ Show # %H4 %C4 $tier->t1 $type->currency->leveling
     SetBackgroundColor 0 0 0 255         # BACKGROUND:      Neutral T2
 
 Hide # %H3 %C3 $tier->t2 $type->currency->leveling
+    AreaLevel > 66
     Class Currency
     BaseType "Armourer's Scrap"  "Orb of Transmutation"
     SetFontSize 45
@@ -27,7 +28,7 @@ Show # %H3 %C3 $tier->t3 $type->currency->leveling
     SetBackgroundColor 0 0 0 255         # BACKGROUND:     Neutral T2
 
 Show # %H3 %C3 $tier->t4 $type->currency->leveling
-    AreaLevel < 65
+    AreaLevel < 30
     Class Currency
     BaseType "Scroll of Wisdom"
     SetFontSize 45
@@ -36,6 +37,6 @@ Show # %H3 %C3 $tier->t4 $type->currency->leveling
     SetBackgroundColor 0 0 0 255         # BACKGROUND:     Neutral T2
 
 Hide 
-    AreaLevel > 64
+    AreaLevel > 60
     Class Currency
     BaseType "Scroll of Wisdom" "Orb of Augmentation"
