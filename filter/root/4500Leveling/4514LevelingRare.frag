@@ -41,12 +41,12 @@ Show # $type->decorators->leveling->rare $tier->tinyrares
 #------------------------------------
 
 Show # %D5 $type->leveling->rare->universal $tier->rusticsash
-Rarity Rare
-BaseType "Rustic Sash"
-SetFontSize 45
-SetTextColor 0 0 0 255
-SetBorderColor 0 0 0 255
-SetBackgroundColor 121 70 225 255
+    Rarity Rare
+    BaseType "Rustic Sash"
+    SetFontSize 45
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 121 70 225 255
 
 Show # %D5 $type->leveling->rare->universal $tier->jewellery
 	Rarity Rare
@@ -295,39 +295,4 @@ Show # %D4 $type->leveling->rare->melee $tier->l10
 	SetFontSize 40
 	SetBorderColor 75 75 75 255
 	SetBackgroundColor 0 0 0 255
-
-# !! Override 860 : "leveling: remaining rare items"
-
-#Show # %D3 $type->leveling->rare->remaining $tier->chromaticrares
-#	Rarity Rare
-#	SocketGroup "RGB"
-#	SetFontSize 40
-#	SetBackgroundColor 0 0 0 200
-
-#Show # %D1 $type->leveling->rare->remaining $tier->underlevel68
-#	AreaLevel >= 42
-#	Rarity Rare
-#	SetFontSize 35
-#	SetBackgroundColor 0 0 0 200
-
-#Show # %D1 $type->leveling->rare->remaining $tier->underlevel42
-#	ItemLevel <= 42
-#	AreaLevel >= 24
-#	Rarity Rare
-#	SetFontSize 35
-#	SetBackgroundColor 0 0 0 200
-
-#Show # %D2 $type->leveling->rare->remaining $tier->underlevel24
-#	ItemLevel <= 24
-#	AreaLevel >= 16
-#	Rarity Rare
-#	SetFontSize 40
-#	SetBackgroundColor 0 0 0 200
-
-#Show # %D3 $type->leveling->rare->remaining $tier->underlevel16
-#	ItemLevel <= 16
-#	AreaLevel >= 1
-#	Rarity Rare
-#	SetFontSize 40
-#	SetBackgroundColor 0 0 0 200
 
