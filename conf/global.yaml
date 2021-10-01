@@ -1,0 +1,8 @@
+version: 1
+league: Expedition
+currency:
+    - Currency
+    - Fragment
+item:
+    - DivinationCard
+    - Prophecy
