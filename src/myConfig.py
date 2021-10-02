@@ -12,7 +12,8 @@ conf = loadYamlConfig()
 
 if __name__ == '__main__':
     print(conf)
-    print( conf['version'])
+    print(conf['version'])
+    print(conf['league'])
     print(conf['item'])
     print(type(conf['item']))
 
