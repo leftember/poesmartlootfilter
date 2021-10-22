@@ -5,7 +5,7 @@
 
 Show # $type->fragments->scarabs $tier->t1
     Class "Map Fragments"
-    BaseType "Winged Ambush Scarab" "Winged Harbinger Scarab" "Winged Legion Scarab"
+    BaseType "Winged Ambush Scarab" "Winged Harbinger Scarab" "Winged Legion Scarab" "Xoph's Flawless Breachstone" "Tul's Flawless Breachstone" "Esh's Flawless Breachstone" "Uul-Netol's Flawless Breachstone" "Chayula's Flawless Breachstone" "Unrelenting Timeless Karui Emblem" "Unrelenting Timeless Maraketh Emblem" "Unrelenting Timeless Eternal Emblem" "Unrelenting Timeless Templar Emblem" "Unrelenting Timeless Vaal Emblem" "Rusted Expedition Scarab" "Polished Expedition Scarab" "Gilded Expedition Scarab" "Winged Expedition Scarab" 
     SetFontSize 45
     SetTextColor 225 111 255 255
     SetBorderColor 225 111 255 255

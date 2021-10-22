@@ -16,7 +16,7 @@ Show # $type->currency $tier->t1exalted
 
 Show # $type->currency $tier->t2divine
     Class "Currency"
-    BaseType == "Blessing of Chayula" "Crescent Splinter" "Divine Orb" "Elevated Sextant"
+    BaseType == "Blessing of Chayula" "Crescent Splinter" "Divine Orb" "Elevated Sextant" "Sacred Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Kalguuran Delirium Orb" "Deft Fossil" "Fundamental Fossil" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Tainted Chaos Orb" "Tainted Divine Teardrop"
     SetFontSize 45
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
