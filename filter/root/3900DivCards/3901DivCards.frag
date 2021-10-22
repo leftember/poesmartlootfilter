@@ -5,7 +5,8 @@
 
 Show # $type->divination $tier->t1
     Class "Divination"
-    BaseType == "Abandoned Wealth" "Alluring Bounty" "Beauty Through Death" "Broken Promises" "Brother's Stash" "Deadly Joy" "Desecrated Virtue" "Gift of Asenath" "House of Mirrors" "Immortal Resolve" "Love Through Ice" "Luminous Trove" "Seven Years Bad Luck" "Succor of the Sinless" "The Cheater" "The Demon" "The Doctor" "The Dragon's Heart" "The Fiend" "The Immortal" "The Nurse" "The Samurai's Eye" "Unrequited Love" "Wealth and Power"
+    BaseType == "Abandoned Wealth" "Alluring Bounty" "Beauty Through Death" "Broken Promises" "Brother's Stash" "Deadly Joy" "Desecrated Virtue" "Gift of Asenath" "House of Mirrors" "Immortal Resolve" "Love Through Ice" "Luminous Trove" "Seven Years Bad Luck" "Succor of the Sinless" "The Cheater" "The Demon" "The Doctor" "The Dragon's Heart" "The Fiend" "The Immortal" "The Nurse" "The Samurai's Eye" "Unrequited Love" "Wealth and Power" "Desperate Crusade" "A Stone Perfected" "The Rabbit's Foot" "Chasing Risk" "The Prince of Darkness" "The Catch" "Eternal Bonds" "Disdain" "The Scout" "Guardian's Challenge" "The Forgotten Treasure" "The Fox in the Brambles" "The Aspirant"
+
     SetFontSize 45
     SetTextColor 104 220 127 255
     SetBorderColor 104 220 127 255

@@ -17,7 +17,7 @@ Show # %H5 $type->currency->incubators $tier->leveledex
 
 Show # $type->currency->incubators $tier->t2
     Class "Incubator"
-    BaseType == "Geomancer's Incubator" "Time-Lost Incubator"
+    BaseType == "Geomancer's Incubator" "Time-Lost Incubator" "Kalguuran Incubator"
     SetFontSize 45
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255

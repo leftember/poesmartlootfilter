@@ -28,6 +28,17 @@ Show # $type->uniques $tier->exsynth
 	MinimapIcon 0 Yellow Star
 
 Show # $type->uniques $tier->ex6link
+    BaseType "Unset Amulet"
+    Rarity Unique
+    SetFontSize 45
+    SetTextColor 175 96 37 255
+    SetBorderColor 175 96 37 255
+    SetBackgroundColor 255 255 255 255
+    PlayAlertSound 6 300
+    PlayEffect Red
+    MinimapIcon 0 Red Star
+
+Show # $type->uniques $tier->ex6link
 	LinkedSockets 6
 	Rarity Unique
 	SetFontSize 45

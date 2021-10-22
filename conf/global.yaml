@@ -1,0 +1,18 @@
+version: 1
+league: Expedition
+currency:
+    - Currency
+    - Fragment
+item:
+    - DivinationCard
+    - Prophecy
+    - Oil
+    - Incubator
+    - UniqueWeapon
+    - UniqueArmour
+    - UniqueAccessory
+    - UniqueFlask
+    - UniqueJewel
+    - ClusterJewel
+    - Fossil
+    - Essence
