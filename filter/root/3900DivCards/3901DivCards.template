@@ -43,4 +43,4 @@ Show # $type->divination $tier->restex
 	SetBackgroundColor 100 0 100 255
 	PlayAlertSound 3 300
 	PlayEffect Pink
-	MinimapIcon 0 Pink Circles:
+	MinimapIcon 0 Pink Circle
