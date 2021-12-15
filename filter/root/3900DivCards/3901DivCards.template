@@ -1,0 +1,46 @@
+#===============================================================================================================
+# [[3900]] Divination Cards
+#===============================================================================================================
+
+Show # $type->divination $tier->t1
+    Class "Divination"
+    BaseType == {{T1DivNames}} 
+    SetFontSize 45
+    SetTextColor 104 220 127 255
+    SetBorderColor 104 220 127 255
+    SetBackgroundColor 255 255 255 255
+    PlayAlertSound 6 300
+    PlayEffect Red
+    MinimapIcon 0 Red Star
+
+Show # $type->divination $tier->t2
+    Class "Divination"
+    BaseType == {{T2DivNames}}
+    SetFontSize 45
+    SetTextColor 255 255 255 255
+    SetBorderColor 255 255 255 255
+    SetBackgroundColor 100 250 155 245
+    PlayAlertSound 1 300
+    PlayEffect Red
+    MinimapIcon 0 Red Triangle
+
+Hide # $type->divination $tier->t3
+    Class "Divination"
+    BaseType == {{T3DivNames}}
+    SetFontSize 45
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 100 250 155 245
+    PlayAlertSound 2 300
+    PlayEffect Yellow
+    MinimapIcon 1 Yellow Triangle
+
+Show # $type->divination $tier->restex
+	Class "Divination"
+	SetFontSize 45
+	SetTextColor 255 0 255 255
+	SetBorderColor 255 0 255 255
+	SetBackgroundColor 100 0 100 255
+	PlayAlertSound 3 300
+	PlayEffect Pink
+	MinimapIcon 0 Pink Circles:

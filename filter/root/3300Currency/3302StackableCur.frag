@@ -98,47 +98,6 @@ Show # $type->currency->stacked $tier->orbs_wisdom
     PlayAlertSound 2 300
     PlayEffect White
     MinimapIcon 2 White Circle
-
-#------------------------------------
-#   [3301] Perandus Coins
-#------------------------------------
-# !! Override 720 : "Perandus and Heist Coins"
-
-Show # $type->currency->peranduscoins $tier->t1
-    StackSize >= 150
-    Class "Currency"
-    BaseType "Perandus Coin"
-    SetFontSize 45
-    SetTextColor 255 178 135 255
-    SetBorderColor 255 178 135 255
-    SetBackgroundColor 150 90 70 255
-    PlayEffect Orange
-
-Show # %H4 $type->currency->peranduscoins $tier->t2
-    StackSize >= 17
-    Class "Currency"
-    BaseType "Perandus Coin"
-    SetFontSize 45
-    SetTextColor 255 178 135 255
-    SetBorderColor 255 178 135 255
-    SetBackgroundColor 0 0 0 255
-    PlayEffect Orange Temp
-
-Hide # %H3 $type->currency->peranduscoins $tier->t3
-	StackSize >= 7
-	Class "Currency"
-	BaseType "Perandus Coin"
-	SetFontSize 40
-	SetTextColor 255 178 135 255
-	SetBorderColor 150 90 70 255
-
-Hide # %H2 $type->currency->peranduscoins $tier->t4
-	Class "Currency"
-	BaseType "Perandus Coin"
-	SetFontSize 35
-	SetTextColor 150 90 70 255
-	SetBorderColor 150 90 70 255
-
 #------------------------------------
 #   [3302] Heist Coins
 #------------------------------------

@@ -36,6 +36,14 @@ Show # %H5 $type->currency->oil $tier->t3
     PlayEffect White
     MinimapIcon 2 White Circle
 
+Hide # %H3 $type->currency->oil $tier->t4
+	Class "Currency"
+	BaseType == "Amber Oil" "Clear Oil" "Sepia Oil"
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 61 156 136 255
+
 Show # %H3 $type->currency->oil $tier->t4
 	Class "Currency"
 	BaseType == "Amber Oil" "Azure Oil" "Clear Oil" "Indigo Oil" "Sepia Oil" "Verdant Oil" "Violet Oil"

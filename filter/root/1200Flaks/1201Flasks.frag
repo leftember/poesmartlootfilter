@@ -21,6 +21,18 @@ Show # %D3 $type->endgameflasks $tier->highqualutility
 	PlayEffect Grey
 	MinimapIcon 2 Grey Circle
 
+Show # %D2 $type->endgameflasks $tier->earlymappinglifemana
+	AreaLevel >= 80	
+	SetFontSize 45
+	Class "Utility Flasks"
+	BaseType "Amethyst Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask"
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 0 112 106 255
+	PlayAlertSound 2 300
+	PlayEffect Grey
+	MinimapIcon 2 Grey Hexagon
+
 #------------------------------------
 #   [1202] Utility OR quality flasks
 #------------------------------------

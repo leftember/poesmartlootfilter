@@ -73,7 +73,7 @@ Show # $type->currency->fossil $tier->t2
 
 Show # %H5 $type->currency->fossil $tier->t3
     Class "Currency"
-    BaseType == "Aetheric Fossil" "Bound Fossil" "Corroded Fossil" "Dense Fossil" "Enchanted Fossil" "Gilded Fossil" "Perfect Fossil" "Prismatic Fossil" "Sanctified Fossil" "Serrated Fossil" "Shuddering Fossil" "Tangled Fossil"
+    BaseType == "Aetheric Fossil" "Bound Fossil" "Corroded Fossil" "Dense Fossil" "Gilded Fossil" "Perfect Fossil" "Prismatic Fossil" "Sanctified Fossil" "Serrated Fossil" "Shuddering Fossil" "Tangled Fossil"
     SetFontSize 45
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
@@ -84,7 +84,7 @@ Show # %H5 $type->currency->fossil $tier->t3
 
 Show # %H4 $type->currency->fossil $tier->t4
     Class "Currency"
-    BaseType == "Aberrant Fossil" "Encrusted Fossil" "Frigid Fossil" "Jagged Fossil" "Lucent Fossil" "Metallic Fossil" "Pristine Fossil" "Scorched Fossil"
+    BaseType == "Aberrant Fossil" "Frigid Fossil" "Jagged Fossil" "Lucent Fossil" "Metallic Fossil" "Pristine Fossil" "Scorched Fossil"
     SetFontSize 45
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255

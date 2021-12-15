@@ -24,17 +24,16 @@ low = []
 
 for k,v in cards:
     if v > 10:
-        high.append((k,v))
+        high.append(k)
     elif v > 2:
-        mid.append((k,v))
+        mid.append(k)
     else:
-        low.append((k,v))
+        low.append(k)
 
-print('-----high------')
-for k,v in high:
-    print((k,v))
-
-print('-----mid------')
-for k,v in mid:
-    print((k,v))
-
+with open(f'{curDir}/../filter/root/3900DivCards/3901DivCards.template') as tempFP:
+    template = tempFP.read()
+    template = template.replace("{{T1DivNames}}", "\"" + "\" \"".join(high) + "\"")
+    template = template.replace("{{T2DivNames}}", "\"" + "\" \"".join(mid) + "\"")
+    template = template.replace("{{T3DivNames}}", "\"" + "\" \"".join(low) + "\"")
+    with open(f'{curDir}/../filter/root/3900DivCards/3901DivCards.frag', mode='w') as fragFP:
+        fragFP.write(template)

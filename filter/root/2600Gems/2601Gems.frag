@@ -227,26 +227,15 @@ Show # %D5 $type->gems-generic $tier->qt2
 	PlayEffect White
 	MinimapIcon 1 Yellow Triangle
 
-Show # %D4 $type->gems-generic $tier->lt2
-	GemLevel >= 19
+Show  %D3 $type->gems-generic $tier->qt3
+	Quality >= 14
 	Class "Gems"
 	SetFontSize 45
-	SetTextColor 20 240 240 255
-	SetBorderColor 20 240 240 255
-	SetBackgroundColor 6 0 60 255
+	SetTextColor 30 190 190 255
+	SetBorderColor 30 190 190 255
 	PlayAlertSound 2 300
-	PlayEffect White
-	MinimapIcon 1 Yellow Triangle
-
-#Show # %D3 $type->gems-generic $tier->qt3
-#	Quality >= 14
-#	Class "Gems"
-#	SetFontSize 45
-#	SetTextColor 30 190 190 255
-#	SetBorderColor 30 190 190 255
-#	PlayAlertSound 2 300
-#	PlayEffect Grey
-#	MinimapIcon 1 White Triangle
+	PlayEffect Grey
+	MinimapIcon 1 White Triangle
 
 #Show # %D3 $type->gems-generic $tier->lt3
 #	GemLevel >= 18
@@ -299,7 +288,7 @@ Show # %H4 $type->gems-generic $tier->levelingvaal
     MinimapIcon 2 White Triangle
 
 Hide # %H2 $type->gems-generic $tier->leveling
-	AreaLevel > 66
+	AreaLevel > 60
 	Class "Gems"
 	SetFontSize 40
 	SetBorderColor 0 0 0

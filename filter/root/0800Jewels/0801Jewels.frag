@@ -43,7 +43,6 @@ Show # %H4 $type->jewels->special $tier->1moduncorrupted
 Show # $type->jewels->cluster $tier->optimalhighlarge
     ItemLevel >= 84
     Rarity <= Rare
-    EnchantmentPassiveNum <= 8
     BaseType "Large Cluster Jewel"
     SetFontSize 45
     SetTextColor 150 0 255 255
@@ -139,7 +138,7 @@ Show # %D4 $type->jewels->cluster $tier->small
 #   [0803] Abyss Jewels
 #------------------------------------
 
-Show # %HS4 $type->jewels->abyss $tier->highrare
+Hide # %HS4 $type->jewels->abyss $tier->highrare
 	ItemLevel >= 82
 	Rarity Rare
 	Class "Abyss Jewel"
@@ -150,7 +149,7 @@ Show # %HS4 $type->jewels->abyss $tier->highrare
 	PlayEffect Grey
 	MinimapIcon 2 Grey Diamond
 
-Show # %HS3 $type->jewels->abyss $tier->highmagic
+Hide # %HS3 $type->jewels->abyss $tier->highmagic
 	ItemLevel >= 82
 	Rarity <= Magic
 	Class "Abyss Jewel"
@@ -159,7 +158,7 @@ Show # %HS3 $type->jewels->abyss $tier->highmagic
 	SetBorderColor 240 100 0 255
 	SetBackgroundColor 0 20 40 255
 
-Show # %HS3 $type->jewels->abyss $tier->anyrare
+Hide # %HS3 $type->jewels->abyss $tier->anyrare
 	Rarity Rare
 	Class "Abyss Jewel"
 	SetFontSize 45
@@ -179,7 +178,7 @@ Hide # %HS2 $type->jewels->abyss $tier->anymagic
 #   [0804] Generic Jewels
 #------------------------------------
 
-Show # %HS3 $type->jewels->generic $tier->anyrare
+Hide # %HS3 $type->jewels->generic $tier->anyrare
     Rarity Rare
     Class "Jewel"
     BaseType "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel"

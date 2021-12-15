@@ -5,7 +5,7 @@
 
 Show # $type->fragments->scarabs $tier->t1
     Class "Map Fragments"
-    BaseType "Winged Ambush Scarab" "Winged Harbinger Scarab" "Winged Legion Scarab" "Xoph's Flawless Breachstone" "Tul's Flawless Breachstone" "Esh's Flawless Breachstone" "Uul-Netol's Flawless Breachstone" "Chayula's Flawless Breachstone" "Unrelenting Timeless Karui Emblem" "Unrelenting Timeless Maraketh Emblem" "Unrelenting Timeless Eternal Emblem" "Unrelenting Timeless Templar Emblem" "Unrelenting Timeless Vaal Emblem" "Rusted Expedition Scarab" "Polished Expedition Scarab" "Gilded Expedition Scarab" "Winged Expedition Scarab" 
+    BaseType "Winged Ambush Scarab" "Winged Harbinger Scarab" "Winged Legion Scarab" "Xoph's Flawless Breachstone" "Tul's Flawless Breachstone" "Esh's Flawless Breachstone" "Uul-Netol's Flawless Breachstone" "Chayula's Flawless Breachstone" "Unrelenting Timeless Karui Emblem" "Unrelenting Timeless Maraketh Emblem" "Unrelenting Timeless Eternal Emblem" "Unrelenting Timeless Templar Emblem" "Unrelenting Timeless Vaal Emblem" "Polished Expedition Scarab" "Gilded Expedition Scarab" "Winged Expedition Scarab" 
     SetFontSize 45
     SetTextColor 225 111 255 255
     SetBorderColor 225 111 255 255
@@ -16,7 +16,7 @@ Show # $type->fragments->scarabs $tier->t1
 
 Show # $type->fragments->scarabs $tier->t2
     Class "Map Fragments"
-    BaseType "Craicic Lure" "Farric Lure" "Fenumal Lure" "Gilded Abyss Scarab" "Gilded Ambush Scarab" "Gilded Bestiary Scarab" "Gilded Blight Scarab" "Gilded Breach Scarab" "Gilded Harbinger Scarab" "Gilded Legion Scarab" "Polished Ambush Scarab" "Polished Legion Scarab" "Saqawine Lure" "Winged Abyss Scarab" "Winged Bestiary Scarab" "Winged Blight Scarab" "Winged Breach Scarab" "Winged Cartography Scarab" "Winged Divination Scarab" "Winged Elder Scarab" "Winged Metamorph Scarab" "Winged Perandus Scarab" "Winged Reliquary Scarab" "Winged Shaper Scarab" "Winged Sulphite Scarab" "Winged Torment Scarab"
+    BaseType "Craicic Lure" "Farric Lure" "Fenumal Lure" "Gilded Abyss Scarab" "Gilded Ambush Scarab" "Gilded Bestiary Scarab" "Gilded Blight Scarab" "Gilded Breach Scarab" "Gilded Harbinger Scarab" "Gilded Legion Scarab" "Polished Ambush Scarab" "Polished Legion Scarab" "Saqawine Lure" "Winged Abyss Scarab" "Winged Bestiary Scarab" "Winged Blight Scarab" "Winged Breach Scarab" "Winged Cartography Scarab" "Winged Divination Scarab" "Winged Elder Scarab" "Winged Metamorph Scarab" "Winged Reliquary Scarab" "Winged Shaper Scarab" "Winged Sulphite Scarab" "Winged Torment Scarab"
     SetFontSize 45
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
@@ -27,7 +27,7 @@ Show # $type->fragments->scarabs $tier->t2
 
 Show # $type->fragments->scarabs $tier->t3
     Class "Map Fragments"
-    BaseType "Gilded Cartography Scarab" "Gilded Divination Scarab" "Gilded Elder Scarab" "Gilded Metamorph Scarab" "Gilded Perandus Scarab" "Gilded Reliquary Scarab" "Gilded Shaper Scarab" "Gilded Sulphite Scarab" "Gilded Torment Scarab" "Polished Bestiary Scarab" "Polished Blight Scarab" "Polished Breach Scarab" "Polished Cartography Scarab" "Polished Divination Scarab" "Polished Elder Scarab" "Polished Harbinger Scarab" "Polished Metamorph Scarab" "Polished Sulphite Scarab" "Rusted Bestiary Scarab" "Rusted Blight Scarab" "Rusted Cartography Scarab" "Rusted Elder Scarab" "Rusted Harbinger Scarab" "Rusted Legion Scarab" "Rusted Metamorph Scarab"
+    BaseType "Gilded Cartography Scarab" "Gilded Divination Scarab" "Gilded Elder Scarab" "Gilded Metamorph Scarab" "Gilded Reliquary Scarab" "Gilded Shaper Scarab" "Gilded Sulphite Scarab" "Gilded Torment Scarab" "Polished Bestiary Scarab" "Polished Blight Scarab" "Polished Breach Scarab" "Polished Cartography Scarab" "Polished Divination Scarab" "Polished Elder Scarab" "Polished Harbinger Scarab" "Polished Metamorph Scarab" "Polished Sulphite Scarab" "Rusted Bestiary Scarab" "Rusted Blight Scarab" "Rusted Cartography Scarab" "Rusted Elder Scarab" "Rusted Harbinger Scarab" "Rusted Legion Scarab" "Rusted Metamorph Scarab" "Rusted Expedition Scarab" 
     SetFontSize 45
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
@@ -38,7 +38,7 @@ Show # $type->fragments->scarabs $tier->t3
 
 Show # %H4 $type->fragments->scarabs $tier->t4
     Class "Map Fragments"
-    BaseType "Polished Abyss Scarab" "Polished Perandus Scarab" "Polished Reliquary Scarab" "Polished Shaper Scarab" "Polished Torment Scarab" "Rusted Abyss Scarab" "Rusted Ambush Scarab" "Rusted Breach Scarab" "Rusted Divination Scarab" "Rusted Perandus Scarab" "Rusted Reliquary Scarab" "Rusted Shaper Scarab" "Rusted Sulphite Scarab" "Rusted Torment Scarab"
+    BaseType "Polished Abyss Scarab" "Polished Reliquary Scarab" "Polished Shaper Scarab" "Polished Torment Scarab" "Rusted Abyss Scarab" "Rusted Ambush Scarab" "Rusted Breach Scarab" "Rusted Divination Scarab" "Rusted Reliquary Scarab" "Rusted Shaper Scarab" "Rusted Sulphite Scarab" "Rusted Torment Scarab"
     SetFontSize 45
     SetTextColor 225 111 255 255
     SetBorderColor 225 111 255 255
