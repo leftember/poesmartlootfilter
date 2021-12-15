@@ -1,0 +1,30 @@
+#------------------------------------
+#   [4205] Multi-Unique bases.
+#------------------------------------
+# These bases have multiple uniques. One of the uniques, is a high value one
+# While others are cheap. We give them a high quality display, while making a normal unique
+# Sound to prevent false excitement.
+
+Show # $type->uniques $tier->multispecial
+    Rarity Unique
+    BaseType == {{wild}}
+    SetFontSize 45
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 175 96 37 255
+    PlayAlertSound 2 300
+    PlayEffect Blue
+    MinimapIcon 1 Blue Star
+
+Show # %D4 $type->uniques $tier->highvinktar
+    ItemLevel >= 81
+    Rarity Unique
+    BaseType == "Imperial Staff"
+    SetFontSize 45
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 175 96 37 255
+    PlayAlertSound 2 300
+    PlayEffect Yellow
+    MinimapIcon 1 Brown Star
+

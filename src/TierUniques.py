@@ -45,6 +45,12 @@ def loadData(f):
             else:
                 multi[b].append((k,v))
 
+def generateFrag(templateFile, fragFile, token, values):
+    with open(templateFile) as tempFP:
+        template = tempFP.read()
+        template = template.replace(token, "\"" + "\" \"".join(values) + "\"")
+        with open(fragFile, mode='w') as fragFP:
+            fragFP.write(template)
 
 curDir = os.path.dirname(__file__)
 loadData(f'{curDir}/../target/UniqueArmour.json')
@@ -59,30 +65,49 @@ print(len(T3))
 print(len(T4))
 print(len(multi))
 
+wild = []
+
 for b in multi:
+    maxValue = min([int(v) for k,v in multi[b]])
     minValue = min([int(v) for k,v in multi[b]])
     if minValue > 100:
         T1.append(b)
     elif minValue > 10:
         T2.append(b)
-    elif minValue > 2:
+    elif minValue > 5:
         T3.append(b)
-    else:
+    elif maxValue < 2:    # exclude <2 trashes even multi bases
         T4.append(b)
+    else:
+        wild.append(b)
 
 print(T1)
 print(len(T2))
 print(len(T3))
 print(len(T4))
-print(len(multi))
+print(len(wild))
 
+generateFrag(f'{curDir}/../filter/root/4200Uniques/4202Tier1Uniques.template',
+             f'{curDir}/../filter/root/4200Uniques/4202Tier1Uniques.frag',
+             "{{T1Uniques}}",
+             T1)
 
+generateFrag(f'{curDir}/../filter/root/4200Uniques/4203Tier2Uniques.template',
+             f'{curDir}/../filter/root/4200Uniques/4203Tier2Uniques.frag',
+             "{{T2Uniques}}",
+             T2)
 
-"""
-with open(f'{curDir}/../filter/root/3900DivCards/3901DivCards.template') as tempFP:
-    template = tempFP.read()
-    template = template.replace("{{T1DivNames}}", "\"" + "\" \"".join(high) + "\"")
-    template = template.replace("{{T2DivNames}}", "\"" + "\" \"".join(mid) + "\"")
-    template = template.replace("{{T3DivNames}}", "\"" + "\" \"".join(low) + "\"")
-    #with open(f'{curDir}/../filter/root/3900DivCards/3901DivCards.frag', mode='w') as fragFP:
-    #  fragFP.write(template) """
+generateFrag(f'{curDir}/../filter/root/4200Uniques/4204MultiBaseUniques.template',
+             f'{curDir}/../filter/root/4200Uniques/4204MultiBaseUniques.frag',
+             "{{wild}}",
+             wild)
+
+generateFrag(f'{curDir}/../filter/root/4200Uniques/4205Tier3Uniques.template',
+             f'{curDir}/../filter/root/4200Uniques/4205Tier3Uniques.frag',
+             "{{T3Uniques}}",
+             T3)
+
+generateFrag(f'{curDir}/../filter/root/4200Uniques/4206Tier4Uniques.template',
+             f'{curDir}/../filter/root/4200Uniques/4206Tier4Uniques.frag',
+             "{{T4Uniques}}",
+             T4)

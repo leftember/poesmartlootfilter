@@ -7,7 +7,7 @@
 
 Show # $type->uniques $tier->multispecial
     Rarity Unique
-    BaseType == "Amber Amulet" "Archon Kite Shield" "Ebony Tower Shield" "Eternal Sword" "Fiend Dagger" "Gavel" "Jade Amulet" "Leather Belt" "Long Staff" "Medium Cluster Jewel" "Onyx Amulet" "Paua Amulet" "Prophet Crown" "Sadist Garb" "Saint's Hauberk" "Small Cluster Jewel" "Stealth Boots" "Stibnite Flask" "Studded Belt" "Topaz Ring" "Turquoise Amulet" "Two-Stone Ring" "Unset Ring"
+    BaseType == "Magistrate Crown" "Saint's Hauberk" "Sacrificial Garb" "Sadist Garb" "Varnished Coat" "Lacquered Garb" "Astral Plate" "Full Dragonscale" "Full Wyrmscale" "Glorious Plate" "Vaal Gauntlets" "Reinforced Greaves" "Archon Kite Shield" "Mirrored Spiked Shield" "Penetrating Arrow Quiver" "Crusader Gloves" "Hydrascale Gauntlets" "Coronal Leather" "Pinnacle Tower Shield" "Lacquered Buckler" "Arcanist Slippers" "Zealot Gloves" "Sinner Tricorne" "Hubris Circlet" "Harlequin Mask" "Carnal Boots" "Legion Gloves" "Goliath Greaves" "Festival Mask" "Soldier Gloves" "Archon Kite Shield Piece" "Vaal Mask" "Callous Mask Piece" "Granite Flask" "Judgement Staff" "Spine Bow" "Assassin Bow" "Short Bow" "Lathi" "Imperial Staff" "Coiled Staff" "Lion Sword" "Gemstone Sword" "Abyssal Axe" "Labrys" "Cutlass" "Bone Bow" "Imperial Claw" "Vaal Blade" "Engraved Wand" "Vaal Sceptre" "Legion Sword Piece" "Imperial Staff Piece" "Opal Ring" "Cloth Belt Piece" "Small Cluster Jewel"
     SetFontSize 45
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
@@ -27,16 +27,4 @@ Show # %D4 $type->uniques $tier->highvinktar
     PlayAlertSound 2 300
     PlayEffect Yellow
     MinimapIcon 1 Brown Star
-
-Show # $type->uniques $tier->exjewels
-    Rarity Unique
-    Class "Jewel"
-    BaseType == "Cobalt Jewel" "Crimson Jewel" "Ghastly Eye Jewel" "Hypnotic Eye Jewel" "Murderous Eye Jewel" "Searching Eye Jewel" "Viridian Jewel"
-    SetFontSize 45
-    SetTextColor 175 96 37 255
-    SetBorderColor 0 240 190 255
-    SetBackgroundColor 53 13 13 255
-    PlayAlertSound 2 300
-    PlayEffect Blue
-    MinimapIcon 2 Blue Star
 
