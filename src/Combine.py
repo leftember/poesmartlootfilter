@@ -21,7 +21,7 @@ def Combine():
 
     with open(f'{curDir}/../target/final.filter', encoding='utf-8', mode='w') as fp:
         for f in files:
-            if f[0][:4].isdigit():
+            if f[0][:4].isdigit() and f[0].endswith('.frag'):
                print(f'reading {f[1]}...')
                with open(f[1]) as src:
                     fp.write(src.read())

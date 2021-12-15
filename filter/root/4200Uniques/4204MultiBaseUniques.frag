@@ -17,7 +17,7 @@ Show # $type->uniques $tier->multispecial
     MinimapIcon 1 Blue Star
 
 Show # %D4 $type->uniques $tier->highvinktar
-    ItemLevel >= 82
+    ItemLevel >= 81
     Rarity Unique
     BaseType == "Imperial Staff"
     SetFontSize 45

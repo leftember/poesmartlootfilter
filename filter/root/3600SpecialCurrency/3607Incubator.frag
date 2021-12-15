@@ -28,7 +28,7 @@ Show # $type->currency->incubators $tier->t2
 
 Show # %H5 $type->currency->incubators $tier->t3
     Class "Incubator"
-    BaseType == "Abyssal Incubator" "Blighted Incubator" "Cartographer's Incubator" "Diviner's Incubator" "Enchanted Incubator" "Foreboding Incubator" "Fossilised Incubator" "Gemcutter's Incubator" "Infused Incubator" "Maddening Incubator" "Morphing Incubator" "Obscured Incubator" "Ornate Incubator" "Otherworldly Incubator" "Singular Incubator" "Skittering Incubator" "Thaumaturge's Incubator"
+    BaseType == "Blighted Incubator" "Cartographer's Incubator" "Diviner's Incubator"  "Foreboding Incubator" "Fossilised Incubator" "Gemcutter's Incubator" "Infused Incubator" "Maddening Incubator" "Morphing Incubator" "Obscured Incubator" "Ornate Incubator" "Otherworldly Incubator" "Singular Incubator" "Skittering Incubator" "Thaumaturge's Incubator" "Fine Incubator" "Fragmented Incubator"
     SetFontSize 45
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
@@ -37,9 +37,9 @@ Show # %H5 $type->currency->incubators $tier->t3
     PlayEffect White
     MinimapIcon 2 White Circle
 
-Show # %H4 $type->currency->incubators $tier->t4
+Hide # %H4 $type->currency->incubators $tier->t4
     Class "Incubator"
-    BaseType == "Celestial Armoursmith's Incubator" "Celestial Blacksmith's Incubator" "Celestial Jeweller's Incubator" "Decadent Incubator" "Fine Incubator" "Fragmented Incubator" "Mysterious Incubator" "Primal Incubator" "Whispering Incubator"
+    BaseType == "Celestial Armoursmith's Incubator" "Celestial Blacksmith's Incubator" "Celestial Jeweller's Incubator"  "Mysterious Incubator" "Primal Incubator" "Whispering Incubator" "Abyssal Incubator" "Enchanted Incubator"
     SetFontSize 45
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
