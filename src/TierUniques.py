@@ -19,8 +19,6 @@ def loadData(f):
 
     items = []
     for d in lines:
-        if d['baseType'] == 'Amethyst Flask':
-            print(d)
         items.append((d['name'], d['baseType'], d['chaosValue']))
 
     base = set()
@@ -67,7 +65,7 @@ print(T1)
 print(len(T2))
 print(len(T3))
 print(len(T4))
-print('Amythyst' in T3)
+print(len(multi))
 
 wild = []
 
@@ -90,6 +88,7 @@ print(len(T2))
 print(len(T3))
 print(len(T4))
 print(len(wild))
+
 generateFrag(f'{curDir}/../filter/root/4200Uniques/4202Tier1Uniques.template',
              f'{curDir}/../filter/root/4200Uniques/4202Tier1Uniques.frag',
              "{{T1Uniques}}",
