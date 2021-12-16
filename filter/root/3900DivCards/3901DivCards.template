@@ -4,7 +4,7 @@
 
 Show # $type->divination $tier->t1
     Class "Divination"
-    BaseType == {{T1DivNames}} 
+    BaseType == {{T1DivNames}}
     SetFontSize 45
     SetTextColor 104 220 127 255
     SetBorderColor 104 220 127 255
