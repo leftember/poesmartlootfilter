@@ -9,6 +9,7 @@ itemTypes = conf['item']
 
 def GetData(category:str, type:str) -> None:
     url = f'https://poe.ninja/api/data/{category}Overview?league={league}&type={type}&language=en'
+    print(f'getting data from {url}')
     response = requests.get(url)
     path = os.path.dirname(__file__)
     cacheFile = f'{path}/../target/{type}.json'

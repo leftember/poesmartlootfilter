@@ -19,6 +19,8 @@ def loadData(f):
 
     items = []
     for d in lines:
+        if d['baseType'] == 'Amethyst Flask':
+            print(d)
         items.append((d['name'], d['baseType'], d['chaosValue']))
 
     base = set()
@@ -30,6 +32,8 @@ def loadData(f):
             multiBase.add(b)
 
     for k,b,v in items:
+        if b == 'Amethyst Flask':
+            print((k,b,v))
         if b not in multiBase:
             if v > 100:
                 T1.append(b)
@@ -63,7 +67,7 @@ print(T1)
 print(len(T2))
 print(len(T3))
 print(len(T4))
-print(len(multi))
+print('Amythyst' in T3)
 
 wild = []
 
