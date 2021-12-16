@@ -30,8 +30,6 @@ def loadData(f):
             multiBase.add(b)
 
     for k,b,v in items:
-        if b == 'Amethyst Flask':
-            print((k,b,v))
         if b not in multiBase:
             if v > 100:
                 T1.append(b)
