@@ -68,7 +68,7 @@ print(len(multi))
 wild = []
 
 for b in multi:
-    maxValue = min([int(v) for k,v in multi[b]])
+    maxValue = max([int(v) for k,v in multi[b]])
     minValue = min([int(v) for k,v in multi[b]])
     if minValue > 100:
         T1.append(b)

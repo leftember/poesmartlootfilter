@@ -5,7 +5,7 @@
 
 Show # $type->uniques $tier->t1
     Rarity Unique
-    BaseType == "Fluted Bascinet" "Silk Gloves" "Crusader Boots" "Charan's Sword" "Ornate Quiver" "Wyrmscale Doublet"
+    BaseType == "Golden Mantle" "Golden Flame" "Runic Sollerets" "Fluted Bascinet" "Silk Gloves" "Crusader Boots" "Long Staff" "Charan's Sword" "Golden Hoop" "Unset Amulet" "Ghastly Eye Jewel"
     SetFontSize 45
     SetTextColor 175 96 37 255
     SetBorderColor 175 96 37 255
