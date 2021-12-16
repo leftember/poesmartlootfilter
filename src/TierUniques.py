@@ -68,7 +68,7 @@ print(len(multi))
 wild = []
 
 for b in multi:
-    maxValue = min([int(v) for k,v in multi[b]])
+    maxValue = max([int(v) for k,v in multi[b]])
     minValue = min([int(v) for k,v in multi[b]])
     if minValue > 100:
         T1.append(b)
@@ -86,7 +86,6 @@ print(len(T2))
 print(len(T3))
 print(len(T4))
 print(len(wild))
-
 generateFrag(f'{curDir}/../filter/root/4200Uniques/4202Tier1Uniques.template',
              f'{curDir}/../filter/root/4200Uniques/4202Tier1Uniques.frag',
              "{{T1Uniques}}",
