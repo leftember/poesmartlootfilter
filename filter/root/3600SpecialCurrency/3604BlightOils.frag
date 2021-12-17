@@ -38,6 +38,7 @@ Show # %H5 $type->currency->oil $tier->t3
 
 Hide # %H3 $type->currency->oil $tier->t4
 	Class "Currency"
+    AreaLevel >= 80
 	BaseType == "Amber Oil" "Clear Oil" "Sepia Oil"
 	SetFontSize 45
 	SetTextColor 0 0 0 255

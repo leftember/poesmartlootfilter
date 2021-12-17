@@ -39,24 +39,8 @@ Show # %H5 $type->currency->essence $tier->t3
 
 Hide # %H3 $type->currency->essence $tier->t4
 	Class "Currency"
-	BaseType "Wailing Essence of"
+	BaseType "Wailing Essence of" "Weeping Essence of" "Muttering Essence of" "Whispering Essence of"
 	SetFontSize 45
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 61 156 136 255
-
-Hide # %H2 $type->currency->essence $tier->t5
-	Class "Currency"
-	BaseType "Weeping Essence of"
-	SetFontSize 45
-	SetTextColor 190 178 135 255
-	SetBorderColor 190 178 135 255
-	SetBackgroundColor 0 0 0 255
-
-Hide # %H1 $type->currency->essence $tier->t6
-	Class "Currency"
-	BaseType "Muttering Essence of" "Whispering Essence of"
-	SetFontSize 45
-	SetTextColor 190 178 135 255
-	SetBorderColor 190 178 135 255
-	SetBackgroundColor 0 0 0 255

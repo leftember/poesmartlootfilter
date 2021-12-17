@@ -66,7 +66,7 @@ Show # $type->currency->stacked $tier->orbs_alchemy
 Show # %H5 $type->currency->stacked $tier->orbs_alt
     StackSize >= 3
     Class "Currency"
-    BaseType "Blessed Orb" "Chromatic Orb" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Augmentation" "Orb of Chance" "Silver Coin" "Simple Sextant"
+    BaseType "Blessed Orb" "Chromatic Orb" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Chance" "Silver Coin" "Simple Sextant"
     SetFontSize 45
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
@@ -75,29 +75,6 @@ Show # %H5 $type->currency->stacked $tier->orbs_alt
     PlayEffect White
     MinimapIcon 2 White Circle
 
-Show # %H5 $type->currency->stacked $tier->orbs_transmute
-    StackSize >= 3
-    Class "Currency"
-    BaseType "Blacksmith's Whetstone" "Orb of Transmutation"
-    SetFontSize 45
-    SetTextColor 0 0 0 255
-    SetBorderColor 0 0 0 255
-    SetBackgroundColor 130 214 255 255
-    PlayAlertSound 2 300
-    PlayEffect White
-    MinimapIcon 2 White Circle
-
-Show # $type->currency->stacked $tier->orbs_wisdom
-    StackSize >= 4
-    Class "Currency"
-    BaseType "Armourer's Scrap" "Portal Scroll" "Scroll of Wisdom"
-    SetFontSize 45
-    SetTextColor 0 0 0 255
-    SetBorderColor 0 0 0 255
-    SetBackgroundColor 130 214 255 255
-    PlayAlertSound 2 300
-    PlayEffect White
-    MinimapIcon 2 White Circle
 #------------------------------------
 #   [3302] Heist Coins
 #------------------------------------
