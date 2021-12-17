@@ -77,19 +77,10 @@ Show # %H4 $type->currency $tier->t7chance
     SetBorderColor 0 0 0 255
     SetBackgroundColor 61 156 136 255
 
-Show # %H3 $type->currency $tier->t8trans
-	Class "Currency"
-	BaseType == "Blacksmith's Whetstone" "Engineer's Orb" "Orb of Augmentation" "Orb of Transmutation" "Armourer's Scrap" 
-	SetFontSize 45
-	SetTextColor 190 178 135 255
-	SetBorderColor 190 178 135 255
-	SetBackgroundColor 0 0 0 255
-
 Hide # %H2 $type->currency $tier->t9 shards
 	Class "Currency"
-	BaseType == "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Binding Shard" "Engineer's Shard" "Regal Shard"  
+	BaseType == "Alteration Shard" "Transmutation Shard" "Alchemy Shard" "Binding Shard" "Engineer's Shard" "Regal Shard" "Engineer's Orb" 
 	SetFontSize 40
 	SetTextColor 170 158 130 255
 	SetBorderColor 170 158 130 255
 	SetBackgroundColor 0 0 0 255
-
