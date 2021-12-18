@@ -37,3 +37,6 @@ with open(f'{curDir}/../filter/root/3900DivCards/3901DivCards.template') as temp
     template = template.replace("{{T3DivNames}}", "\"" + "\" \"".join(low) + "\"")
     with open(f'{curDir}/../filter/root/3900DivCards/3901DivCards.frag', mode='w') as fragFP:
         fragFP.write(template)
+
+
+print("div cards are tiered")

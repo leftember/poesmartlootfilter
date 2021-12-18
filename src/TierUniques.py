@@ -59,12 +59,6 @@ loadData(f'{curDir}/../target/UniqueWeapon.json')
 loadData(f'{curDir}/../target/UniqueAccessory.json')
 loadData(f'{curDir}/../target/UniqueJewel.json')
 
-print(T1)
-print(len(T2))
-print(len(T3))
-print(len(T4))
-print(len(multi))
-
 wild = []
 
 for b in multi:
@@ -80,12 +74,6 @@ for b in multi:
         T4.append(b)
     else:
         wild.append(b)
-
-print(T1)
-print(len(T2))
-print(len(T3))
-print(len(T4))
-print(len(wild))
 
 generateFrag(f'{curDir}/../filter/root/4200Uniques/4202Tier1Uniques.template',
              f'{curDir}/../filter/root/4200Uniques/4202Tier1Uniques.frag',
@@ -111,3 +99,5 @@ generateFrag(f'{curDir}/../filter/root/4200Uniques/4206Tier4Uniques.template',
              f'{curDir}/../filter/root/4200Uniques/4206Tier4Uniques.frag',
              "{{T4Uniques}}",
              T4)
+
+print("uniques are tiered")

@@ -1,10 +1,13 @@
-all: divCard uniques combine
+all: divCard uniques influence combine
 
 poeninja:
 	python ./src/GetPoeNinjaData.py
 	
 divCard:
 	python ./src/TierDivCard.py
+	
+influence:
+	python ./src/TierInfluence.py
 
 uniques:
 	python ./src/TierUniques.py
