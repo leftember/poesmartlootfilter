@@ -42,7 +42,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
-------------------------------------
+#------------------------------------
 #   [1001] ILVL 84 Atlas bases and speicial bases
 #------------------------------------
 

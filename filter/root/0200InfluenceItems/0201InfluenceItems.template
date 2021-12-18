@@ -16,7 +16,7 @@ Show # $type->rare->t1 any influenced atlas bases
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 #------------------------------------
 #   [0202] Crusader
@@ -33,7 +33,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 Show # $type->rare->crusader $tier->t11
     HasInfluence Crusader
@@ -46,7 +46,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 Show # $type->rare->crusader $tier->t11
@@ -60,7 +60,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 Show # $type->rare->crusader $tier->t11
@@ -74,7 +74,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 Show # $type->rare->crusader $tier->t11
@@ -88,7 +88,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 #------------------------------------
 #   [0203] Warlord
@@ -105,7 +105,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 Show # $type->rare->crusader $tier->t11
     HasInfluence Warlord
@@ -118,7 +118,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 Show # $type->rare->crusader $tier->t11
@@ -132,7 +132,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 Show # $type->rare->crusader $tier->t11
@@ -146,7 +146,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 Show # $type->rare->crusader $tier->t11
@@ -160,7 +160,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 #------------------------------------
 #   [0204] Redeemer
@@ -176,7 +176,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 Show # $type->rare->crusader $tier->t11
     HasInfluence Redeemer
@@ -189,7 +189,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 Show # $type->rare->crusader $tier->t11
@@ -203,7 +203,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 Show # $type->rare->crusader $tier->t11
@@ -217,7 +217,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 Show # $type->rare->crusader $tier->t11
@@ -231,7 +231,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 #------------------------------------
@@ -248,7 +248,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 Show # $type->rare->crusader $tier->t11
     HasInfluence Hunter
@@ -261,7 +261,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 Show # $type->rare->crusader $tier->t11
@@ -275,7 +275,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 Show # $type->rare->crusader $tier->t11
@@ -289,7 +289,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 Show # $type->rare->crusader $tier->t11
@@ -303,7 +303,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 #------------------------------------
@@ -320,7 +320,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 Show # $type->rare->crusader $tier->t11
     HasInfluence Shaper
@@ -333,7 +333,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 Show # $type->rare->crusader $tier->t11
@@ -347,7 +347,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 Show # $type->rare->crusader $tier->t11
@@ -361,7 +361,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 Show # $type->rare->crusader $tier->t11
@@ -375,7 +375,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 #------------------------------------
@@ -392,7 +392,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 Show # $type->rare->crusader $tier->t11
     HasInfluence Elder
@@ -405,7 +405,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 Show # $type->rare->crusader $tier->t11
@@ -419,7 +419,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 Show # $type->rare->crusader $tier->t11
@@ -433,7 +433,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 Show # $type->rare->crusader $tier->t11
@@ -447,7 +447,7 @@ Show # $type->rare->crusader $tier->t11
     SetBackgroundColor 255 255 255 255
     PlayAlertSound 1 300
     PlayEffect Red
-    MinimmapIcon 0 Red Cross
+    MinimapIcon 0 Red Cross
 
 
 #------------------------------------
