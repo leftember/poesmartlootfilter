@@ -13,7 +13,7 @@ Show # %H5 $type->currency->splinter $tier->t1
     PlayEffect Purple Temp
     MinimapIcon 1 Grey Kite
 
-Hide # %HS4 $type->currency->splinter $tier->t2
+Show # %HS4 $type->currency->splinter $tier->t2
     Class "Currency"
     BaseType == "Timeless Eternal Empire Splinter" "Timeless Karui Splinter" "Timeless Vaal Splinter"
     SetFontSize 45
@@ -24,7 +24,7 @@ Hide # %HS4 $type->currency->splinter $tier->t2
     PlayEffect Purple Temp
     MinimapIcon 2 Grey Kite
 
-Hide # %HS3 $type->currency->splinter $tier->t3
+Show # %HS3 $type->currency->splinter $tier->t3
     Class "Currency"
     BaseType == "Splinter of Esh" "Splinter of Tul" "Splinter of Xoph"
     SetFontSize 40

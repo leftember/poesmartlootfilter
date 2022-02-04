@@ -38,7 +38,7 @@ Show # %D4 $type->socketslinks $tier->5linksleveling
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Diamond
 
-Hide # %D4 $type->socketslinks $tier->5link6sockets
+Show # %D4 $type->socketslinks $tier->5link6sockets
 	LinkedSockets >= 5
 	Sockets >= 6
 	Rarity <= Rare
@@ -50,7 +50,7 @@ Hide # %D4 $type->socketslinks $tier->5link6sockets
 #	PlayEffect Blue
 #	MinimapIcon 2 Blue Hexagon
 #
-Hide # %D4 $type->socketslinks $tier->6sockets
+Show # %D4 $type->socketslinks $tier->6sockets
 	Sockets >= 6
 	# Rarity <= Rare # show uniques as well, as it is not defined in unique lists. Will hide trash uniques if not 6s.
 	SetFontSize 45

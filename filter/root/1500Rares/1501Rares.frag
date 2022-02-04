@@ -17,7 +17,7 @@ Hide # %H3 $type->rare->exotic->breachrings $tier->any
 	SetBorderColor 0 240 190 255
 	SetBackgroundColor 103 34 163 255
 
-Hide # %H2 $type->rare->exotic->talisman $tier->any. Sorry, Chris, but Talisman is pure shit.
+Show # %H2 $type->rare->exotic->talisman $tier->any. Sorry, Chris, but Talisman is pure shit. turning back on for oils.
 	AnyEnchantment True
 	ItemLevel >= 68
 	Rarity Rare
