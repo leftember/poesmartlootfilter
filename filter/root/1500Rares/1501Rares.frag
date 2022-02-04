@@ -29,3 +29,25 @@ Hide # %H2 $type->rare->exotic->talisman $tier->any. Sorry, Chris, but Talisman 
 	SetBackgroundColor 103 34 163 255
 
 #   don't show any normal rare. Only show special base is in 0301Heist^RitualBase.frag
+#   Siege of the atlas items.
+Show
+    HasEaterOfWorldsImplicit [1-6]
+    SetFontSize 45
+    SetTextColor 50 130 165 255
+    SetBorderColor 50 130 165 255
+    SetBackgroundColor 255 255 255 255
+    PlayAlertSound 1 300
+    PlayEffect Red
+    MinimapIcon 0 Red Cross
+
+Show
+    HasSearingExarchImplicit [1-6]
+    SetFontSize 45
+    SetTextColor 50 130 165 255
+    SetBorderColor 50 130 165 255
+    SetBackgroundColor 255 255 255 255
+    PlayAlertSound 1 300
+    PlayEffect Red
+    MinimapIcon 0 Red Cross
+
+

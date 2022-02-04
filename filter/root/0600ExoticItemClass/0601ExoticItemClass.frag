@@ -21,7 +21,7 @@ Show # $type->artefact->trinkets $tier->anytrinket
 
 Show # $type->artefact->watchstones $tier->craftablewatchstone
     Rarity <= Unique
-    BaseType "Glennach Cairns Watchstone" "Haewark Hamlet Watchstone" "Lex Ejoris Watchstone" "Lex Proxima Watchstone" "Lira Arthain Watchstone" "New Vastir Watchstone" "Tirn's End Watchstone" "Valdo's Rest Watchstone"
+    BaseType "Voidstone"
     SetFontSize 45
     SetTextColor 240 0 0 255
     SetBorderColor 240 0 0 255
@@ -82,7 +82,7 @@ Show # $type->exotic->invitation $tier->t2
 
 Show # $type->exotic->invitation $tier->t3
     Rarity <= Rare
-    BaseType == "Maven's Invitation: Glennach Cairns" "Maven's Invitation: Haewark Hamlet" "Maven's Invitation: Lex Ejoris" "Maven's Invitation: Lex Proxima" "Maven's Invitation: Lira Arthain" "Maven's Invitation: New Vastir" "Maven's Invitation: The Feared" "Maven's Invitation: The Hidden" "Maven's Invitation: Tirn's End" "Maven's Invitation: Valdo's Rest"
+    BaseType == "Maven's Invitation: The Atlas" "Maven's Invitation: The Elderslayers" 
     SetFontSize 45
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255

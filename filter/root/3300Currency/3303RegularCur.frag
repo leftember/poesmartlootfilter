@@ -71,7 +71,7 @@ Show # %H4 $type->currency $tier->t6chrom
 
 Show # %H4 $type->currency $tier->t7chance
     Class "Currency"
-    BaseType == "Chaos Shard" "Horizon Shard" "Jeweller's Orb" "Orb of Binding" "Orb of Chance" "Silver Coin"
+    BaseType == "Chaos Shard" "Horizon Shard" "Jeweller's Orb" "Orb of Binding" "Orb of Chance" 
     SetFontSize 45
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255

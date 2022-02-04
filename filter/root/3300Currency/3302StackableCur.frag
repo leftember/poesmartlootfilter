@@ -66,7 +66,7 @@ Show # $type->currency->stacked $tier->orbs_alchemy
 Show # %H5 $type->currency->stacked $tier->orbs_alt
     StackSize >= 3
     Class "Currency"
-    BaseType "Blessed Orb" "Chromatic Orb" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Chance" "Silver Coin" "Simple Sextant"
+    BaseType "Blessed Orb" "Chromatic Orb" "Glassblower's Bauble" "Jeweller's Orb" "Orb of Chance" "Simple Sextant"
     SetFontSize 45
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
