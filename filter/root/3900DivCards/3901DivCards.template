@@ -27,13 +27,10 @@ Show # $type->divination $tier->t2
 Hide # $type->divination $tier->t3
     Class "Divination"
     BaseType == {{T3DivNames}}
-    SetFontSize 45
+    SetFontSize 40
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
     SetBackgroundColor 100 250 155 245
-    PlayAlertSound 2 300
-    PlayEffect Yellow
-    MinimapIcon 1 Yellow Triangle
 
 Show # $type->divination $tier->restex
 	Class "Divination"

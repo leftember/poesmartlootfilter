@@ -40,7 +40,7 @@ with open(f'{curDir}/../target/influence.csv', mode='w') as csv:
         if "/" not in b[4]:
             csv.write(f'{b[0]},{b[1]},{b[2]},{b[3]},{b[4]},{b[6]}\n')
 
-nonInf = [b for b in bases if b[4] == 'None' and b[1] >= 10]
+nonInf = [b for b in bases if b[4] == 'None' and b[1] >= 11]
 
 print(f'{len(nonInf)} normal items are parsed')
 
@@ -66,7 +66,7 @@ with open(f'{curDir}/../filter/root/1000HighLvlBases/1001HighLvlBases.template')
         fragFP.write(template)
 
 def LoadData(inf, infTemplate) -> str:
-    infBases = [b for b in bases if b[4] == inf and b[1] >= 10] # show base with at least 10c.
+    infBases = [b for b in bases if b[4] == inf and b[1] >= 11] # show base with at least 11c.
     print(f'get {len(infBases)} of {inf} items')
     infBuckets = {82:[], 83:[], 84:[], 85:[], 86:[]}
     for b in infBases:

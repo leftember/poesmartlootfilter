@@ -293,9 +293,8 @@ Hide # %H2 $type->gems-generic $tier->leveling
 	SetFontSize 40
 	SetBorderColor 0 0 0
 
-#Show # %D3 $type->gems-generic $tier->corruptedvaalany
-#	Class "Gems"
-#	BaseType "Vaal"
-#	SetFontSize 35
-#	SetBorderColor 0 0 0
-#	SetBackgroundColor 55 0 0 255
+Show  %D3 $type->gems-generic $tier->corruptedvaalany
+	Class "Gems"
+	SetFontSize 35
+	SetBorderColor 0 0 0
+	SetBackgroundColor 55 0 0 255

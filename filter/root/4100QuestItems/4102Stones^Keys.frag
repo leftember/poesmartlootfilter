@@ -75,7 +75,7 @@ Show # $type->questlike $tier->incursionconsumable
 	MinimapIcon 1 Green Pentagon
 
 Show # $type->questlike $tier->questwatchstones
-	Class "Atlas Region Upgrade Item"
+	Class "Atlas Upgrade Item"
 	SetFontSize 45
 	SetTextColor 74 230 58 255
 	SetBorderColor 74 230 58 255

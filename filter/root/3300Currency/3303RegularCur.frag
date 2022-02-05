@@ -5,7 +5,7 @@
 
 Show # $type->currency $tier->t1exalted
     Class "Currency"
-    BaseType == "Albino Rhoa Feather" "Awakener's Orb" "Crusader's Exalted Orb" "Eternal Orb" "Exalted Orb" "Hunter's Exalted Orb" "Maven's Orb" "Mirror of Kalandra" "Mirror Shard" "Prime Regrading Lens" "Redeemer's Exalted Orb" "Secondary Regrading Lens" "Tailoring Orb" "Tempering Orb" "Warlord's Exalted Orb"
+    BaseType == "Albino Rhoa Feather" "Awakener's Orb" "Crusader's Exalted Orb" "Eternal Orb" "Exalted Orb" "Hunter's Exalted Orb" "Mirror of Kalandra" "Mirror Shard" "Prime Regrading Lens" "Redeemer's Exalted Orb" "Secondary Regrading Lens" "Tailoring Orb" "Tempering Orb" "Warlord's Exalted Orb"
     SetFontSize 45
     SetTextColor 130 214 255 255
     SetBorderColor 130 214 255 255
@@ -71,7 +71,7 @@ Show # %H4 $type->currency $tier->t6chrom
 
 Show # %H4 $type->currency $tier->t7chance
     Class "Currency"
-    BaseType == "Chaos Shard" "Horizon Shard" "Jeweller's Orb" "Orb of Binding" "Orb of Chance" "Silver Coin"
+    BaseType == "Chaos Shard" "Horizon Shard" "Jeweller's Orb" "Orb of Binding" "Orb of Chance" 
     SetFontSize 45
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255

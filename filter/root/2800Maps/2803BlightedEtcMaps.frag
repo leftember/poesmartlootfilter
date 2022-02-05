@@ -27,6 +27,18 @@ Show # %H5 $type->maps->blighted $tier->any
 	PlayEffect Purple
 	MinimapIcon 1 Purple Square
 
+# Synthesised map
+#Show # $type->maps->blighted $tier->t1
+#	SynthesisedMap True
+#	Class "Maps"
+#	SetFontSize 45
+#	SetTextColor 145 30 220 255
+#	SetBorderColor 145 30 220 255
+#	SetBackgroundColor 235 220 245 255
+#	PlayAlertSound 5 300
+#	PlayEffect Purple
+#	MinimapIcon 0 Purple Square
+#
 #------------------------------------
 #   [2803] Delirium/Blight/Enchanted Maps!
 #------------------------------------

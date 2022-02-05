@@ -138,7 +138,7 @@ Show # %D4 $type->jewels->cluster $tier->small
 #   [0803] Abyss Jewels
 #------------------------------------
 
-Hide # %HS4 $type->jewels->abyss $tier->highrare
+Show # %HS4 $type->jewels->abyss $tier->highrare
 	ItemLevel >= 82
 	Rarity Rare
 	Class "Abyss Jewel"
@@ -158,7 +158,7 @@ Hide # %HS3 $type->jewels->abyss $tier->highmagic
 	SetBorderColor 240 100 0 255
 	SetBackgroundColor 0 20 40 255
 
-Hide # %HS3 $type->jewels->abyss $tier->anyrare
+Show # %HS3 $type->jewels->abyss $tier->anyrare
 	Rarity Rare
 	Class "Abyss Jewel"
 	SetFontSize 45
@@ -178,7 +178,7 @@ Hide # %HS2 $type->jewels->abyss $tier->anymagic
 #   [0804] Generic Jewels
 #------------------------------------
 
-Hide # %HS3 $type->jewels->generic $tier->anyrare
+Show # %HS3 $type->jewels->generic $tier->anyrare
     Rarity Rare
     Class "Jewel"
     BaseType "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel"
@@ -188,6 +188,16 @@ Hide # %HS3 $type->jewels->generic $tier->anyrare
     SetBackgroundColor 120 120 0 225
 
 Hide # %H3 $type->jewels->generic $tier->anymagic
+    AreaLevel > 70
+	Rarity <= Magic
+	Class "Jewel"
+	BaseType "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel"
+	SetFontSize 40
+	SetTextColor 0 75 250 255
+	SetBorderColor 0 75 250 255
+	SetBackgroundColor 0 20 40 255
+
+Show # %H3 $type->jewels->generic $tier->anymagic
 	Rarity <= Magic
 	Class "Jewel"
 	BaseType "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel"
