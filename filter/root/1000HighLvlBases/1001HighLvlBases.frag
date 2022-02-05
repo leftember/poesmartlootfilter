@@ -6,7 +6,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel >= 86
     Rarity <= Rare
-    BaseType == "Cardinal Round Shield" "Blunt Arrow Quiver" "Compound Spiked Shield" "Lacquered Buckler" "Plated Greaves" "Spine Bow" "Two-Point Arrow Quiver" "Deerskin Boots" "Imperial Claw" "Ambush Mitts" "Decimation Bow" "Nubuck Boots" "Searching Eye Jewel"
+    BaseType == "Colossal Tower Shield"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
@@ -14,7 +14,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel == 85
     Rarity <= Rare
-    BaseType == "Goathide Boots" "Painted Buckler" "Strapped Mitts" "Walnut Spirit Shield"
+    BaseType == ""
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
@@ -22,7 +22,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel == 84
     Rarity <= Rare
-    BaseType == "Thief's Garb" "Crystal Sceptre" "Thresher Claw" "Bronzescale Gauntlets"
+    BaseType == ""
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
@@ -30,7 +30,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel == 83
     Rarity <= Rare
-    BaseType == "Short Bow"
+    BaseType == ""
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
@@ -38,7 +38,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel == 82
     Rarity <= Rare
-    BaseType == "Imperial Claw" "Shadow Sceptre" "Short Bow"
+    BaseType == ""
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
