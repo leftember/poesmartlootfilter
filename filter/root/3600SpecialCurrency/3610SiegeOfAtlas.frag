@@ -8,7 +8,7 @@
 
 Show # $type->currency $tier->t1exalted
     Class "Currency"
-    BaseType == "Exceptional" "Compass" "Conflict" "Dominance" "Eldritch" "Scouting" "Oil Extractor"
+    BaseType = "Exceptional" "Compass" "Conflict" "Dominance" "Eldritch" "Scouting" "Oil Extractor"
     SetFontSize 45
     SetTextColor 130 214 255 255
     SetBorderColor 130 214 255 255
@@ -19,7 +19,7 @@ Show # $type->currency $tier->t1exalted
 
 Show # $type->currency $tier->t2divine
     Class "Currency"
-    BaseType == "Lesser" "Greater" "Grand"
+    BaseType = "Lesser" "Greater" "Grand"
     SetFontSize 45
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
