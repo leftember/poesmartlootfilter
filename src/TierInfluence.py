@@ -55,6 +55,10 @@ buckets = {82:nonInf82, 83:nonInf83, 84:nonInf84, 85:nonInf85, 86:nonInf86}
 for b in nonInf:
     buckets[b[2]].append(b[0])
 
+for bu in buckets:
+    if len(buckets[bu]) == 0:
+        buckets[bu].append('Grasping Mail') ## loot filter doens't like empty string
+
 with open(f'{curDir}/../filter/root/1000HighLvlBases/1001HighLvlBases.template') as tempFP:
     template = tempFP.read()
     template = template.replace("{{86bases}}", "\"" + "\" \"".join(nonInf86) + "\"")
@@ -71,6 +75,10 @@ def LoadData(inf, infTemplate) -> str:
     infBuckets = {82:[], 83:[], 84:[], 85:[], 86:[]}
     for b in infBases:
         infBuckets[b[2]].append(b[0])
+
+    for bu in infBuckets:
+        if len(infBuckets[bu]) == 0:
+            infBuckets[bu].append('Grasping Mail')
 
     infTemplate = infTemplate.replace("{{" + inf + "86}}", "\"" + "\" \"".join(infBuckets[86]) + "\"")
     infTemplate = infTemplate.replace("{{" + inf + "85}}", "\"" + "\" \"".join(infBuckets[85]) + "\"")

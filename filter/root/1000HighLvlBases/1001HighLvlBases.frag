@@ -6,7 +6,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel >= 86
     Rarity <= Rare
-    BaseType == "Colossal Tower Shield"
+    BaseType == "War Buckler" "Spine Bow" "Bronzescale Boots" "Vaal Buckler" "Jingling Spirit Shield" "Feathered Arrow Quiver" "Lacquered Buckler" "Deerskin Boots" "Mesh Boots" "Serrated Arrow Quiver"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
@@ -14,7 +14,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel == 85
     Rarity <= Rare
-    BaseType == ""
+    BaseType == "Tarnished Spirit Shield" "Vaal Buckler"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
@@ -22,7 +22,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel == 84
     Rarity <= Rare
-    BaseType == ""
+    BaseType == "Grasping Mail"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
@@ -30,7 +30,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel == 83
     Rarity <= Rare
-    BaseType == ""
+    BaseType == "Grasping Mail"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
@@ -38,7 +38,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel == 82
     Rarity <= Rare
-    BaseType == ""
+    BaseType == "Grasping Mail"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 

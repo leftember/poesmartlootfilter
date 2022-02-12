@@ -5,7 +5,7 @@
 
 Show # $type->uniques $tier->t1
     Rarity Unique
-    BaseType == "Fluted Bascinet" "Silk Gloves" "Wyrmscale Boots" "Golden Buckler" "Primal Arrow Quiver" "Painted Tower Shield" "Riveted Gloves" "Runic Sabatons" "Champion Kite Shield" "Prophecy Wand" "Steel Ring" "Large Cluster Jewel" "Gladiator Plate"
+    BaseType == "Fluted Bascinet" "Silk Gloves" "Golden Buckler" "Champion Kite Shield" "Charan's Sword" "Unset Amulet" "Gladiator Plate" "Ezomyte Tower Shield"
     SetFontSize 45
     SetTextColor 175 96 37 255
     SetBorderColor 175 96 37 255
