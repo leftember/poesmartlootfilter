@@ -6,7 +6,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel >= 86
     Rarity <= Rare
-    BaseType == "Colossal Tower Shield"
+    BaseType == "Feathered Arrow Quiver" "Two-Point Arrow Quiver" "Spike-Point Arrow Quiver" "Penetrating Arrow Quiver" "Blunt Arrow Quiver" "Lacquered Buckler" "Deerskin Boots" "Royal Bow" "Pine Buckler" "Sharktooth Arrow Quiver" "Nubuck Gloves" "Ranger Bow" "Spine Bow" "Bronze Gauntlets" "Painted Buckler" "Blazing Arrow Quiver" "War Buckler" "Vaal Buckler" "Serrated Arrow Quiver" "Carnal Boots"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
@@ -14,7 +14,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel == 85
     Rarity <= Rare
-    BaseType == ""
+    BaseType == "Short Bow" "Pine Buckler" "Jingling Spirit Shield"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
@@ -22,7 +22,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel == 84
     Rarity <= Rare
-    BaseType == ""
+    BaseType == "Short Bow" "Studded Round Shield" "Royal Bow" "Feathered Arrow Quiver"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
@@ -30,7 +30,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel == 83
     Rarity <= Rare
-    BaseType == ""
+    BaseType == "Short Bow" "Ritual Sceptre"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
@@ -38,7 +38,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel == 82
     Rarity <= Rare
-    BaseType == ""
+    BaseType == "Grasping Mail"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 

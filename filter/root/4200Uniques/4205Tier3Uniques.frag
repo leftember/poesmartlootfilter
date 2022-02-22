@@ -5,7 +5,7 @@
 
 Show # $type->uniques $tier->t3boss
     Rarity Unique
-    BaseType == "Vaal Spirit Shield" "Hydrascale Boots" "Ezomyte Spiked Shield" "Sovereign Spiked Shield" "Fingerless Silk Gloves" "Callous Mask Piece" "Thorium Spirit Shield" "Runic Gauntlets" "Fugitive Boots" "Spiked Gloves" "Hallowed Hybrid Flask" "Iron Sceptre" "Jewelled Foil" "Quarterstaff" "Corsair Sword" "Royal Axe" "Stygian Vise" "Murderous Eye Jewel" "Medium Cluster Jewel" "Wyrmscale Doublet" "Pinnacle Tower Shield" "Carnal Boots" "Ruby Flask" "Vaal Rapier" "Imperial Maul" "Siege Axe"
+    BaseType == "Deerskin Gloves" "Jingling Spirit Shield" "Royal Burgonet" "Crimson Round Shield" "Runic Sollerets" "Primal Arrow Quiver" "Spiked Gloves" "Ezomyte Spiked Shield" "Nubuck Boots" "Rawhide Tower Shield" "Wyrmscale Boots" "Serpentscale Gauntlets" "Leather Cap" "Raven Mask" "Thorium Spirit Shield" "Nubuck Gloves" "Runic Helm" "Runic Sabatons" "Runic Crown" "Sovereign Spiked Shield" "Hallowed Hybrid Flask" "Jewelled Foil" "Butcher Axe" "Iron Sceptre" "Blinder" "Demon Dagger" "Tyrant's Sekhem" "Steel Ring" "Stygian Vise" "Occultist's Vestment" "Callous Mask Piece" "Archon Kite Shield Piece" "Blunt Arrow Quiver Piece" "Vaal Rapier" "Siege Axe" "Imperial Staff Piece" "Legion Sword Piece" "Timeless Jewel"
     SetFontSize 45
     SetTextColor 175 96 37 255
     SetBorderColor 175 96 37 255

@@ -15,5 +15,8 @@ uniques:
 combine:
 	python ./src/Combine.py
 
+publish:
+	python ./src/poeapi.py
+
 release:
 	mv target/final.filter /var/www/html/

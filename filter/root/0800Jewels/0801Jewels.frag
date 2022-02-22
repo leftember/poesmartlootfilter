@@ -158,7 +158,7 @@ Hide # %HS3 $type->jewels->abyss $tier->highmagic
 	SetBorderColor 240 100 0 255
 	SetBackgroundColor 0 20 40 255
 
-Show # %HS3 $type->jewels->abyss $tier->anyrare
+Hide # %HS3 $type->jewels->abyss $tier->anyrare
 	Rarity Rare
 	Class "Abyss Jewel"
 	SetFontSize 45
@@ -178,7 +178,7 @@ Hide # %HS2 $type->jewels->abyss $tier->anymagic
 #   [0804] Generic Jewels
 #------------------------------------
 
-Show # %HS3 $type->jewels->generic $tier->anyrare
+Hide # %HS3 $type->jewels->generic $tier->anyrare
     Rarity Rare
     Class "Jewel"
     BaseType "Cobalt Jewel" "Crimson Jewel" "Viridian Jewel"
