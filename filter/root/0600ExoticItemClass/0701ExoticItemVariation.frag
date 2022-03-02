@@ -137,16 +137,17 @@ Show # $type->exotic->enchanted $tier->exotic
 	PlayAlertSound 3 300
 	PlayEffect Blue
 	MinimapIcon 0 Blue Diamond
-
-Show # $type->exotic->enchanted $tier->helmets
-	AnyEnchantment True
-	Rarity <= Rare
-	Class "Helmets"
-	SetFontSize 45
-	SetTextColor 0 240 190 255
-	SetBorderColor 0 240 190 255
-	SetBackgroundColor 0 0 0 255
-	PlayAlertSound 3 300
-	PlayEffect Blue
-	MinimapIcon 1 Blue Diamond
-	PlayEffect Blue Temp
+#
+#Show # $type->exotic->enchanted $tier->helmets
+#	AnyEnchantment True
+#    AreaLevel <=68
+#	Rarity <= Rare
+#	Class "Helmets"
+#	SetFontSize 45
+#	SetTextColor 0 240 190 255
+#	SetBorderColor 0 240 190 255
+#	SetBackgroundColor 0 0 0 255
+#	PlayAlertSound 3 300
+#	PlayEffect Blue
+#	MinimapIcon 1 Blue Diamond
+#	PlayEffect Blue Temp

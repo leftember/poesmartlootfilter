@@ -36,36 +36,12 @@ Show # %D5 $type->exoticmods $tier->duoveil
 	PlayAlertSound 3 300
 	PlayEffect Blue
 	MinimapIcon 2 Blue Diamond
-
-Show # %D5 $type->exoticmods $tier->smallveil1
-	Identified True
-	Width <= 2
-	Height <= 2
-	Rarity Rare
-	HasExplicitMod "Veil"
-	SetFontSize 45
-	SetBorderColor 0 240 190 255
-	PlayAlertSound 3 300
-	PlayEffect Blue
-	MinimapIcon 2 Blue Diamond
-
-Show # %D5 $type->exoticmods $tier->smallveil2
-	Identified True
-	Width <= 1
-	Height <= 4
-	Rarity Rare
-	HasExplicitMod "Veil"
-	SetFontSize 45
-	SetBorderColor 0 240 190 255
-	PlayAlertSound 3 300
-	PlayEffect Blue
-	MinimapIcon 2 Blue Diamond
-
-Show # %D4 $type->exoticmods $tier->veilrest
-	Identified True
-	Rarity Rare
-	HasExplicitMod "Veil"
-	SetFontSize 40
-	SetBorderColor 0 240 190 180
-	PlayEffect Blue Temp
-
+#
+#Show # %D4 $type->exoticmods $tier->veilrest
+#	Identified True
+#	Rarity Rare
+#	HasExplicitMod "Veil"
+#	SetFontSize 40
+#	SetBorderColor 0 240 190 180
+#	PlayEffect Blue Temp
+#

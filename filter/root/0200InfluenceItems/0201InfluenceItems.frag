@@ -26,7 +26,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Crusader
     ItemLevel >= 86
     Rarity <= Rare
-    BaseType "Titanium Spirit Shield" "Vaal Regalia" "Sorcerer Boots" "Moonstone Ring" "Hubris Circlet" "Ezomyte Tower Shield" "Astral Plate" "Unset Ring"
+    BaseType "Titanium Spirit Shield" "Vaal Regalia" "Sorcerer Boots" "Hubris Circlet" "Moonstone Ring" "Astral Plate" "Pinnacle Tower Shield" "Supreme Spiked Shield"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -39,7 +39,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Crusader
     ItemLevel >= 85
     Rarity <= Rare
-    BaseType "Titanium Spirit Shield" "Moonstone Ring"
+    BaseType "Shadow Sceptre" "Titanium Spirit Shield" "Moonstone Ring"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -81,7 +81,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Crusader
     ItemLevel >= 82
     Rarity <= Rare
-    BaseType "Moonstone Ring"
+    BaseType "Unset Ring" "Moonstone Ring"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -98,7 +98,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Warlord
     ItemLevel >= 86
     Rarity <= Rare
-    BaseType "Hubris Circlet" "Titanium Spirit Shield" "Astral Plate" "Amethyst Ring" "Royal Burgonet" "Eternal Burgonet" "Ezomyte Tower Shield" "Two-Stone Ring" "Colossal Tower Shield" "Slink Gloves" "Steelscale Gauntlets" "Glorious Plate" "Bronze Tower Shield" "Titan Gauntlets" "Dragonscale Gauntlets" "Opal Sceptre" "Pig-Faced Bascinet"
+    BaseType "Hubris Circlet" "Astral Plate" "Titanium Spirit Shield" "Slink Gloves" "Amethyst Ring" "Royal Burgonet" "Eternal Burgonet" "Dragonscale Gauntlets" "Ezomyte Tower Shield" "Colossal Tower Shield" "Titan Gauntlets" "Pinnacle Tower Shield" "Praetor Crown" "Void Sceptre" "Serpentscale Gauntlets"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -111,7 +111,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Warlord
     ItemLevel >= 85
     Rarity <= Rare
-    BaseType "Amethyst Ring" "Hubris Circlet" "Astral Plate" "Two-Stone Ring" "Slink Gloves" "Royal Burgonet"
+    BaseType "Hubris Circlet" "Amethyst Ring" "Royal Burgonet" "Riveted Gloves" "Two-Stone Ring"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -125,7 +125,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Warlord
     ItemLevel >= 84
     Rarity <= Rare
-    BaseType "Amethyst Ring" "Two-Stone Ring" "Vaal Gauntlets"
+    BaseType "Amethyst Ring" "Hubris Circlet" "Ezomyte Tower Shield" "Two-Stone Ring" "Titanium Spirit Shield"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -139,7 +139,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Warlord
     ItemLevel >= 83
     Rarity <= Rare
-    BaseType "Amethyst Ring" "Two-Stone Ring" "Dragonscale Gauntlets" "Hubris Circlet" "Bronze Tower Shield" "Royal Burgonet" "Slink Gloves"
+    BaseType "Amethyst Ring" "Hubris Circlet" "Bronze Tower Shield" "Pig-Faced Bascinet"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -169,7 +169,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Redeemer
     ItemLevel >= 86
     Rarity <= Rare
-    BaseType "Sorcerer Boots" "Hubris Circlet" "Imperial Buckler" "Slink Boots" "Vaal Regalia" "Titanium Spirit Shield" "Unset Ring" "Gilded Sallet" "Astral Plate" "Crusader Buckler" "Zealot Helmet" "Dragonscale Boots" "Titan Greaves" "Stealth Boots" "Nubuck Boots" "Triumphant Lamellar" "Cardinal Round Shield" "Sharkskin Boots" "Vaal Greaves"
+    BaseType "Sorcerer Boots" "Hubris Circlet" "Slink Boots" "Vaal Regalia" "Unset Ring" "Titanium Spirit Shield" "Imperial Buckler" "Crusader Buckler" "Silk Gloves" "Titan Gauntlets" "Amethyst Ring" "Astral Plate" "Nubuck Boots" "Dragonscale Boots" "Lion Pelt" "Satin Slippers" "Shagreen Boots" "Titan Greaves" "Hydrascale Boots"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -182,7 +182,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Redeemer
     ItemLevel >= 85
     Rarity <= Rare
-    BaseType "Hubris Circlet" "Unset Ring" "Imperial Buckler" "Reinforced Greaves" "Slink Boots"
+    BaseType "Hubris Circlet" "Unset Ring" "Hunter Hood" "Golden Mask"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -196,7 +196,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Redeemer
     ItemLevel >= 84
     Rarity <= Rare
-    BaseType "Slink Boots" "Unset Ring" "Sorcerer Boots"
+    BaseType "Unset Ring" "Amethyst Ring" "Spine Bow"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -210,7 +210,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Redeemer
     ItemLevel >= 83
     Rarity <= Rare
-    BaseType "Unset Ring"
+    BaseType "Imperial Buckler" "Unset Ring" "Gladiator Plate"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -241,7 +241,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Hunter
     ItemLevel >= 86
     Rarity <= Rare
-    BaseType "Sorcerer Boots" "Colossal Tower Shield" "Astral Plate" "Broadhead Arrow Quiver" "Murder Boots" "Ezomyte Tower Shield" "Titan Greaves" "Dragonscale Gauntlets" "Lion Pelt" "Nubuck Gloves" "Assassin's Garb" "Slink Boots" "Hubris Circlet" "Supreme Spiked Shield" "Titan Gauntlets" "Amethyst Ring" "Dragonscale Boots" "Triumphant Lamellar" "Antique Greaves" "Serpentscale Boots" "Titanium Spirit Shield" "Slink Gloves" "Imperial Buckler" "Royal Burgonet" "Sorcerer Gloves" "Vaal Greaves" "Crusader Buckler" "Crusader Boots" "Sharkskin Boots" "Trapper Boots" "Shagreen Boots" "Crusader Gloves" "Two-Stone Ring" "Arcanist Slippers" "Wyrmscale Gauntlets" "Shagreen Gloves" "Zodiac Leather" "Eelskin Boots" "Goliath Greaves" "Wyrmscale Boots" "Serpentscale Gauntlets" "Ancient Greaves" "Stealth Gloves" "Stealth Boots" "Hydrascale Boots" "Full Dragonscale" "Steel Gauntlets" "Vaal Buckler" "Ambush Boots" "Clasped Mitts" "Goliath Gauntlets" "Murder Mitts" "Antique Gauntlets" "Samite Slippers" "Battle Buckler" "Brass Spirit Shield" "Vaal Regalia" "Ambush Mitts" "Legion Boots" "Hydrascale Gauntlets" "Agate Amulet" "Soldier Boots" "Assassin's Mitts" "Carnal Boots" "Conjurer Boots" "Sharkskin Gloves" "Frontier Leather" "Ancient Gauntlets" "Satin Slippers" "Assassin's Boots" "Riveted Gloves" "Vaal Gauntlets" "Pinnacle Tower Shield" "Lacquered Buckler" "Soldier Gloves" "Girded Tower Shield" "Embroidered Gloves" "Onyx Amulet"
+    BaseType "Colossal Tower Shield" "Sorcerer Boots" "Broadhead Arrow Quiver" "Supreme Spiked Shield" "Astral Plate" "Dragonscale Boots" "Assassin's Garb" "Slink Boots" "Hubris Circlet" "Titan Greaves" "Ezomyte Tower Shield" "Lion Pelt" "Dragonscale Gauntlets" "Triumphant Lamellar" "Nubuck Gloves" "Amethyst Ring" "Titan Gauntlets" "Slink Gloves" "Nubuck Boots" "Murder Boots" "Titanium Spirit Shield" "Cardinal Round Shield" "Lacquered Buckler" "Shagreen Boots" "Hydrascale Boots" "Sharkskin Boots" "Full Dragonscale" "Arcanist Slippers" "Vaal Greaves" "Eelskin Boots" "Goliath Greaves" "Ancient Greaves" "Stealth Gloves" "Stealth Boots" "Wyrmscale Boots" "Shagreen Gloves" "Serpentscale Gauntlets" "Vaal Regalia" "Antique Greaves" "Sorcerer Gloves" "Sharkskin Gloves" "Unset Ring" "Crusader Buckler" "Archon Kite Shield" "Ambush Boots" "Murder Mitts" "Samite Slippers" "Soldier Boots" "Trapper Boots" "Riveted Boots" "Crusader Gloves" "Two-Stone Ring" "Ambush Mitts" "Legion Boots" "Hydrascale Gauntlets" "Agate Amulet" "Mesh Gloves" "Carnal Boots" "Zodiac Leather" "Conjurer Boots" "Goliath Gauntlets" "Crusader Boots" "Royal Burgonet" "Maraketh Bow" "Ancient Gauntlets" "Battle Buckler" "Assassin's Boots" "Serpentscale Boots" "Riveted Gloves" "Vaal Gauntlets" "Thief's Garb" "Zealot Gloves" "Steelscale Gauntlets" "Antique Gauntlets" "Embroidered Gloves"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -254,7 +254,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Hunter
     ItemLevel >= 85
     Rarity <= Rare
-    BaseType "Sorcerer Boots" "Broadhead Arrow Quiver" "Dragonscale Gauntlets" "Slink Gloves" "Amethyst Ring" "Lion Pelt" "Astral Plate" "Titan Gauntlets" "Hubris Circlet" "Titan Greaves" "Slink Boots" "Eelskin Gloves" "Colossal Tower Shield" "Bronzescale Gauntlets" "Nubuck Gloves" "Ezomyte Tower Shield" "Two-Stone Ring" "Wyrmscale Boots" "Hydrascale Gauntlets" "Hydrascale Boots" "Shagreen Gloves" "Nubuck Boots" "Bronzescale Boots" "Dragonscale Boots" "Goliath Greaves" "Sharkskin Boots" "Sorcerer Gloves" "Crusader Gloves" "Assassin's Garb" "Stealth Gloves" "Eelskin Boots" "Sharkskin Gloves" "Wyrmscale Gauntlets" "Steel Gauntlets" "Vaal Greaves" "Steelscale Gauntlets" "Shagreen Boots" "Serpentscale Gauntlets" "Murder Mitts" "Conjurer Boots" "Antique Greaves" "Stealth Boots" "Agate Amulet" "Satin Slippers" "Mesh Boots" "Murder Boots" "Zealot Boots" "Trapper Mitts" "Riveted Gloves" "Reinforced Greaves" "Riveted Boots"
+    BaseType "Sorcerer Boots" "Bronzescale Gauntlets" "Dragonscale Gauntlets" "Broadhead Arrow Quiver" "Amethyst Ring" "Lion Pelt" "Nubuck Boots" "Astral Plate" "Slink Gloves" "Hubris Circlet" "Titan Greaves" "Slink Boots" "Shackled Boots" "Riveted Boots" "Bronzescale Boots" "Eelskin Gloves" "Titan Gauntlets" "Satin Slippers" "Wyrmscale Boots" "Ancient Greaves" "Legion Boots" "Dragonscale Boots" "Conjurer Boots" "Mesh Gloves" "Eelskin Boots" "Sharkskin Gloves" "Trapper Mitts" "Crusader Boots" "Vaal Greaves" "Stealth Boots" "Shagreen Boots" "Steelscale Boots" "Assassin's Boots" "Colossal Tower Shield" "Arcanist Slippers" "Steelscale Gauntlets" "Antique Greaves" "Murder Boots" "Goliath Greaves" "Sharkskin Boots" "Stealth Gloves" "Serpentscale Boots" "Trapper Boots" "Assassin's Garb" "Zealot Boots" "Samite Slippers" "Murder Mitts" "Crusader Gloves" "Steel Gauntlets" "Soldier Boots" "Ezomyte Tower Shield" "Hydrascale Boots" "Carnal Boots" "Ambush Boots"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -268,7 +268,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Hunter
     ItemLevel >= 84
     Rarity <= Rare
-    BaseType "Broadhead Arrow Quiver" "Dragonscale Gauntlets" "Sharkskin Gloves" "Amethyst Ring" "Wyrmscale Boots" "Sharkskin Boots" "Stealth Gloves" "Hubris Circlet" "Lion Pelt" "Slink Gloves" "Titan Greaves" "Slink Boots" "Astral Plate" "Regicide Mask" "Titan Gauntlets" "Agate Amulet" "Shagreen Gloves" "Goliath Greaves" "Sorcerer Gloves" "Vaal Greaves" "Vaal Gauntlets" "Dragonscale Boots" "Conjurer Boots" "Stealth Boots" "Ancient Greaves" "Shagreen Boots" "Murder Mitts" "Goliath Gauntlets" "Majestic Plate" "Carnal Mitts" "Arcanist Slippers" "Legion Boots" "Two-Stone Ring" "Golden Plate"
+    BaseType "Sorcerer Boots" "Astral Plate" "Zealot Gloves" "Dragonscale Gauntlets" "Slink Gloves" "Broadhead Arrow Quiver" "Sharkskin Gloves" "Sharkskin Tunic" "Sharkskin Boots" "Hubris Circlet" "Titan Gauntlets" "Vaal Greaves" "Amethyst Ring" "Titan Greaves" "Conjurer Boots" "Goliath Greaves" "Wyrmscale Boots" "Slink Boots" "Crusader Boots" "Arcanist Gloves" "Arcanist Slippers" "Murder Boots" "Dragonscale Boots" "Serpentscale Boots" "Shagreen Boots" "Stealth Boots" "Soldier Boots" "Stealth Gloves" "Colossal Tower Shield" "Assassin's Boots" "Ezomyte Tower Shield" "Assassin's Garb" "Cutthroat's Garb" "Ancient Greaves" "Sorcerer Gloves" "Shagreen Gloves"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -282,7 +282,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Hunter
     ItemLevel >= 83
     Rarity <= Rare
-    BaseType "Dragonscale Gauntlets" "Zealot Gloves" "Broadhead Arrow Quiver" "Slink Gloves" "Eelskin Gloves" "Slink Boots" "Sorcerer Boots" "Amethyst Ring" "Trapper Mitts" "Stealth Gloves" "Titan Gauntlets" "Titan Greaves" "Ancient Gauntlets" "Shagreen Boots" "Hubris Circlet" "Shagreen Gloves" "Sharkskin Boots" "Vaal Greaves" "Wyrmscale Gauntlets" "Stealth Boots" "Colossal Tower Shield" "Sharkskin Gloves" "Goliath Greaves" "Conjurer Boots" "Hydrascale Gauntlets" "Serpentscale Boots" "Arcanist Slippers" "Ancient Greaves" "Murder Mitts" "Assassin's Boots" "Two-Stone Ring" "Wyrmscale Boots" "Antique Gauntlets" "Ambush Boots"
+    BaseType "Sorcerer Boots" "Lion Pelt" "Dragonscale Gauntlets" "Slink Gloves" "Nubuck Boots" "Eelskin Gloves" "Slink Boots" "Titan Gauntlets" "Wyrmscale Gauntlets" "Samite Slippers" "Titan Greaves" "Assassin's Boots" "Ancient Greaves" "Amethyst Ring" "Conjurer Boots" "Shagreen Boots" "Crusader Boots" "Broadhead Arrow Quiver" "Sharkskin Boots" "Stealth Boots" "Antique Gauntlets" "Goliath Greaves" "Serpentscale Boots" "Vaal Greaves" "Ambush Boots" "Serpentscale Gauntlets" "Hydrascale Gauntlets" "Wyrmscale Boots" "Dragonscale Boots" "Stealth Gloves" "Shagreen Gloves" "Arcanist Slippers" "Hydrascale Boots" "Hubris Circlet" "Soldier Boots" "Murder Boots" "Carnal Boots" "Sharkskin Gloves" "Legion Boots" "Trapper Boots"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -296,7 +296,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Hunter
     ItemLevel >= 82
     Rarity <= Rare
-    BaseType "Broadhead Arrow Quiver" "Amethyst Ring" "Wyrmscale Boots" "Stealth Gloves" "Carnal Boots" "Shagreen Gloves" "Primal Arrow Quiver" "Shagreen Boots" "Conjurer Boots" "Agate Amulet" "Two-Stone Ring"
+    BaseType "Broadhead Arrow Quiver" "Stealth Gloves" "Conjurer Boots" "Carnal Boots" "Shagreen Gloves" "Vile Arrow Quiver" "Penetrating Arrow Quiver" "Hydrascale Gauntlets" "Goliath Greaves" "Goliath Gauntlets" "Fossilised Spirit Shield" "Wyrmscale Boots" "Heavy Arrow Quiver" "Amethyst Ring"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -313,7 +313,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Shaper
     ItemLevel >= 86
     Rarity <= Rare
-    BaseType "Titanium Spirit Shield" "Ezomyte Tower Shield" "Pinnacle Tower Shield" "Slink Gloves" "Colossal Tower Shield" "Archon Kite Shield" "Sorcerer Boots" "Bronze Tower Shield" "Hubris Circlet" "Amethyst Ring" "Copper Tower Shield" "Supreme Spiked Shield" "Harmonic Spirit Shield" "Dragonscale Gauntlets" "Imperial Buckler" "Bone Spirit Shield" "War Buckler" "Crusader Buckler"
+    BaseType "Titanium Spirit Shield" "Pinnacle Tower Shield" "Ezomyte Tower Shield" "Colossal Tower Shield" "Sorcerer Boots" "Amethyst Ring" "Copper Tower Shield" "Bronze Tower Shield" "Archon Kite Shield" "Slink Gloves" "Supreme Spiked Shield" "Cedar Tower Shield" "Hubris Circlet"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -326,7 +326,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Shaper
     ItemLevel >= 85
     Rarity <= Rare
-    BaseType "Ezomyte Tower Shield" "Titanium Spirit Shield" "Pinnacle Tower Shield" "Copper Tower Shield" "Slink Gloves" "Silk Gloves" "Colossal Tower Shield" "Archon Kite Shield" "Amethyst Ring" "Sorcerer Boots" "Bronze Tower Shield"
+    BaseType "Amethyst Ring" "Titanium Spirit Shield" "Pinnacle Tower Shield" "War Buckler" "Ezomyte Tower Shield" "Sorcerer Boots" "Colossal Tower Shield"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -340,7 +340,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Shaper
     ItemLevel >= 84
     Rarity <= Rare
-    BaseType "Ezomyte Tower Shield" "Titanium Spirit Shield" "Pinnacle Tower Shield" "Bronze Tower Shield" "Archon Kite Shield" "Amethyst Ring" "Slink Gloves" "Colossal Tower Shield" "Harmonic Spirit Shield" "Girded Tower Shield"
+    BaseType "Titanium Spirit Shield" "Amethyst Ring" "Ezomyte Tower Shield" "Colossal Tower Shield" "Archon Kite Shield" "Pinnacle Tower Shield" "Sharkskin Gloves" "Sorcerer Boots" "Mirrored Spiked Shield"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -354,7 +354,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Shaper
     ItemLevel >= 83
     Rarity <= Rare
-    BaseType "Ezomyte Tower Shield" "Pinnacle Tower Shield" "Titanium Spirit Shield" "Ceremonial Kite Shield" "Slink Gloves" "Colossal Tower Shield" "Amethyst Ring" "Archon Kite Shield" "Bronze Tower Shield" "Painted Tower Shield" "Raven Mask" "Brass Spirit Shield"
+    BaseType "Amethyst Ring" "Ezomyte Tower Shield" "Titanium Spirit Shield" "Maelström Staff" "Pinnacle Tower Shield"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -368,7 +368,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Shaper
     ItemLevel >= 82
     Rarity <= Rare
-    BaseType "Colossal Tower Shield" "Ezomyte Tower Shield" "Bronze Tower Shield" "Titanium Spirit Shield" "Pinnacle Tower Shield" "Slink Gloves" "Crusader Buckler" "Amethyst Ring" "Feathered Arrow Quiver"
+    BaseType "Amethyst Ring" "Colossal Tower Shield" "Ezomyte Tower Shield" "Titanium Spirit Shield" "Crusader Buckler" "Slink Gloves" "Stealth Gloves"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -385,7 +385,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Elder
     ItemLevel >= 86
     Rarity <= Rare
-    BaseType "Royal Burgonet" "Hubris Circlet" "Eternal Burgonet" "Praetor Crown" "Aventail Helmet" "Titanium Spirit Shield" "Siege Helmet" "Great Crown" "Ezomyte Burgonet" "Magistrate Crown" "Zealot Helmet" "Prophet Crown" "Samnite Helmet" "Gladiator Helmet" "Nightmare Bascinet" "Reaver Helmet" "Pig-Faced Bascinet" "Lion Pelt" "Astral Plate" "Nubuck Boots" "Hunter Hood" "Sorcerer Boots"
+    BaseType "Royal Burgonet" "Hubris Circlet" "Eternal Burgonet" "Praetor Crown" "Serpentscale Gauntlets" "Prophet Crown" "Nubuck Gloves" "Sorcerer Boots" "Magistrate Crown" "Gladiator Helmet" "Titanium Spirit Shield" "Lion Pelt" "Samnite Helmet" "Siege Helmet" "Great Crown" "Zealot Helmet" "Aventail Helmet"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -398,7 +398,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Elder
     ItemLevel >= 85
     Rarity <= Rare
-    BaseType "Royal Burgonet" "Eternal Burgonet"
+    BaseType "Royal Burgonet"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -412,7 +412,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Elder
     ItemLevel >= 84
     Rarity <= Rare
-    BaseType "Royal Burgonet" "Eternal Burgonet"
+    BaseType "Royal Burgonet" "Lion Sword"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -426,7 +426,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Elder
     ItemLevel >= 83
     Rarity <= Rare
-    BaseType "Royal Burgonet" "Eternal Burgonet"
+    BaseType "Royal Burgonet"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -440,7 +440,7 @@ Show # $type->rare->crusader $tier->t11
     HasInfluence Elder
     ItemLevel >= 82
     Rarity <= Rare
-    BaseType "Royal Burgonet" "Siege Helmet"
+    BaseType "Royal Burgonet" "Prophet Crown"
     SetFontSize 45
     SetTextColor 50 130 165 255
     SetBorderColor 50 130 165 255
@@ -471,16 +471,6 @@ Show # %D5 $type->rare->any $tier->anytoplevel
 	SetFontSize 45
 	SetTextColor 255 255 255 255
 	SetBorderColor 50 200 50 255
-	SetBackgroundColor 50 130 165
-	PlayEffect Blue Temp
-
-#only for ex recipe
-Show # %D4 $type->rare->any $tier->anytrinket
-	HasInfluence Elder Shaper
-	Rarity <= Rare
-	SetFontSize 45
-	SetTextColor 255 255 255 255
-	SetBorderColor 255 255 255 255
 	SetBackgroundColor 50 130 165
 	PlayEffect Blue Temp
 

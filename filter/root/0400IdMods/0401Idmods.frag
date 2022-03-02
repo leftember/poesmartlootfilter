@@ -13,7 +13,7 @@ Show # $type->rareid $tier->veiledphys
 	DropLevel >= 55
 	Rarity Rare
 	Class "Bows" "Claws" "Daggers" "One Hand" "Two Hand" "Wands" "Warstaves"
-	HasExplicitMod >=1 "Flaring" "Merciless" "Veiled"
+	HasExplicitMod >=1 "Flaring" "Merciless" 
 	SetFontSize 45
 	SetTextColor 0 240 190 255
 	SetBorderColor 0 240 190 255

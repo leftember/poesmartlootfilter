@@ -52,6 +52,7 @@ Show # %D4 $type->socketslinks $tier->5link6sockets
 #
 Show # %D4 $type->socketslinks $tier->6sockets
 	Sockets >= 6
+    AreaLevel <= 80
 	# Rarity <= Rare # show uniques as well, as it is not defined in unique lists. Will hide trash uniques if not 6s.
 	SetFontSize 45
 	SetTextColor 255 255 255 255

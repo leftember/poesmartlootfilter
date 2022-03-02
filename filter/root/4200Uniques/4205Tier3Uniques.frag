@@ -5,7 +5,7 @@
 
 Show # $type->uniques $tier->t3boss
     Rarity Unique
-    BaseType == "Deerskin Gloves" "Jingling Spirit Shield" "Royal Burgonet" "Crimson Round Shield" "Runic Sollerets" "Primal Arrow Quiver" "Spiked Gloves" "Ezomyte Spiked Shield" "Nubuck Boots" "Rawhide Tower Shield" "Wyrmscale Boots" "Serpentscale Gauntlets" "Leather Cap" "Raven Mask" "Thorium Spirit Shield" "Nubuck Gloves" "Runic Helm" "Runic Sabatons" "Runic Crown" "Sovereign Spiked Shield" "Hallowed Hybrid Flask" "Jewelled Foil" "Butcher Axe" "Iron Sceptre" "Blinder" "Demon Dagger" "Tyrant's Sekhem" "Steel Ring" "Stygian Vise" "Occultist's Vestment" "Callous Mask Piece" "Archon Kite Shield Piece" "Blunt Arrow Quiver Piece" "Vaal Rapier" "Siege Axe" "Imperial Staff Piece" "Legion Sword Piece" "Timeless Jewel"
+    BaseType == "Fingerless Silk Gloves" "Jingling Spirit Shield" "Spiked Gloves" "Deerskin Gloves" "Crimson Round Shield" "Royal Burgonet" "Runic Sollerets" "Primal Arrow Quiver" "Ezomyte Spiked Shield" "Nubuck Boots" "Rawhide Tower Shield" "Wyrmscale Boots" "Runic Helm" "Leather Cap" "Raven Mask" "Ancient Gauntlets" "Thorium Spirit Shield" "Serpentscale Gauntlets" "Hydrascale Boots" "Embroidered Gloves" "Sovereign Spiked Shield" "Runic Sabatons" "Runic Crown" "Sapphire Flask" "Hallowed Hybrid Flask" "Jewelled Foil" "Butcher Axe" "Iron Sceptre" "Demon Dagger" "Tyrant's Sekhem" "Steel Ring" "Stygian Vise" "Occultist's Vestment" "Callous Mask Piece" "Archon Kite Shield Piece" "Blunt Arrow Quiver Piece" "Gemstone Sword" "Siege Axe" "Legion Sword Piece" "Imperial Staff Piece"
     SetFontSize 45
     SetTextColor 175 96 37 255
     SetBorderColor 175 96 37 255

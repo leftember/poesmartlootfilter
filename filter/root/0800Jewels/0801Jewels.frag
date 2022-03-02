@@ -138,7 +138,7 @@ Show # %D4 $type->jewels->cluster $tier->small
 #   [0803] Abyss Jewels
 #------------------------------------
 
-Show # %HS4 $type->jewels->abyss $tier->highrare
+Hide # %HS4 $type->jewels->abyss $tier->highrare
 	ItemLevel >= 82
 	Rarity Rare
 	Class "Abyss Jewel"
