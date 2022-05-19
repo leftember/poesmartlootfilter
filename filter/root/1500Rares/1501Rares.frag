@@ -7,16 +7,16 @@
 #===============================================================================================================
 # !! Override 220 : "Talismans"
 
-Hide # %H3 $type->rare->exotic->breachrings $tier->any
-	ItemLevel >= 68
-	Rarity Rare
-	Class "Rings"
-	BaseType "Breach"
-	SetFontSize 45
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 240 190 255
-	SetBackgroundColor 103 34 163 255
-
+#Hide # %H3 $type->rare->exotic->breachrings $tier->any
+#	ItemLevel >= 68
+#	Rarity Rare
+#	Class "Rings"
+#	BaseType "Breach"
+#	SetFontSize 45
+#	SetTextColor 0 0 0 255
+#	SetBorderColor 0 240 190 255
+#	SetBackgroundColor 103 34 163 255
+#
 Show # %H2 $type->rare->exotic->talisman $tier->any. Sorry, Chris, but Talisman is pure shit. turning back on for oils.
 	AnyEnchantment True
 	ItemLevel >= 68
@@ -49,15 +49,4 @@ Show
     PlayAlertSound 1 300
     PlayEffect Red
     MinimapIcon 0 Red Cross
-
-Show # need these 2 badly
-    ArchnemesisMod "Frenzied" "Opulent"
-    SetFontSize 45
-    SetTextColor 130 214 255 255
-    SetBorderColor 130 214 255 255
-    SetBackgroundColor 255 255 255 255
-    PlayAlertSound 6 300
-    PlayEffect Red
-    MinimapIcon 0 Red Star
-
 

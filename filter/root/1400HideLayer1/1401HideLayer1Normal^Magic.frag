@@ -4,16 +4,16 @@
 #===============================================================================================================
 
 ### For Animate Weapon
-#Show # $type->leveling->flasks->mana $tier->t5
-#	Rarity = Normal
-#	Class "Claws" "Daggers" "One Hand" "Rune Dagger" "Sceptres" "Staves" "Two Hand" "Warstaves"
-#	SetFontSize 30
-#	SetTextColor 0 0 100 200
-#	SetBorderColor 0 100 0 255
-#	SetBackgroundColor 0 0 100 200
-#	DisableDropSound True
-#    SetBorderColor 0 0 120
-#
+Show # $type->leveling->flasks->mana $tier->t5
+	Rarity = Normal
+	Class "Claws" "Daggers" "One Hand" "Rune Dagger" "Sceptres" "Staves" "Two Hand" "Warstaves"
+	SetFontSize 30
+	SetTextColor 0 0 100 200
+	SetBorderColor 0 100 0 255
+	SetBackgroundColor 0 0 100 200
+	DisableDropSound True
+    SetBorderColor 0 0 120
+
 Hide # $type->hidelayer $tier->normalmagicendgame
 	AreaLevel >= 68
 	Rarity < Rare
