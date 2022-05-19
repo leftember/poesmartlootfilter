@@ -25,7 +25,7 @@ low = []
 for k,v in cards:
     if v > 10:
         high.append(k)
-    elif v >= 1:
+    elif v > 1:
         mid.append(k)
     else:
         low.append(k)

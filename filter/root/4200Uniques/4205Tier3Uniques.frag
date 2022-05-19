@@ -5,7 +5,7 @@
 
 Show # $type->uniques $tier->t3boss
     Rarity Unique
-    BaseType == "Runic Sollerets" "Primal Arrow Quiver" "Painted Tower Shield" "Jingling Spirit Shield" "Riveted Gloves" "Crimson Round Shield" "Deerskin Gloves" "Hydrascale Boots" "Runic Crown" "Leather Cap" "Raven Mask" "Rawhide Tower Shield" "Serpentscale Gauntlets" "Cardinal Round Shield" "Ezomyte Spiked Shield" "Nubuck Boots" "Iron Gauntlets" "Mosaic Kite Shield" "Thorium Spirit Shield" "Embroidered Gloves" "Sovereign Spiked Shield" "Runic Sabatons" "Spiked Gloves" "Hallowed Hybrid Flask" "Butcher Axe" "Jewelled Foil" "Blood Sceptre" "Vaal Hatchet" "Iron Sceptre" "Blinder" "Nightmare Mace" "Demon Dagger" "Tyrant's Sekhem" "Platinum Sceptre" "Stygian Vise" "Vanguard Belt" "Blood Raiment" "Pinnacle Tower Shield" "Topaz Flask" "Vaal Rapier" "Ezomyte Dagger" "Timeless Jewel"
+    BaseType == "Runic Sollerets" "Primal Arrow Quiver" "Jingling Spirit Shield" "Painted Tower Shield" "Riveted Gloves" "Deerskin Gloves" "Crimson Round Shield" "Hydrascale Boots" "Runic Crown" "Leather Cap" "Raven Mask" "Rawhide Tower Shield" "Serpentscale Gauntlets" "Cardinal Round Shield" "Ezomyte Spiked Shield" "Dragonscale Boots" "Nubuck Boots" "Mosaic Kite Shield" "Thorium Spirit Shield" "Nubuck Gloves" "Embroidered Gloves" "Sovereign Spiked Shield" "Runic Sabatons" "Spiked Gloves" "Iron Gauntlets" "Hallowed Hybrid Flask" "Butcher Axe" "Jewelled Foil" "Labrys" "Vaal Hatchet" "Platinum Sceptre" "Iron Sceptre" "Blinder" "Nightmare Mace" "Demon Dagger" "Blood Sceptre" "Tyrant's Sekhem" "Royal Axe" "Stygian Vise" "Vanguard Belt" "Blood Raiment" "Pinnacle Tower Shield" "Topaz Flask" "Vaal Rapier" "Ezomyte Dagger" "Timeless Jewel"
     SetFontSize 45
     SetTextColor 175 96 37 255
     SetBorderColor 175 96 37 255
