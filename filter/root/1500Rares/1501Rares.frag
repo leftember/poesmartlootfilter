@@ -50,14 +50,3 @@ Show
     PlayEffect Red
     MinimapIcon 0 Red Cross
 
-Show # need these 2 badly
-    ArchnemesisMod "Frenzied" "Opulent"
-    SetFontSize 45
-    SetTextColor 130 214 255 255
-    SetBorderColor 130 214 255 255
-    SetBackgroundColor 255 255 255 255
-    PlayAlertSound 6 300
-    PlayEffect Red
-    MinimapIcon 0 Red Star
-
-

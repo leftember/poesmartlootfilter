@@ -3,7 +3,7 @@
 #   [4207] Tier 4 uniques
 #------------------------------------
 
-Hide # %H4 $type->uniques $tier->hideable2
+Show # %H4 $type->uniques $tier->hideable2
     Rarity Unique
     BaseType == {{T4Uniques}}
     SetFontSize 40
