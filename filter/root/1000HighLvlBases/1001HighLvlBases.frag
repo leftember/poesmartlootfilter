@@ -6,7 +6,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel >= 86
     Rarity <= Rare
-    BaseType == "Two-Point Arrow Quiver" "Clasped Boots" "Secutor Helm" "Feathered Arrow Quiver" "Painted Buckler" "Deerskin Boots" "Vaal Buckler" "Corrugated Buckler" "Eelskin Gloves"
+    BaseType == "Two-Point Arrow Quiver" "Feathered Arrow Quiver" "Grove Bow" "Crimson Round Shield" "Rawhide Boots" "Leather Cap" "Spike-Point Arrow Quiver" "Nubuck Boots" "Vaal Buckler" "Crystal Sceptre" "War Buckler" "Nubuck Gloves" "Strapped Boots" "Corrugated Buckler" "Deerskin Boots" "Serrated Arrow Quiver" "Ironscale Boots" "Royal Bow" "Sharktooth Arrow Quiver" "Clasped Boots" "Goathide Gloves" "Raven Mask" "Engraved Wand" "Royal Sceptre" "Deerskin Gloves" "Blazing Arrow Quiver" "Sharkskin Boots" "Wild Leather" "Leather Hood"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
@@ -14,7 +14,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel == 85
     Rarity <= Rare
-    BaseType == "Crystal Sceptre" "Deerskin Gloves" "Vaal Buckler" "Goathide Boots"
+    BaseType == "Short Bow" "Carved Wand" "Nubuck Gloves" "Full Leather" "War Buckler" "Corrugated Buckler" "Heathen Wand"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
@@ -22,7 +22,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel == 84
     Rarity <= Rare
-    BaseType == "Corrugated Buckler" "Bronzescale Gauntlets" "Pine Buckler"
+    BaseType == "Baroque Round Shield" "Corrugated Buckler" "War Buckler" "Tricorne" "Ivory Spirit Shield" "Blazing Arrow Quiver"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
@@ -30,7 +30,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel == 83
     Rarity <= Rare
-    BaseType == "Grasping Mail"
+    BaseType == "Splendid Round Shield" "Grinning Fetish"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
@@ -38,7 +38,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel == 82
     Rarity <= Rare
-    BaseType == "Golden Buckler"
+    BaseType == "Grasping Mail"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 

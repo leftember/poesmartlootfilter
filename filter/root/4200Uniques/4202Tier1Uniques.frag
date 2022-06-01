@@ -5,7 +5,7 @@
 
 Show # $type->uniques $tier->t1
     Rarity Unique
-    BaseType == "Champion Kite Shield" "Fluted Bascinet" "Silk Gloves" "Golden Buckler" "Unset Amulet" "Ghastly Eye Jewel" "Ezomyte Tower Shield"
+    BaseType == "Champion Kite Shield" "Golden Buckler" "Silk Gloves" "Charan's Sword" "Unset Amulet" "Ghastly Eye Jewel"
     SetFontSize 45
     SetTextColor 175 96 37 255
     SetBorderColor 175 96 37 255

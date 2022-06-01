@@ -60,7 +60,7 @@ Show # %H5 $type->currency $tier->t5alchemy
 
 Show # %H4 $type->currency $tier->t6chrom
     Class "Currency"
-    BaseType == "Cartographer's Chisel" "Chromatic Orb" "Imbued Catalyst" "Noxious Catalyst" "Orb of Alteration"
+    BaseType == "Cartographer's Chisel" "Imbued Catalyst" "Noxious Catalyst" "Orb of Alteration"
     SetFontSize 45
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
@@ -69,9 +69,9 @@ Show # %H4 $type->currency $tier->t6chrom
     PlayEffect Grey
     MinimapIcon 2 Grey Circle
 
-Show # %H4 $type->currency $tier->t7chance
+Hide # %H4 $type->currency $tier->t7chance
     Class "Currency"
-    BaseType == "Chaos Shard" "Horizon Shard" "Jeweller's Orb" "Orb of Binding" "Orb of Chance" 
+    BaseType == "Chaos Shard" "Horizon Shard" "Jeweller's Orb" "Orb of Binding" "Orb of Chance" "Chromatic Orb" 
     SetFontSize 45
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255

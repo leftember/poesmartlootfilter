@@ -17,6 +17,16 @@
 #	SetBorderColor 0 240 190 255
 #	SetBackgroundColor 103 34 163 255
 #
+
+Show
+    ItemLevel >= 85
+    Class Amulets
+    BaseType "Turquoise Amulet"
+    SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 240 190 180
+	SetBackgroundColor 103 34 163 255
+
 Show # %H2 $type->rare->exotic->talisman $tier->any. Sorry, Chris, but Talisman is pure shit. turning back on for oils.
 	AnyEnchantment True
 	ItemLevel >= 68
@@ -50,3 +60,15 @@ Show
     PlayEffect Red
     MinimapIcon 0 Red Cross
 
+
+Hide
+    Class Sentinel
+    Rarity < Rare
+    BaseType "Rusted" "Bronze" "Cobalt" "Brimstone" "Emberstone"
+    SetFontSize 40
+
+Hide
+    Class Sentinel
+    Rarity <= Rare
+    BaseType "Bronze Apex" "Cobalt Apex" "Brimstone Apex" "Emberstone Apex"
+    SetFontSize 40
