@@ -1,7 +1,7 @@
 # !! Override 780 : "Quest Items and Relic Keys"
 
 Show # $type->miscmapitemsextra $tier->relickeys
-    BaseType "Ancient Reliquary Key" "Timeworn Reliquary Key" "Vaal Reliquary Key"
+    BaseType "Reliquary Key" "Mirrored Tablet" "Ultimatum" "Memory"
     SetFontSize 45
     SetTextColor 130 214 255 255
     SetBorderColor 130 214 255 255

@@ -35,7 +35,7 @@ def loadData(f):
                 T1.append(b)
             elif v > 10:
                 T2.append(b)
-            elif v > 1:
+            elif v > 5:
                 T3.append(b)
             else:
                 T4.append(b)

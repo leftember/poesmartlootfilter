@@ -70,5 +70,5 @@ Hide
 Hide
     Class Sentinel
     Rarity <= Rare
-    BaseType "Bronze Apex" "Cobalt Apex" "Brimstone Apex" "Emberstone Apex"
+    BaseType "Bronze Apex" "Cobalt Apex" "Brimstone Apex" "Emberstone Apex" "Obsidian Apex"
     SetFontSize 40

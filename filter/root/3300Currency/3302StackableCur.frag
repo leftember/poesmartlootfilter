@@ -82,7 +82,16 @@ Show # %H5 $type->currency->stacked $tier->orbs_alt
 Show # $type->currency->heist $tier->highstack
     StackSize >= 150
     Class "Currency"
-    BaseType == "Rogue's Marker"
+    BaseType = "Rogue's Marker"
+    SetFontSize 45
+    SetTextColor 255 178 135 255
+    SetBorderColor 255 178 135 255
+    SetBackgroundColor 150 90 70 255
+    PlayEffect Orange
+
+Show # $type->currency->heist $tier->highstack
+    Class "Currency"
+    BaseType = "Lifeforce"
     SetFontSize 45
     SetTextColor 255 178 135 255
     SetBorderColor 255 178 135 255
@@ -91,7 +100,7 @@ Show # $type->currency->heist $tier->highstack
 
 Hide # %H4 $type->currency->heist $tier->any
     Class "Currency"
-    BaseType == "Rogue's Marker"
+    BaseType = "Rogue's Marker"
     SetFontSize 45
     SetTextColor 255 178 135 255
     SetBorderColor 255 178 135 255

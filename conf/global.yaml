@@ -1,11 +1,10 @@
 version: 1
-league: Sentinel
+league: Kalandra
 currency:
     - Currency
     - Fragment
 item:
     - DivinationCard
-    - Prophecy
     - Oil
     - Incubator
     - UniqueWeapon

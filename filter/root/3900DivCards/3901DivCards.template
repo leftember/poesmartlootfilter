@@ -24,11 +24,6 @@ Show # $type->divination $tier->t2
     PlayEffect Red
     MinimapIcon 0 Red Triangle
 
-Hide # Forever trash
-    Class "Divination"
-    BaseType == "Anarchy's Price" "Audacity" "Death" "Destined to Crumble" "Her Mask" "Lantador's Lost Love" "Prosperity" "Rain of Chaos" "Rats" "Shard of Fate" "The Avenger" "The Carrion Crow" "The Conduit" "The Demoness" "The Drunken Aristocrat" "The Endurance" "The Feast" "The Fletcher" "The Flora's Gift" "The Formless Sea" "The Gentleman" "The Harvester" "The Hermit" "The Incantation" "The Inoculated" "The King's Blade" "The Last One Standing" "The Lich" "The Lion" "The Lover" "The Lunaris Priestess" "The Mercenary" "The Metalsmith's Gift" "The Oath" "The Pack Leader" "The Poet" "The Rabid Rhoa" "The Scarred Meadow" "The Scholar" "The Sigil" "The Siren" "The Sun" "The Surgeon" "The Throne" "The Traitor" "The Twins" "The Visionary" "The Warden" "The Watcher" "The Web" "The Wind" "The Wolf's Shadow" "Thunderous Skies" "Tranquillity" "Turn the Other Cheek" "Call to the First Ones" "The Coming Storm" "The Wolven King's Bite" "The Wolverine" "The Forsaken" "Might is Right" "Atziri's Arsenal" "Struck by Lightning" "The Blazing Fire" "The Ruthless Ceinture" "The Deceiver" "The Insatiable" "Forbidden Power" "The Jeweller's Boon" "The Army of Blood" "The Beast" "The Sword King's Salute" "The Master" "The Fathomless Depths" "The Witch" "The Lord of Celebration" "Dark Temptation" "Thirst for Knowledge" "Echoes of Love" "The Deep Ones" "The Mountain" "The Craving" "Unchained" "Cursed Words" "The Long Watch" "The Adventuring Spirit" "The Last Supper" "The Fox in the Brambles"
-    SetFontSize 25
-
 Hide # $type->divination $tier->t3
     Class "Divination"
     BaseType == {{T3DivNames}}

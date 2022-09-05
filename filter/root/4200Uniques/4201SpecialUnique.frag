@@ -59,3 +59,16 @@ Show # $type->uniques $tier->exharby
 	PlayAlertSound 1 300
 	PlayEffect Red
 	MinimapIcon 0 Blue Star
+
+Show # $type->uniques $tier->extabula
+    Rarity Unique
+    SocketGroup "WWW"
+    BaseType == "Elegant Round Shield"
+    SetFontSize 45
+    SetTextColor 175 96 37 255
+    SetBorderColor 175 96 37 255
+    SetBackgroundColor 255 255 255 255
+    PlayAlertSound 6 300
+    PlayEffect Red
+    MinimapIcon 0 Red Star
+
