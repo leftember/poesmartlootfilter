@@ -25,7 +25,7 @@ Show # %D2 $type->endgameflasks $tier->earlymappinglifemana
 	AreaLevel >= 80	
 	SetFontSize 45
 	Class "Utility Flasks"
-	BaseType "Granite Flask" #"Sapphire Flask" "Ruby Flask" "Topaz Flask" "Basalt Flask" 
+	BaseType "Granite Flask" "Stibnite Flask" "Jade Flask" "Basalt Flask" #"Sapphire Flask" "Ruby Flask" "Topaz Flask" "Basalt Flask" 
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 0 112 106 255

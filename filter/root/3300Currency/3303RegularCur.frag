@@ -5,7 +5,7 @@
 
 Show # $type->currency $tier->t1exalted
     Class "Currency"
-    BaseType == "Albino Rhoa Feather" "Awakener's Orb" "Crusader's Exalted Orb" "Eternal Orb" "Exalted Orb" "Hunter's Exalted Orb" "Mirror of Kalandra" "Mirror Shard" "Prime Regrading Lens" "Redeemer's Exalted Orb" "Secondary Regrading Lens" "Tailoring Orb" "Tempering Orb" "Warlord's Exalted Orb" "Divine Orb" "Divine Orb"
+    BaseType == "Albino Rhoa Feather" "Awakener's Orb" "Crusader's Exalted Orb" "Eternal Orb" "Hunter's Exalted Orb" "Mirror of Kalandra" "Mirror Shard" "Prime Regrading Lens" "Redeemer's Exalted Orb" "Secondary Regrading Lens" "Tailoring Orb" "Tempering Orb" "Warlord's Exalted Orb" "Divine Orb" "Divine Orb"
     SetFontSize 45
     SetTextColor 130 214 255 255
     SetBorderColor 130 214 255 255
@@ -16,7 +16,7 @@ Show # $type->currency $tier->t1exalted
 
 Show # $type->currency $tier->t2divine
     Class "Currency"
-    BaseType == "Blessing of Chayula" "Crescent Splinter" "Elevated Sextant" "Sacred Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Kalguuran Delirium Orb" "Deft Fossil" "Fundamental Fossil" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Tainted Chaos Orb" "Tainted Divine Teardrop"
+    BaseType == "Blessing of Chayula" "Crescent Splinter" "Elevated Sextant" "Sacred Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Kalguuran Delirium Orb" "Deft Fossil" "Fundamental Fossil" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Tainted Chaos Orb" "Tainted Divine Teardrop" "Exalted Orb" 
     SetFontSize 45
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255

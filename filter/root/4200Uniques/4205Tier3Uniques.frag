@@ -5,7 +5,7 @@
 
 Show # $type->uniques $tier->t3boss
     Rarity Unique
-    BaseType == "Painted Tower Shield" "Reinforced Greaves" "Blood Raiment" "Savant's Robe" "Wyrmscale Boots" "Vaal Rapier" "Siege Axe" "Steel Ring" "Studded Belt"
+    BaseType == "Silk Gloves" "Reinforced Greaves" "Runic Helm" "Crimson Round Shield" "Ezomyte Spiked Shield" "Sovereign Spiked Shield" "Large Hybrid Flask" "Butcher Axe" "Dusk Blade" "Blood Raiment" "Full Dragonscale" "Zodiac Leather" "Wyrmscale Boots" "Steelwood Bow" "Gemstone Sword" "Ezomyte Dagger" "Steel Ring"
     SetFontSize 45
     SetTextColor 175 96 37 255
     SetBorderColor 175 96 37 255

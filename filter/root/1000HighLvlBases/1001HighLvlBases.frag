@@ -6,7 +6,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel >= 86
     Rarity <= Rare
-    BaseType == "Deerskin Gloves" "Tarnished Spirit Shield" "Two-Point Arrow Quiver" "Nubuck Gloves" "Spike-Point Arrow Quiver" "Feathered Arrow Quiver" "Steel Kite Shield" "Steel Gauntlets"
+    BaseType == "Ironscale Boots" "Two-Point Arrow Quiver" "Tarnished Spirit Shield" "Corrugated Buckler" "Deerskin Gloves" "Feathered Arrow Quiver" "Steelscale Gauntlets" "Goathide Boots" "Mesh Boots" "Nubuck Boots" "Stealth Boots" "Blunt Arrow Quiver" "Raven Mask" "Spine Bow" "Blazing Arrow Quiver" "War Buckler" "Serrated Arrow Quiver" "Conjurer Gloves" "Death Bow" "Plated Greaves" "Satin Gloves" "Bronzescale Boots" "Sharktooth Arrow Quiver" "Conjurer Boots" "Bronzescale Gauntlets" "Antique Greaves" "Clasped Mitts"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
@@ -14,7 +14,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel == 85
     Rarity <= Rare
-    BaseType == "Spiraled Wand" "Two-Point Arrow Quiver"
+    BaseType == "Strapped Mitts" "Grove Bow" "Rawhide Gloves" "Pine Buckler" "Bone Spirit Shield" "Dragonscale Gauntlets" "Royal Bow" "Crescent Staff" "Ringmail Gloves"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
@@ -22,7 +22,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel == 84
     Rarity <= Rare
-    BaseType == "Ironscale Gauntlets" "Heathen Wand" "Vaal Buckler"
+    BaseType == "Brass Spirit Shield" "Chiming Spirit Shield" "Painted Buckler" "Murderous Eye Jewel" "Leather Hood" "Bronze Gauntlets"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
@@ -30,7 +30,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel == 83
     Rarity <= Rare
-    BaseType == "Dusk Ring" "Penumbra Ring" "Gloam Ring"
+    BaseType == "Dusk Ring" "Shadowed Ring" "Penumbra Ring" "Gloam Ring" "Etched Kite Shield" "Ironscale Boots" "War Buckler" "Sekhem"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
@@ -38,7 +38,7 @@ Show # %D4 $type->normalcraft->i86 $tier->t2
     Corrupted False
     ItemLevel == 82
     Rarity <= Rare
-    BaseType == "Dusk Ring" "Gloam Ring"
+    BaseType == "Dusk Ring" "Shadowed Ring" "Penumbra Ring" "Gloam Ring" "Imperial Claw" "Serpentine Staff"
     SetFontSize 45
     SetBorderColor 255 125 0 185
 
