@@ -5,7 +5,7 @@
 
 Show # $type->currency $tier->t1exalted
     Class "Currency"
-    BaseType == "Albino Rhoa Feather" "Awakener's Orb" "Crusader's Exalted Orb" "Eternal Orb" "Exalted Orb" "Hunter's Exalted Orb" "Mirror of Kalandra" "Mirror Shard" "Prime Regrading Lens" "Redeemer's Exalted Orb" "Secondary Regrading Lens" "Tailoring Orb" "Tempering Orb" "Warlord's Exalted Orb"
+    BaseType == "Albino Rhoa Feather" "Awakener's Orb" "Crusader's Exalted Orb" "Eternal Orb" "Hunter's Exalted Orb" "Mirror of Kalandra" "Mirror Shard" "Prime Regrading Lens" "Redeemer's Exalted Orb" "Secondary Regrading Lens" "Tailoring Orb" "Tempering Orb" "Warlord's Exalted Orb" "Divine Orb" "Divine Orb"
     SetFontSize 45
     SetTextColor 130 214 255 255
     SetBorderColor 130 214 255 255
@@ -16,7 +16,7 @@ Show # $type->currency $tier->t1exalted
 
 Show # $type->currency $tier->t2divine
     Class "Currency"
-    BaseType == "Blessing of Chayula" "Crescent Splinter" "Divine Orb" "Elevated Sextant" "Sacred Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Kalguuran Delirium Orb" "Deft Fossil" "Fundamental Fossil" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Tainted Chaos Orb" "Tainted Divine Teardrop"
+    BaseType == "Blessing of Chayula" "Crescent Splinter" "Elevated Sextant" "Sacred Orb" "Tainted Blessing" "Tainted Chromatic Orb" "Tainted Orb of Fusing" "Tainted Jeweller's Orb" "Kalguuran Delirium Orb" "Deft Fossil" "Fundamental Fossil" "Tainted Exalted Orb" "Tainted Mythic Orb" "Tainted Blacksmith's Whetstone" "Tainted Armourer's Scrap" "Tainted Chaos Orb" "Tainted Divine Teardrop" "Exalted Orb" 
     SetFontSize 45
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
@@ -49,7 +49,7 @@ Show # $type->currency $tier->t4chaos
 
 Show # %H5 $type->currency $tier->t5alchemy
     Class "Currency"
-    BaseType == "Abrasive Catalyst" "Annulment Shard" "Bestiary Orb" "Enkindling Orb" "Facetor's Lens" "Glassblower's Bauble" "Harbinger's Shard" "Instilling Orb" "Intrinsic Catalyst" "Orb of Alchemy" "Orb of Fusing" "Orb of Horizons" "Orb of Regret" "Orb of Scouring" "Regal Orb" "Simple Sextant" "Turbulent Catalyst" "Vaal Orb"
+    BaseType == "Abrasive Catalyst" "Annulment Shard" "Bestiary Orb" "Enkindling Orb" "Facetor's Lens" "Glassblower's Bauble" "Harbinger's Shard" "Instilling Orb" "Intrinsic Catalyst" "Orb of Alchemy" "Orb of Fusing" "Orb of Horizons" "Orb of Regret" "Orb of Scouring" "Regal Orb" "Simple Sextant" "Turbulent Catalyst" "Vaal Orb" "Imbued Catalyst" "Noxious Catalyst"
     SetFontSize 45
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
@@ -58,20 +58,17 @@ Show # %H5 $type->currency $tier->t5alchemy
     PlayEffect White
     MinimapIcon 2 White Circle
 
-Show # %H4 $type->currency $tier->t6chrom
+Hide # %H4 $type->currency $tier->t6chrom
     Class "Currency"
-    BaseType == "Cartographer's Chisel" "Chromatic Orb" "Imbued Catalyst" "Noxious Catalyst" "Orb of Alteration"
-    SetFontSize 45
+    BaseType == "Cartographer's Chisel" "Orb of Alteration"
+    SetFontSize 40
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
     SetBackgroundColor 61 156 136 255
-    PlayAlertSound 2 300
-    PlayEffect Grey
-    MinimapIcon 2 Grey Circle
 
-Show # %H4 $type->currency $tier->t7chance
+Hide # %H4 $type->currency $tier->t7chance
     Class "Currency"
-    BaseType == "Chaos Shard" "Horizon Shard" "Jeweller's Orb" "Orb of Binding" "Orb of Chance" 
+    BaseType == "Chaos Shard" "Horizon Shard" "Jeweller's Orb" "Orb of Binding" "Orb of Chance" "Chromatic Orb" 
     SetFontSize 45
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255

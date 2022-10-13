@@ -28,7 +28,7 @@ Show # $type->currency->stacked $tier->splinters_t2
     MinimapIcon 2 White Circle
 
 Show # %H4 $type->currency->stacked $tier->shards
-    StackSize >= 4
+    StackSize >= 6
     Class "Currency"
     BaseType "Chaos Shard" "Harbinger's Shard" "Horizon Shard"
     SetFontSize 45
@@ -82,16 +82,25 @@ Show # %H5 $type->currency->stacked $tier->orbs_alt
 Show # $type->currency->heist $tier->highstack
     StackSize >= 150
     Class "Currency"
-    BaseType == "Rogue's Marker"
+    BaseType = "Rogue's Marker"
     SetFontSize 45
     SetTextColor 255 178 135 255
     SetBorderColor 255 178 135 255
     SetBackgroundColor 150 90 70 255
     PlayEffect Orange
 
-Show # %H4 $type->currency->heist $tier->any
+Show # $type->currency->heist $tier->highstack
     Class "Currency"
-    BaseType == "Rogue's Marker"
+    BaseType = "Lifeforce"
+    SetFontSize 45
+    SetTextColor 255 178 135 255
+    SetBorderColor 255 178 135 255
+    SetBackgroundColor 150 90 70 255
+    PlayEffect Orange
+
+Hide # %H4 $type->currency->heist $tier->any
+    Class "Currency"
+    BaseType = "Rogue's Marker"
     SetFontSize 45
     SetTextColor 255 178 135 255
     SetBorderColor 255 178 135 255

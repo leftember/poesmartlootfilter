@@ -21,7 +21,7 @@ ritualBases = {"Aetherwind Gloves", "Archdemon Crown", "Atonement Mask", "Baseme
 
 expeditionBases = {"Iron Flask", "Runic Crest", "Runic Crown", "Runic Gages", "Runic Gauntlets", "Runic Gloves", "Runic Greaves", "Runic Helm", "Runic Sabatons", "Runic Sollerets"}
 
-atlasBases =  {"Apothecary's Gloves", "Artillery Quiver", "Blue Pearl Amulet", "Bone Helmet", "Cerulean Ring", "Convoking Wand", "Crystal Belt", "Fingerless Silk Gloves", "Fugitive Boots", "Gripped Gloves", "Iolite Ring", "Marble Amulet", "Opal Ring", "Seaglass Amulet", "Spiked Gloves", "Steel Ring", "Two-Toned Boots", "Vanguard Belt", "Vermillion Ring"}
+atlasBases =  {"Apothecary's Gloves", "Artillery Quiver", "Blue Pearl Amulet", "Bone Helmet", "Cerulean Ring", "Crystal Belt", "Fingerless Silk Gloves", "Fugitive Boots", "Gripped Gloves", "Iolite Ring", "Marble Amulet", "Opal Ring", "Seaglass Amulet", "Spiked Gloves", "Steel Ring", "Two-Toned Boots", "Vanguard Belt", "Vermillion Ring"}
 
 skipbases = {"Grasping Mail", "Stygian Vise", "Sacrificial Garb", "Timeless Jewel", "Prismatic Jewel"}
 

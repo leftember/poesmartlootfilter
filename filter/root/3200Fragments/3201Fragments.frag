@@ -86,7 +86,7 @@ Show # $type->fragments $tier->t2
 
 Show # %H5 $type->fragments $tier->t3
     Class "Map Fragments"
-    BaseType "Blood-filled Vessel" "Esh's Breachstone" "Mortal Grief" "Mortal Hope" "Mortal Ignorance" "Mortal Rage" "Timeless Karui Emblem"
+    BaseType "Blood-filled Vessel" "Esh's Breachstone" "Mortal Grief" "Mortal Hope" "Mortal Ignorance" "Mortal Rage" "Timeless Karui Emblem" "Divine Vessel" 
     SetFontSize 45
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
@@ -95,9 +95,9 @@ Show # %H5 $type->fragments $tier->t3
     PlayEffect Yellow
     MinimapIcon 1 Yellow Hexagon
 
-Show # %HS3 $type->fragments $tier->t4
+Hide # %HS3 $type->fragments $tier->t4
     Class "Map Fragments"
-    BaseType "Divine Vessel" "Sacrifice at Dawn" "Sacrifice at Dusk" "Sacrifice at Midnight" "Sacrifice at Noon"
+    BaseType "Sacrifice at Dawn" "Sacrifice at Dusk" "Sacrifice at Midnight" "Sacrifice at Noon"
     SetFontSize 45
     SetTextColor 225 111 255 255
     SetBorderColor 225 111 255 255

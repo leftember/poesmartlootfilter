@@ -19,7 +19,7 @@ Show # $type->maps $tier->maps_a_t16
 	MinimapIcon 1 Red Square
 
 Show # $type->maps $tier->maps_a_t14
-    AreaLevel < 83
+    #AreaLevel < 83
 	MapTier >= 14
 	Class "Maps"
 	SetFontSize 45

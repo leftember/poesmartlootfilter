@@ -228,7 +228,7 @@ Show # %D5 $type->gems-generic $tier->qt2
 	MinimapIcon 1 Yellow Triangle
 
 Show  %D3 $type->gems-generic $tier->qt3
-	Quality >= 14
+	Quality >= 19
 	Class "Gems"
 	SetFontSize 45
 	SetTextColor 30 190 190 255

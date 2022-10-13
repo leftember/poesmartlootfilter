@@ -161,7 +161,17 @@
 # !! Override 010 : "ALL Rules"
 
 Show # %D4 $type->leveling->rare->socketslinks $tier->4linkrares
-	SocketGroup "GGGG" "GGGB" "GGGR"
+	SocketGroup "RRRR" "RRRG" "RRRB"
+	ItemLevel <= 68
+	SetFontSize 45
+	SetBorderColor 0 140 240 255
+	SetBackgroundColor 0 0 0 255
+	PlayEffect Grey
+	MinimapIcon 2 Grey Diamond
+
+
+Show # %D4 $type->leveling->rare->socketslinks $tier->4linkrares
+	LinkedSockets >= 4
 	ItemLevel <= 68
 	SetFontSize 45
 	SetBorderColor 0 140 240 255

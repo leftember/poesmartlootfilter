@@ -4,7 +4,7 @@
 
 Show # $type->uniques $tier->t2
     Rarity Unique
-    BaseType == "Crusader Boots" "Rawhide Boots" "Wyrmscale Boots" "Sapphire Flask" "Charan's Sword" "Prophecy Wand" "Steel Ring" "Greatwolf Talisman" "Medium Cluster Jewel" "Gladiator Plate" "Occultist's Vestment" "Wyrmscale Doublet" "Ornate Quiver" "Assassin's Boots" "Prismatic Jewel"
+    BaseType == "Crusader Boots" "Rawhide Boots" "Fluted Bascinet" "Raven Mask" "Jingling Spirit Shield" "Runic Sollerets" "Painted Tower Shield" "Sapphire Flask" "Prophecy Wand" "Jewelled Foil" "Greatwolf Talisman" "Medium Cluster Jewel" "Ghastly Eye Jewel" "Steel Kite Shield" "Gladiator Plate" "Occultist's Vestment" "Savant's Robe" "Wyrmscale Doublet" "Ornate Quiver" "Ezomyte Tower Shield" "Siege Axe" "Vaal Rapier" "Studded Belt" "Prismatic Jewel" "Timeless Jewel"
     SetFontSize 45
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
