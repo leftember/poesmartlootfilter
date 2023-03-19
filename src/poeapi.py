@@ -7,8 +7,12 @@ from pathlib import Path
 home = str(Path.home())
 
 def get_access_token():
-    with open(f'{home}/poe/clientSecret') as fp:
-        clientSecret = fp.readline().replace('\n','')
+    try:
+        with open(f'{home}/poe/clientSecret') as fp:
+            clientSecret = fp.readline().replace('\n','')
+    except FileNotFoundError:
+        print('please save client secret at {home}/poe/clientSecret')
+        exit()
     tokenUrl = 'https://www.pathofexile.com/oauth/token'
     hhh = {'user-agent':'my agent'}
 
@@ -20,8 +24,17 @@ def get_access_token():
 
 #token = get_access_token()
 #print(token)
-with open(f'{home}/poe/token') as fp:
-    token = fp.readline().replace('\n','')
+tokenFile = f'{home}/poe/token'
+try:
+    with open(tokenFile) as fp:
+        token = fp.readline().replace('\n','')
+except FileNotFoundError:
+    token = get_access_token()
+    with open(tokenFile,'w') as fp:
+        fp.write(token)
+
+if not token:
+    exit()
 
 def get_loot_filters():
     url = 'https://www.pathofexile.com/api/item-filter'

@@ -1,6 +1,6 @@
  #!/bin/bash
  echo "it is $(date)"
- cd /data/poe/poesmartlootfilter
+ cd ~/poe/poesmartlootfilter
  make poeninja
  make
  make publish
