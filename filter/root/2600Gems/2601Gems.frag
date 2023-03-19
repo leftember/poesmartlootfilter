@@ -227,7 +227,7 @@ Show # %D5 $type->gems-generic $tier->qt2
 	PlayEffect White
 	MinimapIcon 1 Yellow Triangle
 
-Show  %D3 $type->gems-generic $tier->qt3
+Show  # %D3 $type->gems-generic $tier->qt3
 	Quality >= 19
 	Class "Gems"
 	SetFontSize 45
@@ -293,7 +293,7 @@ Hide # %H2 $type->gems-generic $tier->leveling
 	SetFontSize 40
 	SetBorderColor 0 0 0
 
-Show  %D3 $type->gems-generic $tier->corruptedvaalany
+Show # %D3 $type->gems-generic $tier->corruptedvaalany
 	Class "Gems"
 	SetFontSize 35
 	SetBorderColor 0 0 0

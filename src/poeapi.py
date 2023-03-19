@@ -83,5 +83,5 @@ curDir = os.path.dirname(fullpath)
 with open(f'{curDir}/../target/final.filter') as fp:
     filter = fp.read()
 
-get_loot_filters()
-# upload_loot_filter('fromoauth', filter)
+# get_loot_filters()
+upload_loot_filter('fromoauth', filter)
