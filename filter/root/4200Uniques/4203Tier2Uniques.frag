@@ -4,7 +4,7 @@
 
 Show # $type->uniques $tier->t2
     Rarity Unique
-    BaseType == "Crusader Boots" "Rawhide Boots" "Fluted Bascinet" "Raven Mask" "Jingling Spirit Shield" "Runic Sollerets" "Painted Tower Shield" "Sapphire Flask" "Prophecy Wand" "Jewelled Foil" "Greatwolf Talisman" "Medium Cluster Jewel" "Ghastly Eye Jewel" "Steel Kite Shield" "Gladiator Plate" "Occultist's Vestment" "Savant's Robe" "Wyrmscale Doublet" "Ornate Quiver" "Ezomyte Tower Shield" "Siege Axe" "Vaal Rapier" "Studded Belt" "Prismatic Jewel" "Timeless Jewel"
+    BaseType == "Crusader Boots" "Painted Tower Shield" "Rawhide Boots" "Crimson Round Shield" "Runic Helm" "Runic Sollerets" "Jingling Spirit Shield" "Ezomyte Spiked Shield" "Sovereign Spiked Shield" "Broadhead Arrow Quiver" "Silk Gloves" "Raven Mask" "Sapphire Flask" "Prophecy Wand" "Slaughter Knife" "Jewelled Foil" "Butcher Axe" "Greatwolf Talisman" "Medium Cluster Jewel" "Searching Eye Jewel" "Savant's Robe" "Zodiac Leather" "Occultist's Vestment" "Blood Raiment" "Steel Kite Shield" "Wyrmscale Doublet" "Wyrmscale Boots" "Ezomyte Burgonet" "Ezomyte Tower Shield" "Ornate Quiver" "Carnal Boots" "Archon Kite Shield Piece" "Callous Mask Piece" "Blunt Arrow Quiver Piece" "Steelwood Bow" "Coiled Staff" "Vaal Rapier" "Imperial Staff Piece" "Legion Sword Piece" "Studded Belt" "Cloth Belt Piece" "Prismatic Jewel" "Timeless Jewel"
     SetFontSize 45
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
